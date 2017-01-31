@@ -322,3 +322,83 @@ video {
   color: #000;
   text-shadow: none;
 }
+/*
+ * method
+ */
+/*
+ * flex
+ */
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-left {
+  justify-content: flex-start;
+}
+.flex-right {
+  justify-content: flex-end;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-around {
+  justify-content: space-around;
+}
+.flex-middle {
+  align-items: center;
+}
+.flex-top {
+  align-items: flex-start;
+}
+.flex-bottom {
+  align-items: flex-end;
+}
+.flex-heart {
+  justify-content: center;
+  align-items: center;
+}
+.flex-auto {
+  flex: 1 1 auto;
+}
+.flex-fixed {
+  flex: 0 0 auto;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+/*
+ * shrothand
+ */
+.f {
+  display: flex;
+}
+.fc {
+  justify-content: center;
+}
+.fl {
+  justify-content: flex-start;
+}
+.fr {
+  justify-content: flex-end;
+}
+.fm {
+  align-items: center;
+}
+.ft {
+  align-items: flex-start;
+}
+.fb {
+  align-items: flex-end;
+}
+.fh {
+  justify-content: center;
+  align-items: center;
+}
