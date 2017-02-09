@@ -322,8 +322,60 @@ video {
   color: #000;
   text-shadow: none;
 }
-img {
+/*
+ * reset
+ */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img,
+svg {
   max-width: 100%;
+}
+/*
+ * display
+ */
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+/*
+ * position
+ */
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+/*
+ * overflow
+ */
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-scroll {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+/*
+ * transition
+ */
+.transition {
+  transition: 256ms;
 }
 /*
  * method
