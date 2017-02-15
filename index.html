@@ -1,0 +1,312 @@
+<!doctype html>
+ 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+    
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.js'></script>
+    <!--
+    <script src='http://cdn.rawgit.com/pugjs/pug/1.11.0/runtime.js'></script>
+    -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
+
+    <link rel="stylesheet" href="meltline.css" />
+  </head>
+  <body>
+    <app></app>
+  </body>
+</html>
+
+
+<script type='riot/tag' template='jade'>
+app.block.height-100-vh
+  div.f.height-100-per
+    div.menu.box-shadow.flex-fixed.white.bg-skyblue.px20.py16.overflow-scroll
+      h1 high.css
+      div.item(each='{menus}')
+        a(href='{link}') {label}
+    div.p16.flex-auto.overflow-scroll
+      div.page(name='page')
+
+  style(scoped, type='less').
+    :scope {
+      font-family: "HiraKakuProN-W3",Avenir,"Open Sans","Helvetica Neue",Helvetica,Arial,Verdana,Roboto,"游ゴシック","Yu Gothic","游ゴシック体","YuGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+
+      * {
+        border-color: rgba(0, 0, 0, 0.1);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  script.
+    var self = this;
+    window.onresize = function() {
+      self.update();
+    };
+
+    riot.route(function(tagName) {
+      tagName = tagName || 'about';
+      riot.mount(self.page, 'section-' + tagName);
+    });
+    riot.route.start(true);
+
+    this.menus = [
+      { label: 'About', link: '#about' },
+      { label: 'Show/Hide', link: '#show-hide' },
+      { label: 'Grid', link: '#grid' },
+      { label: 'Flex', link: '#flex' },
+      { label: 'Form', link: '#form' },
+      { label: 'Color', link: '#color' },
+      { label: 'Util', link: '#util' },
+      { label: 'Shorthand', link: '#shorthand' },
+    ];
+
+section-about
+  h2 about
+  p Text Text Text Text Text Text Text Text Text 
+
+section-show-hide.block
+  h2 Show/Hide
+
+  p width: {innerWidth}
+
+  section.mb8
+    p .s-show .m-show .l-show
+    div.p8.border
+      p.small-show small 時のみ表示
+      p.middle-show medium 時のみ表示
+      p.large-show large 時のみ表示
+
+  section.mb8
+    p .s-hide .m-hide .l-hide
+    div.p8.border
+      p.small-hide small 時に消える
+      p.middle-hide medium 時に消える
+      p.large-hide large 時に消える
+
+section-grid.block
+  h2 Grid
+
+  section.mb8
+    p col1
+    div.row.p8.border
+      div.col1.p8.border hoge
+      div.col1.p8.border foo
+      div.col1.p8.border bar
+
+  section.mb8
+    p col4
+    div.row.p8.border
+      div.col4.p8.border hoge
+      div.col4.p8.border foo
+      div.col4.p8.border bar
+
+  section.mb8
+    p s-col12.m-col6.l-col4
+    div.row.p8.border
+      div.s-col12.m-col6.l-col4.p8.border hoge
+      div.s-col12.m-col6.l-col4.p8.border foo
+      div.s-col12.m-col6.l-col4.p8.border bar
+      div.s-col12.m-col6.l-col4.p8.border baz
+      div.s-col12.m-col6.l-col4.p8.border qux
+      div.s-col12.m-col6.l-col4.p8.border piyo
+
+  section.mb8
+    p lp とかでよくあるやつ
+    div.row.p8.border
+      div.s-col12.m-col4.l-col4.p12
+        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/1/')
+        h4.text-center Title
+        p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+      div.s-col12.m-col4.l-col4.p12
+        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/2/')
+        h4.text-center Title
+        p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+      div.s-col12.m-col4.l-col4.p12
+        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/3/')
+        h4.text-center Title
+        p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+
+section-flex.block
+  h2 Flexbox
+
+  section.mb8
+    p flex
+
+    div.f.p8.border
+      div.p8.border first
+      div.p8.border second
+      div.p8.border third
+
+  section.mb12
+    p flex-auto
+
+    div.f.p8.border
+      div.p8.border first
+      div.p8.border.flex-auto second
+      div.p8.border third
+
+  section.mb12
+    p flex-center
+
+    div.f.fc.p8.border
+      div.p8.border first
+
+  section.mb12
+    p flex-middle
+
+    div.f.fm.p8.border.size-100
+      div.p8.border first
+
+  section.mb12
+    p flex-heart
+
+    div.f.fh.p8.border.size-100
+      div.p8.border first
+
+section-form.block
+  h2 Form
+  div
+    input.input(type='text', placeholder='name')
+  div
+    button.button ボタンだよー
+  div
+    button.button.primary ボタンだよー
+  div
+    button.button.danger ボタンだよー
+
+  style(scoped).
+    :scope {
+      padding: 12px;
+    }
+
+
+section-color.block
+  h2 Color
+
+  section.mb8
+    p color
+
+    div.f.p8.border
+      div.p8.border.red red
+      div.p8.border.green green
+      div.p8.border.blue blue
+
+  section.mb8
+    p bg-color
+
+    div.f.p8.border
+      div.p8.border.bg-red red
+      div.p8.border.bg-green green
+      div.p8.border.bg-blue blue
+
+  section.mb8
+    p border-color
+
+    div.f.p8.border
+      div.p8.border.border-red red
+      div.p8.border.border-green green
+      div.p8.border.border-blue blue
+
+section-util.block
+  h2 util
+
+  section.mb8
+    p line-clamp
+
+    div.f.p8.border.mb4
+      p.line-clamp-1.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+    div.f.p8.border.mb4
+      p.line-clamp-2.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+    div.f.p8.border.mb4
+      p.line-clamp-3.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+
+section-shorthand.block
+  h2 shorthand
+
+  section.mb8(each='{map}')
+    h3.mt20 {name}
+
+    table.width-100-per.text-left
+      tr
+        th.width-100.border-bottom.px8.py10 shorthand
+        th.border-bottom.px8.py10 name
+      tr(each='{items}')
+        td.border-bottom.p8 {shorthand}
+        td.border-bottom.p8 {name}
+
+  script.
+    this.map = [
+      {
+        name: 'flex',
+        items: [
+          {name:'flex', shorthand: 'f'},
+          {name:'flex-center', shorthand: 'fc'},
+          {name:'flex-left', shorthand: 'fl'},
+          {name:'flex-right', shorthand: 'fr'},
+          {name:'flex-middle', shorthand: 'fm'},
+          {name:'flex-top', shorthand: 'ft'},
+          {name:'flex-bottom', shorthand: 'fb'},
+          {name:'flex-heart', shorthand: 'fh'},
+        ]
+      },
+      {
+        name: 'box',
+        items: [
+          {name:'padding-*', shorthand: 'p*'},
+          {name:'padding-top-*', shorthand: 'pt*'},
+          {name:'padding-right-*', shorthand: 'pr*'},
+          {name:'padding-bottom-*', shorthand: 'pb*'},
+          {name:'padding-left-*', shorthand: 'pl*'},
+
+          {name:'margin-*', shorthand: 'm*'},
+          {name:'margin-top-*', shorthand: 'mt*'},
+          {name:'margin-right-*', shorthand: 'mr*'},
+          {name:'margin-bottom-*', shorthand: 'mb*'},
+          {name:'margin-left-*', shorthand: 'ml*'},
+        ],
+      },
+      {
+        name: 'size',
+        items: [
+          {name:'width-*', shorthand: 'w*'},
+          {name:'height-*', shorthand: 'h*'},
+          {name:'size-*', shorthand: 's*'},
+
+          {name:'width-*-per', shorthand: 'w*per'},
+          {name:'height-*-per', shorthand: 'h*per'},
+          {name:'size-*-per', shorthand: 's*per'},
+
+          {name:'width-*-vw', shorthand: 'w*vw'},
+          {name:'height-*-vw', shorthand: 'h*vw'},
+          {name:'size-*-vw', shorthand: 's*vw'},
+
+          {name:'width-*-vh', shorthand: 'w*vh'},
+          {name:'height-*-vh', shorthand: 'h*vh'},
+          {name:'size-*-vh', shorthand: 's*vh'},
+        ],
+      },
+    ];
+
+</script>
+
+
+<script>
+  riot.mount('app');
+</script>
