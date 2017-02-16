@@ -1,0 +1,38 @@
+/*
+ * box
+ */
+
+.define-box-shorthand(@nums, @prefix, @property) {
+  // padding
+  .for(@nums, {
+    // all
+    .@{prefix}@{value} { @{property}: @value * 1px; }
+    // top
+    .@{prefix}t@{value} { @{property}-top: @value * 1px; }
+    // right
+    .@{prefix}r@{value} { @{property}-right: @value * 1px; }
+    // bottom
+    .@{prefix}b@{value} { @{property}-bottom: @value * 1px; }
+    // left
+    .@{prefix}l@{value} { @{property}-left: @value * 1px; }
+    // x
+    .@{prefix}x@{value} { @{property}-left: @value * 1px; @{property}-right: @value * 1px; }
+    // y
+    .@{prefix}y@{value} { @{property}-top: @value * 1px; @{property}-bottom: @value * 1px; }
+  });
+}
+
+// padding
+.define-box-shorthand(@nums-1-100, p, padding);
+
+// margin
+.define-box-shorthand(@nums-1-100, m, margin);
+
+// border
+.border-dark {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.border-light {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
