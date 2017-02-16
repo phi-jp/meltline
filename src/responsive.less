@@ -2,6 +2,72 @@
  * responsive
  */
 
+
+/*
+ * show/hide
+ */
+@media @media-mobile {
+  .small-hide {
+    display: none !important;
+  }
+
+  .middle-show { display: none !important; }
+  .large-show { display: none !important; }
+}
+@media @media-tablet {
+  .middle-hide {
+    display: none !important;
+  }
+
+  .small-show { display: none !important; }
+  .large-show { display: none !important; }
+}
+@media @media-desktop {
+  .large-hide {
+    display: none !important;
+  }
+
+  .small-show { display: none !important; }
+  .middle-show { display: none !important; }
+}
+
+/*
+ * grid
+ */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+// col
+.for(1 2 3 4 5 6 7 8 9 10 11 12, {
+  .col@{value} {
+    width: (100% / 12 * @value);
+  }
+  .s-col@{value} {
+    width: (100% / 12 * @value);
+  }
+});
+
+@media @media-tablet {
+  .for(1 2 3 4 5 6 7 8 9 10 11 12, {
+    .m-col@{value} {
+      width: (100% / 12 * @value);
+    }
+  });
+}
+
+@media @media-desktop {
+  .for(1 2 3 4 5 6 7 8 9 10 11 12, {
+    .l-col@{value} {
+      width: (100% / 12 * @value);
+    }
+  });
+}
+
+
+/*
+ * padding, margin
+ */
 @media @media-mobile {
   .define-box-shorthand(@nums-1-100, s-p, padding) !important;
 }
@@ -11,3 +77,5 @@
 // @media @media-desktop {
 //   .define-box(large-padding, padding) !important;
 // }
+
+
