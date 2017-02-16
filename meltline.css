@@ -4638,7 +4638,9 @@ svg {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
 }
-input.input[type='text'] {
+input.input[type='text'],
+input.input[type='email'],
+input.input[type='password'] {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 4px 8px;
   border-radius: 3px;
