@@ -25,9 +25,9 @@
 
 
 <script type='riot/tag' template='jade'>
-app.block.height-100-vh
-  div.f.height-100-per
-    div.menu.box-shadow.flex-fixed.white.bg-skyblue.px20.py16.overflow-scroll
+app.block.h100vh
+  div.f.h100per
+    div.s-hide.menu.box-shadow.flex-fixed.white.bg-skyblue.px20.py16.overflow-scroll
       h1 high.css
       div.item(each='{menus}')
         a(href='{link}') {label}
@@ -68,20 +68,22 @@ app.block.height-100-vh
 
     this.menus = [
       { label: 'About', link: '#about' },
-      { label: 'Show/Hide', link: '#show-hide' },
-      { label: 'Grid', link: '#grid' },
-      { label: 'Flex', link: '#flex' },
-      { label: 'Form', link: '#form' },
       { label: 'Color', link: '#color' },
+      { label: 'Box', link: '#box' },
+      { label: 'Size', link: '#size' },
+      { label: 'Flex', link: '#flex' },
+      { label: 'Font', link: '#font' },
+      { label: 'Form', link: '#form' },
       { label: 'Util', link: '#util' },
       { label: 'Shorthand', link: '#shorthand' },
+      { label: 'Responsive', link: '#responsive' },
     ];
 
 section-about
   h2 about
   p Text Text Text Text Text Text Text Text Text 
 
-section-show-hide.block
+section-responsive.block
   h2 Show/Hide
 
   p width: {innerWidth}
@@ -89,18 +91,17 @@ section-show-hide.block
   section.mb8
     p .s-show .m-show .l-show
     div.p8.border
-      p.small-show small 時のみ表示
-      p.middle-show medium 時のみ表示
-      p.large-show large 時のみ表示
+      p.s-show.red small 時のみ表示
+      p.m-show.green medium 時のみ表示
+      p.l-show.blue large 時のみ表示
 
   section.mb8
     p .s-hide .m-hide .l-hide
     div.p8.border
-      p.small-hide small 時に消える
-      p.middle-hide medium 時に消える
-      p.large-hide large 時に消える
+      p.s-hide.red small 時に消える
+      p.m-hide.green medium 時に消える
+      p.l-hide.blue large 時に消える
 
-section-grid.block
   h2 Grid
 
   section.mb8
@@ -131,15 +132,15 @@ section-grid.block
     p lp とかでよくあるやつ
     div.row.p8.border
       div.s-col12.m-col4.l-col4.p12
-        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/1/')
+        img.circle.block.mx-auto.mb18(src='http://lorempixel.com/100/100/sports/1/')
         h4.text-center Title
         p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
       div.s-col12.m-col4.l-col4.p12
-        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/2/')
+        img.circle.block.mx-auto.mb18(src='http://lorempixel.com/100/100/sports/2/')
         h4.text-center Title
         p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
       div.s-col12.m-col4.l-col4.p12
-        img.circle.block.mxa.mb18(src='http://lorempixel.com/100/100/sports/3/')
+        img.circle.block.mx-auto.mb18(src='http://lorempixel.com/100/100/sports/3/')
         h4.text-center Title
         p Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
 
@@ -171,24 +172,25 @@ section-flex.block
   section.mb12
     p flex-middle
 
-    div.f.fm.p8.border-dark.size-100
+    div.f.fm.p8.border-dark.s100
       div.p8.border-dark first
 
   section.mb12
     p flex-heart
 
-    div.f.fh.p8.border-dark.size-100
+    div.f.fh.p8.border-dark.s100
       div.p8.border-dark first
 
 section-form.block
   h2 Form
-  div
+
+  div.mb8
     input.input(type='text', placeholder='name')
-  div
+  div.mb8
     button.button ボタンだよー
-  div
+  div.mb8
     button.button.primary ボタンだよー
-  div
+  div.mb8
     button.button.danger ボタンだよー
 
   style(scoped).
@@ -231,11 +233,11 @@ section-util.block
     p line-clamp
 
     div.f.p8.border.mb4
-      p.line-clamp-1.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+      p.line-clamp-1.w100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
     div.f.p8.border.mb4
-      p.line-clamp-2.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+      p.line-clamp-2.w100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
     div.f.p8.border.mb4
-      p.line-clamp-3.width-100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
+      p.line-clamp-3.w100 Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world! Hello, world!
 
 section-shorthand.block
   h2 shorthand
@@ -243,9 +245,9 @@ section-shorthand.block
   section.mb8(each='{map}')
     h3.mt20 {name}
 
-    table.width-100-per.text-left
+    table.w100-per.text-left
       tr
-        th.width-100.border-bottom.px8.py10 shorthand
+        th.w100.border-bottom.px8.py10 shorthand
         th.border-bottom.px8.py10 name
       tr(each='{items}')
         td.border-bottom.p8 {shorthand}
