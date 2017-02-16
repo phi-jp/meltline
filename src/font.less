@@ -1,0 +1,31 @@
+/*
+ * font
+ */
+
+// text-align
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.bold { font-weight: bold; }
+.italic { font-weight: italic; }
+
+.for(@nums, {
+  .fs@{value} { font-size: @value * 1px; }
+});
+
+// ellipsis/line-clamp
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+.for(1 2 3 4 5 6 7 8 9 10, {
+  .line-clamp-@{value} {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @value;
+  }
+});

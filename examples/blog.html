@@ -31,18 +31,18 @@ app.block.h100vh
   div.f
     div.menu.small-hide.flex-fixed.w256.h100vh.p20.bg-cornflowerblue.white
       h1 blog
-    div.main.max-width-900.mxa.px60.py40.h100vh.dimgray.transition.small-padding-16
+    div.main.max-width-900.mxa.px60.py40.h100vh.dimgray.transition.s-p16.overflow-scroll
       div.post.mb40(each='{posts}')
-        div.title.font-size-26.font-bold.mb8
+        div.title.fs26.bold.mb8
           a(href='') {title}
-        div.status.f.mb8.font-size-12
+        div.status.f.mb8.fs12
           div.user.f.fm
             img.block.s20.circle.mr4(src='{user.icon}')
             div {user.name}
           div.mx10 |
           div.tags(each='{tag in tags}')
             div.mr4 {tag}
-        div.description.line-clamp-3.font-size-14 {description}
+        div.description.line-clamp-3.fs14 {description}
 
   script.
     this.posts = [

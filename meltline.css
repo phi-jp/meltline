@@ -386,6 +386,123 @@ svg {
 /*
  * method
  */
+.black {
+  color: black;
+}
+.bg-black {
+  background-color: black;
+}
+.border-black {
+  border-color: black;
+}
+.white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+.border-white {
+  border-color: white;
+}
+.red {
+  color: red;
+}
+.bg-red {
+  background-color: red;
+}
+.border-red {
+  border-color: red;
+}
+.yellow {
+  color: yellow;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.border-yellow {
+  border-color: yellow;
+}
+.green {
+  color: green;
+}
+.bg-green {
+  background-color: green;
+}
+.border-green {
+  border-color: green;
+}
+.cyan {
+  color: cyan;
+}
+.bg-cyan {
+  background-color: cyan;
+}
+.border-cyan {
+  border-color: cyan;
+}
+.blue {
+  color: blue;
+}
+.bg-blue {
+  background-color: blue;
+}
+.border-blue {
+  border-color: blue;
+}
+.purple {
+  color: purple;
+}
+.bg-purple {
+  background-color: purple;
+}
+.border-purple {
+  border-color: purple;
+}
+.skyblue {
+  color: skyblue;
+}
+.bg-skyblue {
+  background-color: skyblue;
+}
+.border-skyblue {
+  border-color: skyblue;
+}
+.aquamarine {
+  color: aquamarine;
+}
+.bg-aquamarine {
+  background-color: aquamarine;
+}
+.border-aquamarine {
+  border-color: aquamarine;
+}
+.ghostwhite {
+  color: ghostwhite;
+}
+.bg-ghostwhite {
+  background-color: ghostwhite;
+}
+.border-ghostwhite {
+  border-color: ghostwhite;
+}
+.dimgray {
+  color: dimgray;
+}
+.bg-dimgray {
+  background-color: dimgray;
+}
+.border-dimgray {
+  border-color: dimgray;
+}
+.cornflowerblue {
+  color: cornflowerblue;
+}
+.bg-cornflowerblue {
+  background-color: cornflowerblue;
+}
+.border-cornflowerblue {
+  border-color: cornflowerblue;
+}
 /*
  * box
  */
@@ -4456,6 +4573,239 @@ svg {
 }
 .flex-column-reverse {
   flex-direction: column-reverse;
+}
+/*
+ * font
+ */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-weight: italic;
+}
+.fs0 {
+  font-size: 0px;
+}
+.fs1 {
+  font-size: 1px;
+}
+.fs2 {
+  font-size: 2px;
+}
+.fs3 {
+  font-size: 3px;
+}
+.fs4 {
+  font-size: 4px;
+}
+.fs5 {
+  font-size: 5px;
+}
+.fs6 {
+  font-size: 6px;
+}
+.fs7 {
+  font-size: 7px;
+}
+.fs8 {
+  font-size: 8px;
+}
+.fs9 {
+  font-size: 9px;
+}
+.fs10 {
+  font-size: 10px;
+}
+.fs11 {
+  font-size: 11px;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs13 {
+  font-size: 13px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs15 {
+  font-size: 15px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs17 {
+  font-size: 17px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs19 {
+  font-size: 19px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs21 {
+  font-size: 21px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs23 {
+  font-size: 23px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.fs25 {
+  font-size: 25px;
+}
+.fs26 {
+  font-size: 26px;
+}
+.fs27 {
+  font-size: 27px;
+}
+.fs28 {
+  font-size: 28px;
+}
+.fs29 {
+  font-size: 29px;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fs31 {
+  font-size: 31px;
+}
+.fs32 {
+  font-size: 32px;
+}
+.fs40 {
+  font-size: 40px;
+}
+.fs50 {
+  font-size: 50px;
+}
+.fs55 {
+  font-size: 55px;
+}
+.fs60 {
+  font-size: 60px;
+}
+.fs64 {
+  font-size: 64px;
+}
+.fs70 {
+  font-size: 70px;
+}
+.fs80 {
+  font-size: 80px;
+}
+.fs89 {
+  font-size: 89px;
+}
+.fs90 {
+  font-size: 90px;
+}
+.fs100 {
+  font-size: 100px;
+}
+.fs128 {
+  font-size: 128px;
+}
+.fs200 {
+  font-size: 200px;
+}
+.fs256 {
+  font-size: 256px;
+}
+.fs300 {
+  font-size: 300px;
+}
+.fs400 {
+  font-size: 400px;
+}
+.fs500 {
+  font-size: 500px;
+}
+.fs512 {
+  font-size: 512px;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+.line-clamp-5 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+.line-clamp-7 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+}
+.line-clamp-8 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+}
+.line-clamp-9 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 9;
+}
+.line-clamp-10 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
 }
 input.input[type='text'] {
   border: 1px solid rgba(0, 0, 0, 0.1);
