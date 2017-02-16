@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.js'></script>
+    <!--
+    <script src='http://cdn.rawgit.com/pugjs/pug/1.11.0/runtime.js'></script>
+    -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.js'></script>
+
+    <link rel="stylesheet" href="../meltline.css" />
+  </head>
+  <body>
+    <app title='${title}'></app>
+  </body>
+</html>
+
+
+<script type='riot/tag' template='jade'>
+app.block.h100vh
+  div.f
+    div.menu.small-hide.flex-fixed.w256.h100vh.p20.bg-cornflowerblue.white
+      h1 blog
+    div.main.max-width-900.mxa.px60.py40.h100vh.dimgray.transition.small-padding-16
+      div.post.mb40(each='{posts}')
+        div.title.font-size-26.font-bold.mb8
+          a(href='') {title}
+        div.status.f.mb8.font-size-12
+          div.user.f.fm
+            img.block.s20.circle.mr4(src='{user.icon}')
+            div {user.name}
+          div.mx10 |
+          div.tags(each='{tag in tags}')
+            div.mr4 {tag}
+        div.description.line-clamp-3.font-size-14 {description}
+
+  script.
+    this.posts = [
+      {
+        title: 'Introducing Pure',
+        user: { name: 'phi', icon: 'images/kenkyo.png' },
+        tags: ['js', 'phina.js'],
+        description: 'Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the slides from the presentation. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.'
+      },
+      {
+        title: 'Introducing Pure',
+        user: { name: 'phi', icon: 'images/kenkyo.png' },
+        tags: ['js', 'phina.js'],
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+      },
+      {
+        title: 'jQuery UI tips 1 - sortable を使ってスマートフォンアプリっぽい UI と並び替えを実装してみた',
+        user: { name: 'phi', icon: 'images/kenkyo.png' },
+        tags: ['js', 'phina.js'],
+        description: 'はじめに 最近, 仕事として Web でアプリっぽい表現が求められることが多くなってきました. いろいろと tips が溜まってきたのでちょこちょこ備忘録がてら紹介しようと思います.'
+      },
+      {
+        title: 'ピュアな JavaScript でフォーム(form)系要素の値を取得, 設定する方法一覧',
+        user: { name: 'phi', icon: 'images/kenkyo.png' },
+        tags: ['js', 'phina.js'],
+        description: '先日書いた 『サーバーだけに頼る時代は終わった!? クライアントサイドでしっかり Validation する方法 | phiary』 がありがたいことに好評だったので今回も form について書こうと思います.'
+      },
+    ];
+
+</script>
+
+<script>
+  riot.mount('app');
+</script>
