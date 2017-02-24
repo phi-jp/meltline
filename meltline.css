@@ -5943,6 +5943,161 @@ textarea.input {
   }
 }
 /*
+ *
+ */
+@media only screen and (max-width : 600px) {
+  .s-fs0 {
+    font-size: 0px;
+  }
+  .s-fs1 {
+    font-size: 1px;
+  }
+  .s-fs2 {
+    font-size: 2px;
+  }
+  .s-fs3 {
+    font-size: 3px;
+  }
+  .s-fs4 {
+    font-size: 4px;
+  }
+  .s-fs5 {
+    font-size: 5px;
+  }
+  .s-fs6 {
+    font-size: 6px;
+  }
+  .s-fs7 {
+    font-size: 7px;
+  }
+  .s-fs8 {
+    font-size: 8px;
+  }
+  .s-fs9 {
+    font-size: 9px;
+  }
+  .s-fs10 {
+    font-size: 10px;
+  }
+  .s-fs11 {
+    font-size: 11px;
+  }
+  .s-fs12 {
+    font-size: 12px;
+  }
+  .s-fs13 {
+    font-size: 13px;
+  }
+  .s-fs14 {
+    font-size: 14px;
+  }
+  .s-fs15 {
+    font-size: 15px;
+  }
+  .s-fs16 {
+    font-size: 16px;
+  }
+  .s-fs17 {
+    font-size: 17px;
+  }
+  .s-fs18 {
+    font-size: 18px;
+  }
+  .s-fs19 {
+    font-size: 19px;
+  }
+  .s-fs20 {
+    font-size: 20px;
+  }
+  .s-fs21 {
+    font-size: 21px;
+  }
+  .s-fs22 {
+    font-size: 22px;
+  }
+  .s-fs23 {
+    font-size: 23px;
+  }
+  .s-fs24 {
+    font-size: 24px;
+  }
+  .s-fs25 {
+    font-size: 25px;
+  }
+  .s-fs26 {
+    font-size: 26px;
+  }
+  .s-fs27 {
+    font-size: 27px;
+  }
+  .s-fs28 {
+    font-size: 28px;
+  }
+  .s-fs29 {
+    font-size: 29px;
+  }
+  .s-fs30 {
+    font-size: 30px;
+  }
+  .s-fs31 {
+    font-size: 31px;
+  }
+  .s-fs32 {
+    font-size: 32px;
+  }
+  .s-fs40 {
+    font-size: 40px;
+  }
+  .s-fs50 {
+    font-size: 50px;
+  }
+  .s-fs55 {
+    font-size: 55px;
+  }
+  .s-fs60 {
+    font-size: 60px;
+  }
+  .s-fs64 {
+    font-size: 64px;
+  }
+  .s-fs70 {
+    font-size: 70px;
+  }
+  .s-fs80 {
+    font-size: 80px;
+  }
+  .s-fs89 {
+    font-size: 89px;
+  }
+  .s-fs90 {
+    font-size: 90px;
+  }
+  .s-fs100 {
+    font-size: 100px;
+  }
+  .s-fs128 {
+    font-size: 128px;
+  }
+  .s-fs200 {
+    font-size: 200px;
+  }
+  .s-fs256 {
+    font-size: 256px;
+  }
+  .s-fs300 {
+    font-size: 300px;
+  }
+  .s-fs400 {
+    font-size: 400px;
+  }
+  .s-fs500 {
+    font-size: 500px;
+  }
+  .s-fs512 {
+    font-size: 512px;
+  }
+}
+/*
  * width, height
  */
 @media only screen and (max-width : 600px) {
