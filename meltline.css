@@ -7912,6 +7912,26 @@ textarea.input {
     width: 100vh !important;
     height: 100vh !important;
   }
+  .s-w-auto {
+    width: auto !important;
+  }
+  .s-w-full {
+    width: 100% !important;
+  }
+  .s-h-auto {
+    height: auto !important;
+  }
+  .s-h-full {
+    height: 100% !important;
+  }
+  .s-s-auto {
+    width: auto !important;
+    height: auto !important;
+  }
+  .s-s-full {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   .m-w0 {
@@ -9703,5 +9723,25 @@ textarea.input {
   .m-s100vh {
     width: 100vh !important;
     height: 100vh !important;
+  }
+  .m-w-auto {
+    width: auto !important;
+  }
+  .m-w-full {
+    width: 100% !important;
+  }
+  .m-h-auto {
+    height: auto !important;
+  }
+  .m-h-full {
+    height: 100% !important;
+  }
+  .m-s-auto {
+    width: auto !important;
+    height: auto !important;
+  }
+  .m-s-full {
+    width: 100% !important;
+    height: 100% !important;
   }
 }
