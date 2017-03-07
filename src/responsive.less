@@ -117,68 +117,10 @@
  * width, height
  */
 @media @media-mobile {
-  .for(@nums, {
-    // width
-    .s-w@{value} { width: @value * 1px !important; }
-    // height
-    .s-h@{value} { height: @value * 1px !important; }
-    // size
-    .s-s@{value} { width: @value * 1px; height: @value * 1px; }
-  });
-  .for(@nums-1-100, {
-    // width %
-    .s-w@{value}per { width: @value * 1%; }
-    // height %
-    .s-h@{value}per { height: @value * 1%; }
-    // size %
-    .s-s@{value}per { width: @value * 1%; height: @value * 1%; }
-
-    // width vw
-    .s-w@{value}vw { width: @value * 1vw; }
-    // height vw
-    .s-h@{value}vw { height: @value * 1vw; }
-    // size vw
-    .s-s@{value}vw { width: @value * 1vw; height: @value * 1vw; }
-
-    // width vh
-    .s-w@{value}vh { width: @value * 1vh; }
-    // height vh
-    .s-h@{value}vh { height: @value * 1vh; }
-    // size vh
-    .s-s@{value}vh { width: @value * 1vh; height: @value * 1vh; }
-  });
+  .define-size(s-) !important;
 }
 @media @media-tablet {
-  .for(@nums, {
-    // width
-    .m-w@{value} { width: @value * 1px !important; }
-    // height
-    .m-h@{value} { height: @value * 1px !important; }
-    // size
-    .m-s@{value} { width: @value * 1px; height: @value * 1px; }
-  });
-  .for(@nums-1-100, {
-    // width %
-    .m-w@{value}per { width: @value * 1%; }
-    // height %
-    .m-h@{value}per { height: @value * 1%; }
-    // size %
-    .m-s@{value}per { width: @value * 1%; height: @value * 1%; }
-
-    // width vw
-    .m-w@{value}vw { width: @value * 1vw; }
-    // height vw
-    .m-h@{value}vw { height: @value * 1vw; }
-    // size vw
-    .m-s@{value}vw { width: @value * 1vw; height: @value * 1vw; }
-
-    // width vh
-    .m-w@{value}vh { width: @value * 1vh; }
-    // height vh
-    .m-h@{value}vh { height: @value * 1vh; }
-    // size vh
-    .m-s@{value}vh { width: @value * 1vh; height: @value * 1vh; }
-  });
+  .define-size(m-) !important;
 }
 
 
