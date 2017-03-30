@@ -2501,7 +2501,7 @@ svg {
   border-radius: 50%;
 }
 .rounded {
-  border-radius: 3px;
+  border-radius: 3%;
 }
 .rounded-1 {
   border-radius: 1px;
