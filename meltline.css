@@ -325,6 +325,9 @@ video {
 /*
  * reset
  */
+html {
+  touch-action: manipulation;
+}
 a {
   color: inherit;
   text-decoration: none;
