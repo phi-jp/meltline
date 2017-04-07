@@ -4731,6 +4731,9 @@ textarea.input {
 .box-shadow {
   box-shadow: 0px 0px 4px 0px #222;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 /*
  * shrothand
  */
