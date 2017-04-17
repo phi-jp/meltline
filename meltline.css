@@ -4351,6 +4351,8 @@ svg {
  */
 .flex {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
 }
 .flex-center {
   justify-content: center;
@@ -4739,6 +4741,8 @@ textarea.input {
  */
 .f {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
 }
 .fc {
   justify-content: center;
@@ -4824,6 +4828,8 @@ textarea.input {
  */
 .row {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
   flex-wrap: wrap;
 }
 .col1 {
