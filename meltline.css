@@ -2453,13 +2453,16 @@ svg {
   margin-top: 100px !important;
   margin-bottom: 100px !important;
 }
-.ml-auto {
+.ml-auto,
+.mla {
   margin-left: auto;
 }
-.mr-auto {
+.mr-auto,
+.mra {
   margin-right: auto;
 }
-.mx-auto {
+.mx-auto,
+.mxa {
   margin-left: auto;
   margin-right: auto;
 }
