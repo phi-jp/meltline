@@ -328,6 +328,9 @@ video {
 html {
   touch-action: manipulation;
 }
+body {
+  color: #444444;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -4642,6 +4645,10 @@ svg {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
+}
+.font-smoothing-antialiased {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 input.input[type='text'],
 input.input[type='email'],
