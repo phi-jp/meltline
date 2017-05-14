@@ -2510,34 +2510,37 @@ svg {
   border-radius: 3px;
 }
 .rounded-1 {
-  border-radius: 1px;
+  border-radius: 1px !important;
 }
 .rounded-2 {
-  border-radius: 2px;
+  border-radius: 2px !important;
 }
 .rounded-3 {
-  border-radius: 3px;
+  border-radius: 3px !important;
 }
 .rounded-4 {
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 .rounded-5 {
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 .rounded-6 {
-  border-radius: 6px;
+  border-radius: 6px !important;
 }
 .rounded-7 {
-  border-radius: 7px;
+  border-radius: 7px !important;
 }
 .rounded-8 {
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 .rounded-9 {
-  border-radius: 9px;
+  border-radius: 9px !important;
 }
 .rounded-10 {
-  border-radius: 10px;
+  border-radius: 10px !important;
+}
+.rounded-100 {
+  border-radius: 100px !important;
 }
 /*
  *
@@ -4353,6 +4356,537 @@ svg {
   height: 100%;
 }
 /*
+ * position
+ */
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+/*
+ * top, right, bottom, left
+ */
+.t0 {
+  top: 0px;
+}
+.r0 {
+  right: 0px;
+}
+.b0 {
+  bottom: 0px;
+}
+.l0 {
+  left: 0px;
+}
+.t1 {
+  top: 1px;
+}
+.r1 {
+  right: 1px;
+}
+.b1 {
+  bottom: 1px;
+}
+.l1 {
+  left: 1px;
+}
+.t2 {
+  top: 2px;
+}
+.r2 {
+  right: 2px;
+}
+.b2 {
+  bottom: 2px;
+}
+.l2 {
+  left: 2px;
+}
+.t3 {
+  top: 3px;
+}
+.r3 {
+  right: 3px;
+}
+.b3 {
+  bottom: 3px;
+}
+.l3 {
+  left: 3px;
+}
+.t4 {
+  top: 4px;
+}
+.r4 {
+  right: 4px;
+}
+.b4 {
+  bottom: 4px;
+}
+.l4 {
+  left: 4px;
+}
+.t5 {
+  top: 5px;
+}
+.r5 {
+  right: 5px;
+}
+.b5 {
+  bottom: 5px;
+}
+.l5 {
+  left: 5px;
+}
+.t6 {
+  top: 6px;
+}
+.r6 {
+  right: 6px;
+}
+.b6 {
+  bottom: 6px;
+}
+.l6 {
+  left: 6px;
+}
+.t7 {
+  top: 7px;
+}
+.r7 {
+  right: 7px;
+}
+.b7 {
+  bottom: 7px;
+}
+.l7 {
+  left: 7px;
+}
+.t8 {
+  top: 8px;
+}
+.r8 {
+  right: 8px;
+}
+.b8 {
+  bottom: 8px;
+}
+.l8 {
+  left: 8px;
+}
+.t9 {
+  top: 9px;
+}
+.r9 {
+  right: 9px;
+}
+.b9 {
+  bottom: 9px;
+}
+.l9 {
+  left: 9px;
+}
+.t10 {
+  top: 10px;
+}
+.r10 {
+  right: 10px;
+}
+.b10 {
+  bottom: 10px;
+}
+.l10 {
+  left: 10px;
+}
+.t11 {
+  top: 11px;
+}
+.r11 {
+  right: 11px;
+}
+.b11 {
+  bottom: 11px;
+}
+.l11 {
+  left: 11px;
+}
+.t12 {
+  top: 12px;
+}
+.r12 {
+  right: 12px;
+}
+.b12 {
+  bottom: 12px;
+}
+.l12 {
+  left: 12px;
+}
+.t13 {
+  top: 13px;
+}
+.r13 {
+  right: 13px;
+}
+.b13 {
+  bottom: 13px;
+}
+.l13 {
+  left: 13px;
+}
+.t14 {
+  top: 14px;
+}
+.r14 {
+  right: 14px;
+}
+.b14 {
+  bottom: 14px;
+}
+.l14 {
+  left: 14px;
+}
+.t15 {
+  top: 15px;
+}
+.r15 {
+  right: 15px;
+}
+.b15 {
+  bottom: 15px;
+}
+.l15 {
+  left: 15px;
+}
+.t16 {
+  top: 16px;
+}
+.r16 {
+  right: 16px;
+}
+.b16 {
+  bottom: 16px;
+}
+.l16 {
+  left: 16px;
+}
+.t17 {
+  top: 17px;
+}
+.r17 {
+  right: 17px;
+}
+.b17 {
+  bottom: 17px;
+}
+.l17 {
+  left: 17px;
+}
+.t18 {
+  top: 18px;
+}
+.r18 {
+  right: 18px;
+}
+.b18 {
+  bottom: 18px;
+}
+.l18 {
+  left: 18px;
+}
+.t19 {
+  top: 19px;
+}
+.r19 {
+  right: 19px;
+}
+.b19 {
+  bottom: 19px;
+}
+.l19 {
+  left: 19px;
+}
+.t20 {
+  top: 20px;
+}
+.r20 {
+  right: 20px;
+}
+.b20 {
+  bottom: 20px;
+}
+.l20 {
+  left: 20px;
+}
+.t21 {
+  top: 21px;
+}
+.r21 {
+  right: 21px;
+}
+.b21 {
+  bottom: 21px;
+}
+.l21 {
+  left: 21px;
+}
+.t22 {
+  top: 22px;
+}
+.r22 {
+  right: 22px;
+}
+.b22 {
+  bottom: 22px;
+}
+.l22 {
+  left: 22px;
+}
+.t23 {
+  top: 23px;
+}
+.r23 {
+  right: 23px;
+}
+.b23 {
+  bottom: 23px;
+}
+.l23 {
+  left: 23px;
+}
+.t24 {
+  top: 24px;
+}
+.r24 {
+  right: 24px;
+}
+.b24 {
+  bottom: 24px;
+}
+.l24 {
+  left: 24px;
+}
+.t25 {
+  top: 25px;
+}
+.r25 {
+  right: 25px;
+}
+.b25 {
+  bottom: 25px;
+}
+.l25 {
+  left: 25px;
+}
+.t26 {
+  top: 26px;
+}
+.r26 {
+  right: 26px;
+}
+.b26 {
+  bottom: 26px;
+}
+.l26 {
+  left: 26px;
+}
+.t27 {
+  top: 27px;
+}
+.r27 {
+  right: 27px;
+}
+.b27 {
+  bottom: 27px;
+}
+.l27 {
+  left: 27px;
+}
+.t28 {
+  top: 28px;
+}
+.r28 {
+  right: 28px;
+}
+.b28 {
+  bottom: 28px;
+}
+.l28 {
+  left: 28px;
+}
+.t29 {
+  top: 29px;
+}
+.r29 {
+  right: 29px;
+}
+.b29 {
+  bottom: 29px;
+}
+.l29 {
+  left: 29px;
+}
+.t30 {
+  top: 30px;
+}
+.r30 {
+  right: 30px;
+}
+.b30 {
+  bottom: 30px;
+}
+.l30 {
+  left: 30px;
+}
+.t31 {
+  top: 31px;
+}
+.r31 {
+  right: 31px;
+}
+.b31 {
+  bottom: 31px;
+}
+.l31 {
+  left: 31px;
+}
+.t32 {
+  top: 32px;
+}
+.r32 {
+  right: 32px;
+}
+.b32 {
+  bottom: 32px;
+}
+.l32 {
+  left: 32px;
+}
+.t40 {
+  top: 40px;
+}
+.r40 {
+  right: 40px;
+}
+.b40 {
+  bottom: 40px;
+}
+.l40 {
+  left: 40px;
+}
+.t50 {
+  top: 50px;
+}
+.r50 {
+  right: 50px;
+}
+.b50 {
+  bottom: 50px;
+}
+.l50 {
+  left: 50px;
+}
+.t55 {
+  top: 55px;
+}
+.r55 {
+  right: 55px;
+}
+.b55 {
+  bottom: 55px;
+}
+.l55 {
+  left: 55px;
+}
+.t60 {
+  top: 60px;
+}
+.r60 {
+  right: 60px;
+}
+.b60 {
+  bottom: 60px;
+}
+.l60 {
+  left: 60px;
+}
+.t64 {
+  top: 64px;
+}
+.r64 {
+  right: 64px;
+}
+.b64 {
+  bottom: 64px;
+}
+.l64 {
+  left: 64px;
+}
+.t70 {
+  top: 70px;
+}
+.r70 {
+  right: 70px;
+}
+.b70 {
+  bottom: 70px;
+}
+.l70 {
+  left: 70px;
+}
+.t80 {
+  top: 80px;
+}
+.r80 {
+  right: 80px;
+}
+.b80 {
+  bottom: 80px;
+}
+.l80 {
+  left: 80px;
+}
+.t89 {
+  top: 89px;
+}
+.r89 {
+  right: 89px;
+}
+.b89 {
+  bottom: 89px;
+}
+.l89 {
+  left: 89px;
+}
+.t90 {
+  top: 90px;
+}
+.r90 {
+  right: 90px;
+}
+.b90 {
+  bottom: 90px;
+}
+.l90 {
+  left: 90px;
+}
+.t100 {
+  top: 100px;
+}
+.r100 {
+  right: 100px;
+}
+.b100 {
+  bottom: 100px;
+}
+.l100 {
+  left: 100px;
+}
+/*
  * flex
  */
 .flex {
@@ -4653,14 +5187,14 @@ svg {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
-.font-gothic {
+.font-family-gothic {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
-.font-mincho {
+.font-family-mincho {
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 .font-family-default {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 input.input[type='text'],
 input.input[type='email'],
@@ -4675,8 +5209,9 @@ textarea.input {
   border-radius: 3px;
 }
 .button {
+  line-height: 1;
   display: inline-block;
-  padding: 6px 12px;
+  padding: 10px 14px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: white;
@@ -4709,18 +5244,6 @@ textarea.input {
   display: inline-block !important;
 }
 /*
- * position
- */
-.absolute {
-  position: absolute;
-}
-.fixed {
-  position: fixed;
-}
-.relative {
-  position: relative;
-}
-/*
  * overflow
  */
 .overflow-hidden {
@@ -4748,6 +5271,14 @@ textarea.input {
  */
 .transition {
   transition: 256ms;
+}
+/*
+ * filter
+ */
+.filter-grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 /*
  * opacity
