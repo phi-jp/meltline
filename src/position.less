@@ -1,0 +1,24 @@
+/*
+ * position
+ */
+
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+
+
+/*
+ * top, right, bottom, left
+ */
+.for(@nums-1-100, {
+  .t@{value} { top: @value * 1px; }
+  .r@{value} { right: @value * 1px; }
+  .b@{value} { bottom: @value * 1px; }
+  .l@{value} { left: @value * 1px; }
+});
