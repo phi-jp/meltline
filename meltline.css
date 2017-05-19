@@ -4951,7 +4951,7 @@ svg {
   flex-direction: column-reverse;
 }
 /*
- * font
+ * text
  */
 .text-center {
   text-align: center;
@@ -4968,6 +4968,18 @@ svg {
 .italic {
   font-weight: italic;
 }
+.text-capitalize {
+  text-transform: : capitalize;
+}
+.text-lowercase {
+  text-transform: : lowercase;
+}
+.text-uppercase {
+  text-transform: : uppercase;
+}
+/*
+ * font
+ */
 .fs0 {
   font-size: 0px !important;
 }
@@ -5118,6 +5130,19 @@ svg {
 .fs512 {
   font-size: 512px !important;
 }
+.font-family-gothic {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+.font-family-mincho {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.font-family-default {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.font-smoothing-antialiased {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -5182,19 +5207,6 @@ svg {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
-}
-.font-smoothing-antialiased {
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-}
-.font-family-gothic {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
-}
-.font-family-mincho {
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-}
-.font-family-default {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 input.input[type='text'],
 input.input[type='email'],
