@@ -2875,6 +2875,36 @@ svg {
   width: 32px;
   height: 32px;
 }
+.w34 {
+  width: 34px;
+}
+.h34 {
+  height: 34px;
+}
+.s34 {
+  width: 34px;
+  height: 34px;
+}
+.w36 {
+  width: 36px;
+}
+.h36 {
+  height: 36px;
+}
+.s36 {
+  width: 36px;
+  height: 36px;
+}
+.w38 {
+  width: 38px;
+}
+.h38 {
+  height: 38px;
+}
+.s38 {
+  width: 38px;
+  height: 38px;
+}
 .w40 {
   width: 40px;
 }
@@ -2884,6 +2914,16 @@ svg {
 .s40 {
   width: 40px;
   height: 40px;
+}
+.w42 {
+  width: 42px;
+}
+.h42 {
+  height: 42px;
+}
+.s42 {
+  width: 42px;
+  height: 42px;
 }
 .w50 {
   width: 50px;
@@ -5079,8 +5119,20 @@ svg {
 .fs32 {
   font-size: 32px !important;
 }
+.fs34 {
+  font-size: 34px !important;
+}
+.fs36 {
+  font-size: 36px !important;
+}
+.fs38 {
+  font-size: 38px !important;
+}
 .fs40 {
   font-size: 40px !important;
+}
+.fs42 {
+  font-size: 42px !important;
 }
 .fs50 {
   font-size: 50px !important;
@@ -7715,8 +7767,20 @@ textarea.input {
   .s-fs32 {
     font-size: 32px !important;
   }
+  .s-fs34 {
+    font-size: 34px !important;
+  }
+  .s-fs36 {
+    font-size: 36px !important;
+  }
+  .s-fs38 {
+    font-size: 38px !important;
+  }
   .s-fs40 {
     font-size: 40px !important;
+  }
+  .s-fs42 {
+    font-size: 42px !important;
   }
   .s-fs50 {
     font-size: 50px !important;
@@ -8101,6 +8165,36 @@ textarea.input {
     width: 32px !important;
     height: 32px !important;
   }
+  .s-w34 {
+    width: 34px !important;
+  }
+  .s-h34 {
+    height: 34px !important;
+  }
+  .s-s34 {
+    width: 34px !important;
+    height: 34px !important;
+  }
+  .s-w36 {
+    width: 36px !important;
+  }
+  .s-h36 {
+    height: 36px !important;
+  }
+  .s-s36 {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .s-w38 {
+    width: 38px !important;
+  }
+  .s-h38 {
+    height: 38px !important;
+  }
+  .s-s38 {
+    width: 38px !important;
+    height: 38px !important;
+  }
   .s-w40 {
     width: 40px !important;
   }
@@ -8110,6 +8204,16 @@ textarea.input {
   .s-s40 {
     width: 40px !important;
     height: 40px !important;
+  }
+  .s-w42 {
+    width: 42px !important;
+  }
+  .s-h42 {
+    height: 42px !important;
+  }
+  .s-s42 {
+    width: 42px !important;
+    height: 42px !important;
   }
   .s-w50 {
     width: 50px !important;
@@ -9913,6 +10017,36 @@ textarea.input {
     width: 32px !important;
     height: 32px !important;
   }
+  .m-w34 {
+    width: 34px !important;
+  }
+  .m-h34 {
+    height: 34px !important;
+  }
+  .m-s34 {
+    width: 34px !important;
+    height: 34px !important;
+  }
+  .m-w36 {
+    width: 36px !important;
+  }
+  .m-h36 {
+    height: 36px !important;
+  }
+  .m-s36 {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .m-w38 {
+    width: 38px !important;
+  }
+  .m-h38 {
+    height: 38px !important;
+  }
+  .m-s38 {
+    width: 38px !important;
+    height: 38px !important;
+  }
   .m-w40 {
     width: 40px !important;
   }
@@ -9922,6 +10056,16 @@ textarea.input {
   .m-s40 {
     width: 40px !important;
     height: 40px !important;
+  }
+  .m-w42 {
+    width: 42px !important;
+  }
+  .m-h42 {
+    height: 42px !important;
+  }
+  .m-s42 {
+    width: 42px !important;
+    height: 42px !important;
   }
   .m-w50 {
     width: 50px !important;
