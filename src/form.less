@@ -1,12 +1,6 @@
 
 
-input.input[type='text'],
-input.input[type='email'],
-input.input[type='password'],
-input.input[type='url'],
-input.input[type='search'],
-input.input[type='date'],
-textarea.input {
+input.input, textarea.input {
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 6px 8px;
@@ -31,6 +25,7 @@ textarea.input {
   font-weight: bold;
   text-align: center;
   cursor: pointer;
+  outline: none;
 
   &.primary {
     color: hsl(0, 0%, 100%);
