@@ -367,6 +367,15 @@ svg {
 .border-white {
   border-color: white;
 }
+.gray {
+  color: gray;
+}
+.bg-gray {
+  background-color: gray;
+}
+.border-gray {
+  border-color: gray;
+}
 .red {
   color: red;
 }
@@ -2499,6 +2508,11 @@ svg {
 }
 .border-light {
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.border-bottom-not-last:not(:last-child) {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--border-color);
 }
 /*
  * border-radius
@@ -5299,6 +5313,15 @@ svg {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
 }
+.word-break-normal {
+  word-break: normal;
+}
+.word-break-all {
+  word-break: break-all;
+}
+.word-break-keep {
+  word-break: keep-all;
+}
 input.input,
 textarea.input {
   display: block;
@@ -5365,6 +5388,15 @@ textarea.input {
 }
 .object-fit-contain {
   object-fit: contain;
+}
+.object-position-top {
+  object-position: 50% 0%;
+}
+.object-position-middle {
+  object-position: 50% 50%;
+}
+.object-position-bottom {
+  object-position: 50% 100%;
 }
 /*
  * transition
