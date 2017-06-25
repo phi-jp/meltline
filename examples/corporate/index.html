@@ -50,7 +50,7 @@ app.block.h100vh.dimgray.fs14
 
   div#mission.section
     div.mx-auto.col9.s-col12.p16.py64
-      div.text-center.bold.fs32.mb16 MISSION
+      div.color-getit.text-center.bold.fs32.mb16 MISSION
       p.text-center.fs16.mb32 個人のための学習の道標を創り、個人の成長を助ける。
       p インターネットによって知の高速道路は敷かれ、学習のコストは圧倒的に下がりました。しかし、断片的な情報はたくさんあっても、体系的に知識を獲得するようなものはまだまだ少ないです。前提知識やリテラシーを持たない人にとっては、正しい情報や取捨選択して学んでいくことは未だに難しい状況です。そうした人たちに学ぶ目標や目標までの道のりを示すことで、知識の獲得や成長を助け、多くの人に成長する機会を与えます。それが Get It の使命です。
 
@@ -64,27 +64,27 @@ app.block.h100vh.dimgray.fs14
         div.col12.l-col4.px8.my32
           div.text-center.mb16
             img(src='./icon1.svg')
-          div.fs16.bold.text-center.mb16 Engineer Education
+          div.color-getit.fs16.bold.text-center.mb16 Engineer Education
           div 私たちは１からマンツーマンでプログラミングの教育を行っています。プロのエンジニアがコードを１行１行細かくレビューを行いながら指導します。学習はサンプルコードの写経で終わるのではなく、実案件をこなすところまで行います。私たちが社会に送り出すエンジニアは、実際の現場で即戦力となるような人材です。
         div.col12.l-col4.px8.my32
           div.text-center.mb16
             img(src='./icon2.svg')
-          div.fs16.bold.text-center.mb16 Web Application
+          div.color-getit.fs16.bold.text-center.mb16 Web Application
           div Web に関するシステム開発、ページ製作、マーケティング、サービスデザインなど幅広く製作をしています。また、弊社独自のノウハウを用いることで開発した Web サービスを iOS/Android それぞれのモバイルアプリケーションにすることも可能です。
         div.col12.l-col4.px8.my32
           div.text-center.mb16
             img(src='./icon3.svg')
-          div.fs16.bold.text-center.mb16 Browzer Game
+          div.color-getit.fs16.bold.text-center.mb16 Browzer Game
           div ブラウザ上でモバイルアプリケーションと全く遜色なく動作するゲームを開発します。ブラウザゲームについても弊社独自の技術によってiOS/Androidそれぞれのモバイルアプリケーションにし, ネイティブと遜色のない動作を実現することが可能です。
 
   div.border-bottom
 
   div#works.section.bg-lite-white
     div.mx-auto.col9.s-col12.p16.py64
-      div.text-center.bold.fs32.mb32 WORKS
+      div.color-getit.text-center.bold.fs32.mb32 WORKS
       div.row
         div.col12.l-col6.p8(each='{works}')
-          a.card.block.bg-white.rounded(href='', target='_blank')
+          a.card.block.bg-white.rounded(href='{link}', target='_blank')
             img.w-full.object-fit-cover(src='{image}')
             div.p16
               div.mb8.bold.fs16 {title}
@@ -94,7 +94,7 @@ app.block.h100vh.dimgray.fs14
 
   div#company.section
     div.mx-auto.col8.s-col12.p16.py64
-      div.text-center.bold.fs32.mb16 COMPANY
+      div.color-getit.text-center.bold.fs32.mb16 COMPANY
       table
         tr(each='{company}')
           th.p8 {label}
@@ -114,6 +114,10 @@ app.block.h100vh.dimgray.fs14
 
       .strong {
         font-family: "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+      }
+
+      .color-getit {
+        color: hsl(187, 78%, 44%);
       }
 
       .header {
@@ -183,7 +187,7 @@ app.block.h100vh.dimgray.fs14
       {
         title: 'block.fm',
         image: './works/block_fm.jpg',
-        description: 'クラブ音楽のキュレーションサービスである「block.fm」のホームページ制作, サービス運用を行っています。',
+        description: 'クラブ音楽のキュレーションサービスである「block.fm」のホームページ制作、サービス運用を行っています。',
         link: 'http://block.fm',
       },
       {
@@ -213,7 +217,7 @@ app.block.h100vh.dimgray.fs14
       },
       {
         label: '事業内容',
-        description: 'プログラミング教育、Webシステム, スマートフォンアプリ受託開発',
+        description: 'プログラミング教育、Webシステム受託開発、スマートフォンアプリ受託開発',
       },
       {
         label: '連絡先',
