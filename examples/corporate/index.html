@@ -1,0 +1,190 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, user-scalable=no' />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+
+    <title>corporate - meltline</title>
+    <meta name='description' content='${description}' />
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.js'></script>
+
+    <link rel='stylesheet' href='../../meltline.css' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons' />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+      @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+      @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+      @import url('https://fonts.googleapis.com/css?family=Nunito');
+    </style>
+  </head>
+  <body>
+    <app title='${title}'></app>
+  </body>
+</html>
+
+
+<script type='riot/tag' template='jade'>
+app.block.h100vh.dimgray.fs14
+  div.header.relative.w-full.h80vh.overflow-hidden
+    img.absolute.block.s-full.object-fit-cover(src='./img1.jpg')
+    div.relative.s-full.f.flex-column
+      div.p16
+        div.f.flex-between.fb
+          a(href='/')
+            img.h40(src='./logo.svg')
+          div.white.s-show
+            i.material-icons dehaze
+          div.f.white.s-hide
+            div.mr16 MISSION
+            div.mr16 ABOUT
+            div.mr16 WORKS
+            div.mr16 COMPANY
+      div.f.fh.s-full
+        div.white.bold.fs50.s-fs28.strong 「わかった！」をつくる。
+
+  div.section
+    div.mx-auto.col9.s-col12.p16.py64
+      div.text-center.bold.fs32.mb16 MISSION
+      p.text-center.fs16.mb32 個人のための学習の道標を創り、個人の成長を助ける。
+      p インターネットによって知の高速道路は敷かれ、学習のコストは圧倒的に下がりました。しかし、断片的な情報はたくさんあっても、体系的に知識を獲得するようなものはまだまだ少ないです。前提知識やリテラシーを持たない人にとっては、正しい情報や取捨選択して学んでいくことは未だに難しい状況です。そうした人たちに学ぶ目標や目標までの道のりを示すことで、知識の獲得や成長を助け、多くの人に成長する機会を与えます。それが Get It の使命です。
+
+  div.border-bottom
+
+  // div.section.h256.bg-dimgray
+
+  div.section
+    div.mx-auto.col9.s-col12.p16.py32
+      div.row
+        div.col12.l-col4.px8.my32
+          div.text-center.mb16
+            img(src='./icon1.svg')
+          div.fs16.bold.text-center.mb16 Engineer Education
+          div 私たちは１からマンツーマンでプログラミングの教育を行っています。プロのエンジニアがコードを１行１行細かくレビューを行いながら指導します。学習はサンプルコードの写経で終わるのではなく、実案件をこなすところまで行います。私たちが社会に送り出すエンジニアは、実際の現場で即戦力となるような人材です。
+        div.col12.l-col4.px8.my32
+          div.text-center.mb16
+            img(src='./icon2.svg')
+          div.fs16.bold.text-center.mb16 Web Application
+          div Web に関するシステム開発、ページ製作、マーケティング、サービスデザインなど幅広く製作をしています。また、弊社独自のノウハウを用いることで開発した Web サービスを iOS/Android それぞれのモバイルアプリケーションにすることも可能です。
+        div.col12.l-col4.px8.my32
+          div.text-center.mb16
+            img(src='./icon3.svg')
+          div.fs16.bold.text-center.mb16 Browzer Game
+          div ブラウザ上でモバイルアプリケーションと全く遜色なく動作するゲームを開発します。ブラウザゲームについても弊社独自の技術によってiOS/Androidそれぞれのモバイルアプリケーションにし, ネイティブと遜色のない動作を実現することが可能です。
+
+  div.border-bottom
+
+  div.section.bg-lite-white
+    div.mx-auto.col9.s-col12.p16.py64
+      div.text-center.bold.fs32.mb32 WORKS
+      div.row
+        div.col12.l-col6.p8(each='{works}')
+          a.card.block.bg-white.rounded(href='', target='_blank')
+            img.w-full.object-fit-cover(src='{image}')
+            div.p16
+              div.mb8.bold.fs16 {title}
+              div {description}
+
+  div.border-bottom
+
+  div.section
+    div.mx-auto.col8.s-col12.p16.py64
+      div.text-center.bold.fs32.mb16 COMPANY
+      table
+        tr(each='{company}')
+          th.p8 {label}
+          td.p8.px16 {description}
+
+  div.border-bottom
+
+  div.pt32.pb64.bg-dimgray.white
+    div.f.fh
+      span Copyright © Get It Inc. All Rights Reserved.
+
+  style(type='less').
+    :scope {
+      font-family: "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+      font-family: Lato, "メイリオ", Meiryo, "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, sans-serif;
+      // font-family: Nunito, "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO", sans-serif;
+
+      .strong {
+        font-family: "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+      }
+
+      .card {
+        transition: 256ms;
+        box-shadow: 0 0 3px #ccc;
+        &:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 23px 40px rgba(0,0,0,0.2);
+        }
+
+        img {
+          height: 240px;
+        }
+      }
+
+      .bg-lite-white {
+        background-color: hsl(210, 60%, 98%);
+      }
+      table {
+        th {
+          min-width: 100px;
+        }
+      }
+    }
+
+  script.
+    this.works = [
+      {
+        title: 'block.fm',
+        image: './works/block_fm.jpg',
+        description: 'クラブ音楽のキュレーションサービスである「block.fm」のホームページ制作, サービス運用を行っています。',
+        link: 'http://block.fm',
+      },
+      {
+        title: 'Runstant',
+        image: './works/runstant.png',
+        description: '「思いたったらすぐ開発、プログラミングに革命を...」をモットーに開発した、 ブラウザ上で動作するエディタ&プレビューツールです。',
+        link: 'https://runstant.com',
+      },
+    ];
+
+    this.company = [
+      {
+        label: '社名',
+        description: '株式会社GetIt'
+      },
+      {
+        label: '設立',
+        description: '2015年9月',
+      },
+      {
+        label: '代表取締役',
+        description: '軸屋 邦彦',
+      },
+      {
+        label: '住所',
+        description: '東京都品川区北品川５−５−１５ 大崎ブライトコア４階SHIP',
+      },
+      {
+        label: '事業内容',
+        description: 'プログラミング教育、Webシステム, スマートフォンアプリ受託開発',
+      },
+      {
+        label: '連絡先',
+        description: 'info@getit.co.jp',
+      },
+    ];
+
+</script>
+
+<script>
+  riot.mount('app');
+</script>
