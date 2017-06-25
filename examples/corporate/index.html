@@ -33,7 +33,7 @@
 <script type='riot/tag' template='jade'>
 app.block.h100vh.dimgray.fs14
   div.header.relative.w-full.h80vh.overflow-hidden
-    img.absolute.block.s-full.object-fit-cover(src='./img1.jpg')
+    img.bg.absolute.block.s-full.object-fit-cover(src='./img1.jpg')
     div.relative.s-full.f.flex-column
       div.p16
         div.f.flex-between.fb
@@ -42,10 +42,7 @@ app.block.h100vh.dimgray.fs14
           div.white.s-show
             i.material-icons dehaze
           div.f.white.s-hide
-            div.mr16 MISSION
-            div.mr16 ABOUT
-            div.mr16 WORKS
-            div.mr16 COMPANY
+            a.menu.block.mr16.relative(each='{menu}', href='') {label}
       div.f.fh.s-full
         div.white.bold.fs50.s-fs28.strong 「わかった！」をつくる。
 
@@ -117,6 +114,38 @@ app.block.h100vh.dimgray.fs14
         font-family: "游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
       }
 
+      .header {
+        img.bg {
+          transition: 256ms;
+        }
+        &:hover {
+          img.bg {
+            transform: scale(1.1);
+            -webkit-filter: blur(4px) brightness(50%);
+            -moz-filter: blur(4px) brightness(50%);
+            filter: blur(4px) brightness(50%);
+          }
+        }
+
+        .menu {
+          &:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: -10%;
+            width: 0;
+            height: 1px;
+            background-color: white;
+            transition: 256ms;
+          }
+          &:hover {
+            &:after {
+              width: 120%;
+            }
+          }
+        }
+      }
+
       .card {
         transition: 256ms;
         box-shadow: 0 0 3px #ccc;
@@ -141,6 +170,13 @@ app.block.h100vh.dimgray.fs14
     }
 
   script.
+    this.menu = [
+      { label: 'MISSION', },
+      { label: 'ABOUT', },
+      { label: 'WORKS', },
+      { label: 'COMPANY', },
+      // { label: 'CONTACT', },
+    ];
     this.works = [
       {
         title: 'block.fm',
