@@ -9,6 +9,8 @@
     <title>corporate - meltline</title>
     <meta name='description' content='${description}' />
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jade/1.11.0/jade.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
@@ -35,18 +37,18 @@ app.block.h100vh.dimgray.fs14
   div.header.relative.w-full.h80vh.overflow-hidden
     img.bg.absolute.block.s-full.object-fit-cover(src='./img1.jpg')
     div.relative.s-full.f.flex-column
-      div.p16
+      div.mx-auto.col9.s-col12.p16
         div.f.flex-between.fb
           a(href='/')
             img.h40(src='./logo.svg')
           div.white.s-show
             i.material-icons dehaze
           div.f.white.s-hide
-            a.menu.block.mr16.relative(each='{menu}', href='') {label}
+            a.menu.block.mr16.relative(each='{menu}', href='', onclick='{goto}') {label}
       div.f.fh.s-full
         div.white.bold.fs50.s-fs28.strong 「わかった！」をつくる。
 
-  div.section
+  div#mission.section
     div.mx-auto.col9.s-col12.p16.py64
       div.text-center.bold.fs32.mb16 MISSION
       p.text-center.fs16.mb32 個人のための学習の道標を創り、個人の成長を助ける。
@@ -56,7 +58,7 @@ app.block.h100vh.dimgray.fs14
 
   // div.section.h256.bg-dimgray
 
-  div.section
+  div#about.section
     div.mx-auto.col9.s-col12.p16.py32
       div.row
         div.col12.l-col4.px8.my32
@@ -77,7 +79,7 @@ app.block.h100vh.dimgray.fs14
 
   div.border-bottom
 
-  div.section.bg-lite-white
+  div#works.section.bg-lite-white
     div.mx-auto.col9.s-col12.p16.py64
       div.text-center.bold.fs32.mb32 WORKS
       div.row
@@ -90,7 +92,7 @@ app.block.h100vh.dimgray.fs14
 
   div.border-bottom
 
-  div.section
+  div#company.section
     div.mx-auto.col8.s-col12.p16.py64
       div.text-center.bold.fs32.mb16 COMPANY
       table
@@ -171,10 +173,10 @@ app.block.h100vh.dimgray.fs14
 
   script.
     this.menu = [
-      { label: 'MISSION', },
-      { label: 'ABOUT', },
-      { label: 'WORKS', },
-      { label: 'COMPANY', },
+      { label: 'MISSION', query:'#mission' },
+      { label: 'ABOUT', query:'#about', },
+      { label: 'WORKS', query:'#works', },
+      { label: 'COMPANY', query:'#company', },
       // { label: 'CONTACT', },
     ];
     this.works = [
@@ -218,6 +220,13 @@ app.block.h100vh.dimgray.fs14
         description: 'info@getit.co.jp',
       },
     ];
+
+    this.goto = function(e) {
+      var q = e.item.query;
+      var elm = document.querySelector(q);
+
+      $('html,body').animate({scrollTop: elm.offsetTop}, 500, 'swing');
+    };
 
 </script>
 
