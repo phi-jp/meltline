@@ -44,7 +44,7 @@ app.block.h100vh.dimgray.fs14
           div.white.s-show
             i.material-icons dehaze
           div.f.white.s-hide
-            a.menu.block.mr16.relative(each='{menu}', href='', onclick='{goto}') {label}
+            a.menu.block.mr16.relative(each='{menus}', href='', onclick='{goto}') {label}
       div.f.fh.s-full
         div.white.bold.fs50.s-fs28.strong 「わかった！」をつくる。
 
@@ -61,21 +61,11 @@ app.block.h100vh.dimgray.fs14
   div#about.section
     div.mx-auto.col9.s-col12.p16.py32
       div.row
-        div.col12.l-col4.px8.my32
+        div.col12.l-col4.px8.my32(each='{abouts}')
           div.text-center.mb16
-            img(src='./icon1.svg')
-          div.fs16.bold.text-center.mb16 Engineer Education
-          div 私たちは１からマンツーマンでプログラミングの教育を行っています。プロのエンジニアがコードを１行１行細かくレビューを行いながら指導します。学習はサンプルコードの写経で終わるのではなく、実案件をこなすところまで行います。私たちが社会に送り出すエンジニアは、実際の現場で即戦力となるような人材です。
-        div.col12.l-col4.px8.my32
-          div.text-center.mb16
-            img(src='./icon2.svg')
-          div.fs16.bold.text-center.mb16 Web Application
-          div Web に関するシステム開発、ページ製作、マーケティング、サービスデザインなど幅広く製作をしています。また、弊社独自のノウハウを用いることで開発した Web サービスを iOS/Android それぞれのモバイルアプリケーションにすることも可能です。
-        div.col12.l-col4.px8.my32
-          div.text-center.mb16
-            img(src='./icon3.svg')
-          div.fs16.bold.text-center.mb16 Browzer Game
-          div ブラウザ上でモバイルアプリケーションと全く遜色なく動作するゲームを開発します。ブラウザゲームについても弊社独自の技術によってiOS/Androidそれぞれのモバイルアプリケーションにし, ネイティブと遜色のない動作を実現することが可能です。
+            img(src='{image}')
+          div.fs16.bold.text-center.mb16 {title}
+          div {description}
 
   div.border-bottom
 
@@ -180,12 +170,29 @@ app.block.h100vh.dimgray.fs14
     }
 
   script.
-    this.menu = [
+    this.menus = [
       { label: 'MISSION', query:'#mission' },
       { label: 'ABOUT', query:'#about', },
       { label: 'WORKS', query:'#works', },
       { label: 'COMPANY', query:'#company', },
       // { label: 'CONTACT', },
+    ];
+    this.abouts = [
+      {
+        image: './icon1.svg',
+        title: 'Engineer Education',
+        description: '私たちは１からマンツーマンでプログラミングの教育を行っています。プロのエンジニアがコードを１行１行細かくレビューを行いながら指導します。学習はサンプルコードの写経で終わるのではなく、実案件をこなすところまで行います。私たちが社会に送り出すエンジニアは、実際の現場で即戦力となるような人材です。',
+      },
+      {
+        image: './icon2.svg',
+        title: 'Web Application',
+        description: 'Web に関するシステム開発、ページ製作、マーケティング、サービスデザインなど幅広く製作をしています。また、弊社独自のノウハウを用いることで開発した Web サービスを iOS/Android それぞれのモバイルアプリケーションにすることも可能です。',
+      },
+      {
+        image: './icon3.svg',
+        title: 'Browzer Game',
+        description: 'ブラウザ上でモバイルアプリケーションと全く遜色なく動作するゲームを開発します。ブラウザゲームについても弊社独自の技術によってiOS/Androidそれぞれのモバイルアプリケーションにし, ネイティブと遜色のない動作を実現することが可能です。',
+      },
     ];
     this.works = [
       {
