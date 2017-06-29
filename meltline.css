@@ -352,6 +352,9 @@ svg {
 .black {
   color: black;
 }
+.text-black {
+  color: black;
+}
 .bg-black {
   background-color: black;
 }
@@ -359,6 +362,9 @@ svg {
   border-color: black;
 }
 .white {
+  color: white;
+}
+.text-white {
   color: white;
 }
 .bg-white {
@@ -370,6 +376,9 @@ svg {
 .gray {
   color: gray;
 }
+.text-gray {
+  color: gray;
+}
 .bg-gray {
   background-color: gray;
 }
@@ -377,6 +386,9 @@ svg {
   border-color: gray;
 }
 .red {
+  color: red;
+}
+.text-red {
   color: red;
 }
 .bg-red {
@@ -388,6 +400,9 @@ svg {
 .yellow {
   color: yellow;
 }
+.text-yellow {
+  color: yellow;
+}
 .bg-yellow {
   background-color: yellow;
 }
@@ -395,6 +410,9 @@ svg {
   border-color: yellow;
 }
 .green {
+  color: green;
+}
+.text-green {
   color: green;
 }
 .bg-green {
@@ -406,6 +424,9 @@ svg {
 .cyan {
   color: cyan;
 }
+.text-cyan {
+  color: cyan;
+}
 .bg-cyan {
   background-color: cyan;
 }
@@ -413,6 +434,9 @@ svg {
   border-color: cyan;
 }
 .blue {
+  color: blue;
+}
+.text-blue {
   color: blue;
 }
 .bg-blue {
@@ -424,6 +448,9 @@ svg {
 .purple {
   color: purple;
 }
+.text-purple {
+  color: purple;
+}
 .bg-purple {
   background-color: purple;
 }
@@ -431,6 +458,9 @@ svg {
   border-color: purple;
 }
 .skyblue {
+  color: skyblue;
+}
+.text-skyblue {
   color: skyblue;
 }
 .bg-skyblue {
@@ -442,6 +472,9 @@ svg {
 .aquamarine {
   color: aquamarine;
 }
+.text-aquamarine {
+  color: aquamarine;
+}
 .bg-aquamarine {
   background-color: aquamarine;
 }
@@ -449,6 +482,9 @@ svg {
   border-color: aquamarine;
 }
 .ghostwhite {
+  color: ghostwhite;
+}
+.text-ghostwhite {
   color: ghostwhite;
 }
 .bg-ghostwhite {
@@ -460,6 +496,9 @@ svg {
 .dimgray {
   color: dimgray;
 }
+.text-dimgray {
+  color: dimgray;
+}
 .bg-dimgray {
   background-color: dimgray;
 }
@@ -467,6 +506,9 @@ svg {
   border-color: dimgray;
 }
 .cornflowerblue {
+  color: cornflowerblue;
+}
+.text-cornflowerblue {
   color: cornflowerblue;
 }
 .bg-cornflowerblue {
