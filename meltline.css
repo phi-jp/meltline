@@ -2556,6 +2556,11 @@ svg {
   border-bottom-width: 1px;
   border-color: var(--border-color);
 }
+.border-right-not-last:not(:last-child) {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: var(--border-color);
+}
 /*
  * border-radius
  */
@@ -2597,6 +2602,39 @@ svg {
 }
 .rounded-100 {
   border-radius: 100px !important;
+}
+/*
+ *
+ */
+.square {
+  position: relative;
+}
+.square:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+.square > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rect {
+  position: relative;
+}
+.rect:before {
+  content: '';
+  display: block;
+  padding-top: 66.6%;
+}
+.rect > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /*
  *

@@ -100,6 +100,11 @@
     .border-bottom;
   }
 }
+.border-right-not-last {
+  &:not(:last-child) {
+    .border-right;
+  }
+}
 
 /*
  * border-radius
@@ -113,4 +118,41 @@
 .for(1 2 3 4 5 6 7 8 9 10 100, {
   .rounded-@{value} { border-radius: @value * 1px !important; }
 });
+
+/*
+ *
+ */
+.square {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  &> * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.rect {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 66.6%;
+  }
+  &> * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 
