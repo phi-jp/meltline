@@ -2636,6 +2636,21 @@ svg {
   width: 100%;
   height: 100%;
 }
+.rect-ogp {
+  position: relative;
+}
+.rect-ogp:before {
+  content: '';
+  display: block;
+  padding-top: 52.5%;
+}
+.rect-ogp > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /*
  *
  */
