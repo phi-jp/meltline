@@ -123,12 +123,14 @@
   .define-box-shorthand(@nums-1-100, s-p, padding) !important;
   .define-box-shorthand(@nums-1-100, s-m, margin) !important;
 }
-// @media @media-tablet {
-//   .define-box(medium-padding, padding) !important;
-// }
-// @media @media-desktop {
-//   .define-box(large-padding, padding) !important;
-// }
+@media @media-tablet {
+  .define-box-shorthand(@nums-1-100, m-p, padding) !important;
+  .define-box-shorthand(@nums-1-100, m-m, margin) !important;
+}
+@media @media-desktop {
+  .define-box-shorthand(@nums-1-100, l-p, padding) !important;
+  .define-box-shorthand(@nums-1-100, l-m, margin) !important;
+}
 
 
 /*
