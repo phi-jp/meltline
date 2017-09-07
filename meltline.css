@@ -350,172 +350,184 @@ svg {
  * method
  */
 .black {
-  color: black;
+  color: black !important;
 }
 .text-black {
-  color: black;
+  color: black !important;
 }
 .bg-black {
-  background-color: black;
+  background-color: black !important;
 }
 .border-black {
-  border-color: black;
+  border-color: black !important;
 }
 .white {
-  color: white;
+  color: white !important;
 }
 .text-white {
-  color: white;
+  color: white !important;
 }
 .bg-white {
-  background-color: white;
+  background-color: white !important;
 }
 .border-white {
-  border-color: white;
+  border-color: white !important;
 }
 .gray {
-  color: gray;
+  color: gray !important;
 }
 .text-gray {
-  color: gray;
+  color: gray !important;
 }
 .bg-gray {
-  background-color: gray;
+  background-color: gray !important;
 }
 .border-gray {
-  border-color: gray;
+  border-color: gray !important;
 }
 .red {
-  color: red;
+  color: red !important;
 }
 .text-red {
-  color: red;
+  color: red !important;
 }
 .bg-red {
-  background-color: red;
+  background-color: red !important;
 }
 .border-red {
-  border-color: red;
+  border-color: red !important;
 }
 .yellow {
-  color: yellow;
+  color: yellow !important;
 }
 .text-yellow {
-  color: yellow;
+  color: yellow !important;
 }
 .bg-yellow {
-  background-color: yellow;
+  background-color: yellow !important;
 }
 .border-yellow {
-  border-color: yellow;
+  border-color: yellow !important;
 }
 .green {
-  color: green;
+  color: green !important;
 }
 .text-green {
-  color: green;
+  color: green !important;
 }
 .bg-green {
-  background-color: green;
+  background-color: green !important;
 }
 .border-green {
-  border-color: green;
+  border-color: green !important;
 }
 .cyan {
-  color: cyan;
+  color: cyan !important;
 }
 .text-cyan {
-  color: cyan;
+  color: cyan !important;
 }
 .bg-cyan {
-  background-color: cyan;
+  background-color: cyan !important;
 }
 .border-cyan {
-  border-color: cyan;
+  border-color: cyan !important;
 }
 .blue {
-  color: blue;
+  color: blue !important;
 }
 .text-blue {
-  color: blue;
+  color: blue !important;
 }
 .bg-blue {
-  background-color: blue;
+  background-color: blue !important;
 }
 .border-blue {
-  border-color: blue;
+  border-color: blue !important;
 }
 .purple {
-  color: purple;
+  color: purple !important;
 }
 .text-purple {
-  color: purple;
+  color: purple !important;
 }
 .bg-purple {
-  background-color: purple;
+  background-color: purple !important;
 }
 .border-purple {
-  border-color: purple;
+  border-color: purple !important;
 }
 .skyblue {
-  color: skyblue;
+  color: skyblue !important;
 }
 .text-skyblue {
-  color: skyblue;
+  color: skyblue !important;
 }
 .bg-skyblue {
-  background-color: skyblue;
+  background-color: skyblue !important;
 }
 .border-skyblue {
-  border-color: skyblue;
+  border-color: skyblue !important;
 }
 .aquamarine {
-  color: aquamarine;
+  color: aquamarine !important;
 }
 .text-aquamarine {
-  color: aquamarine;
+  color: aquamarine !important;
 }
 .bg-aquamarine {
-  background-color: aquamarine;
+  background-color: aquamarine !important;
 }
 .border-aquamarine {
-  border-color: aquamarine;
+  border-color: aquamarine !important;
 }
 .ghostwhite {
-  color: ghostwhite;
+  color: ghostwhite !important;
 }
 .text-ghostwhite {
-  color: ghostwhite;
+  color: ghostwhite !important;
 }
 .bg-ghostwhite {
-  background-color: ghostwhite;
+  background-color: ghostwhite !important;
 }
 .border-ghostwhite {
-  border-color: ghostwhite;
+  border-color: ghostwhite !important;
 }
 .dimgray {
-  color: dimgray;
+  color: dimgray !important;
 }
 .text-dimgray {
-  color: dimgray;
+  color: dimgray !important;
 }
 .bg-dimgray {
-  background-color: dimgray;
+  background-color: dimgray !important;
 }
 .border-dimgray {
-  border-color: dimgray;
+  border-color: dimgray !important;
 }
 .cornflowerblue {
-  color: cornflowerblue;
+  color: cornflowerblue !important;
 }
 .text-cornflowerblue {
-  color: cornflowerblue;
+  color: cornflowerblue !important;
 }
 .bg-cornflowerblue {
-  background-color: cornflowerblue;
+  background-color: cornflowerblue !important;
 }
 .border-cornflowerblue {
-  border-color: cornflowerblue;
+  border-color: cornflowerblue !important;
+}
+.transparent {
+  color: transparent !important;
+}
+.text-transparent {
+  color: transparent !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+.border-transparent {
+  border-color: transparent !important;
 }
 /*
  * box
