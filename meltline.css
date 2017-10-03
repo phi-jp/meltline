@@ -2532,6 +2532,9 @@ svg {
 .mb0-last:last-child {
   margin-bottom: 0;
 }
+.mr0-last:last-child {
+  margin-right: 0;
+}
 /*
  * border
  */

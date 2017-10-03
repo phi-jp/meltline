@@ -79,7 +79,7 @@ section-responsive
   h2 Device
   section.mb8
     p.device
-    p window.getComputedStyle(elm, ':after').content
+    p window.getComputedStyle($0, '::after').getPropertyValue('content').replace(/"/g, '')
 
   h2 Show/Hide
 
