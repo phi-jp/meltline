@@ -57,18 +57,18 @@
  * margin
  */
 .define-box-shorthand(@nums-1-100, m, margin) !important;
-.ml-auto, .mla { margin-left: auto; }
-.mr-auto, .mra { margin-right: auto; }
+.ml-auto, .mla { margin-left: auto !important; }
+.mr-auto, .mra { margin-right: auto !important; }
 .mx-auto, .mxa { .ml-auto; .mr-auto; }
 
 .mb0-last {
   &:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
 }
 .mr0-last {
   &:last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
 

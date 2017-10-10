@@ -2518,22 +2518,22 @@ svg {
 }
 .ml-auto,
 .mla {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 .mr-auto,
 .mra {
-  margin-right: auto;
+  margin-right: auto !important;
 }
 .mx-auto,
 .mxa {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .mb0-last:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .mr0-last:last-child {
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 /*
  * border
@@ -5173,7 +5173,7 @@ svg {
   font-weight: bold;
 }
 .italic {
-  font-weight: italic;
+  font-style: italic;
 }
 .text-capitalize {
   text-transform: capitalize;
@@ -5400,6 +5400,45 @@ svg {
 }
 .lh20 {
   line-height: 2;
+}
+.letter-spacing-8 {
+  letter-spacing: 8px;
+}
+.letter-spacing-9 {
+  letter-spacing: 9px;
+}
+.letter-spacing-10 {
+  letter-spacing: 10px;
+}
+.letter-spacing-11 {
+  letter-spacing: 11px;
+}
+.letter-spacing-12 {
+  letter-spacing: 12px;
+}
+.letter-spacing-13 {
+  letter-spacing: 13px;
+}
+.letter-spacing-14 {
+  letter-spacing: 14px;
+}
+.letter-spacing-15 {
+  letter-spacing: 15px;
+}
+.letter-spacing-16 {
+  letter-spacing: 16px;
+}
+.letter-spacing-17 {
+  letter-spacing: 17px;
+}
+.letter-spacing-18 {
+  letter-spacing: 18px;
+}
+.letter-spacing-19 {
+  letter-spacing: 19px;
+}
+.letter-spacing-20 {
+  letter-spacing: 20px;
 }
 .ellipsis {
   overflow: hidden;
