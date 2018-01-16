@@ -385,6 +385,30 @@ svg {
 .border-gray {
   border-color: gray !important;
 }
+.lightgray {
+  color: lightgray !important;
+}
+.text-lightgray {
+  color: lightgray !important;
+}
+.bg-lightgray {
+  background-color: lightgray !important;
+}
+.border-lightgray {
+  border-color: lightgray !important;
+}
+.darkgray {
+  color: darkgray !important;
+}
+.text-darkgray {
+  color: darkgray !important;
+}
+.bg-darkgray {
+  background-color: darkgray !important;
+}
+.border-darkgray {
+  border-color: darkgray !important;
+}
 .red {
   color: red !important;
 }
@@ -5183,6 +5207,21 @@ svg {
 }
 .text-uppercase {
   text-transform: uppercase;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+.text-decoration-overline {
+  text-decoration: overline;
+}
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+.text-decoration-blink {
+  text-decoration: blink;
 }
 /*
  * font

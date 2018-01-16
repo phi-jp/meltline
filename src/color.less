@@ -1,15 +1,4 @@
 
 .for(@colors, {
-  .@{value} {
-    color: @value;
-  }
-  .text-@{value} {
-    color: @value;
-  }
-  .bg-@{value} {
-    background-color: @value;
-  }
-  .border-@{value} {
-    border-color: @value;
-  }
+  .define-color(@value, @value)
 }) !important;
