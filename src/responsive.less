@@ -141,6 +141,28 @@
     .s-fs@{value} { font-size: @value * 1px !important; }
   });
 }
+@media @media-tablet {
+  .for(@nums, {
+    .m-fs@{value} { font-size: @value * 1px !important; }
+  });
+}
+
+@media @media-mobile {
+  // line-height
+  .for(@nums-1-32, {
+    .s-lh@{value} {
+      line-height: @value/10;
+    }
+  });
+}
+@media @media-tablet {
+  // line-height
+  .for(@nums-1-32, {
+    .m-lh@{value} {
+      line-height: @value/10;
+    }
+  });
+}
 
 /*
  * width, height
