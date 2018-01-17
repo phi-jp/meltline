@@ -22,3 +22,15 @@
   .b@{value} { bottom: @value * 1px; }
   .l@{value} { left: @value * 1px; }
 });
+// negative
+.for(@nums-1-32, {
+  .tn@{value} { top: @value * -1px; }
+  .rn@{value} { right: @value * -1px; }
+  .bn@{value} { bottom: @value * -1px; }
+  .ln@{value} { left: @value * -1px; }
+});
+
+
+.for(@nums, {
+  z@{value} { z-index: @value * 1px; }
+});
