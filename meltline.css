@@ -3462,7 +3462,7 @@ svg {
   border-width: 32px;
 }
 .border-none {
-  border: none;
+  border: none !important;
 }
 /*
  * border-radius
