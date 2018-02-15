@@ -29,7 +29,15 @@
   .bn@{value} { bottom: @value * -1px; }
   .ln@{value} { left: @value * -1px; }
 });
-
+// all
+.for(@nums-1-32, {
+  .trbl@{value} {
+    top: @value * 1px;
+    right: @value * 1px;
+    bottom: @value * 1px;
+    left: @value * 1px;
+  }
+});
 
 .for(@nums, {
   z@{value} { z-index: @value * 1px; }
