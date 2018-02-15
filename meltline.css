@@ -3937,6 +3937,16 @@ svg {
   width: 42px;
   height: 42px;
 }
+.w44 {
+  width: 44px;
+}
+.h44 {
+  height: 44px;
+}
+.s44 {
+  width: 44px;
+  height: 44px;
+}
 .w50 {
   width: 50px;
 }
@@ -6344,6 +6354,204 @@ svg {
 .ln32 {
   left: -32px;
 }
+.trbl0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.trbl1 {
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+}
+.trbl2 {
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+}
+.trbl3 {
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+}
+.trbl4 {
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+}
+.trbl5 {
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+}
+.trbl6 {
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+}
+.trbl7 {
+  top: 7px;
+  right: 7px;
+  bottom: 7px;
+  left: 7px;
+}
+.trbl8 {
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+}
+.trbl9 {
+  top: 9px;
+  right: 9px;
+  bottom: 9px;
+  left: 9px;
+}
+.trbl10 {
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+}
+.trbl11 {
+  top: 11px;
+  right: 11px;
+  bottom: 11px;
+  left: 11px;
+}
+.trbl12 {
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  left: 12px;
+}
+.trbl13 {
+  top: 13px;
+  right: 13px;
+  bottom: 13px;
+  left: 13px;
+}
+.trbl14 {
+  top: 14px;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
+}
+.trbl15 {
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+}
+.trbl16 {
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+}
+.trbl17 {
+  top: 17px;
+  right: 17px;
+  bottom: 17px;
+  left: 17px;
+}
+.trbl18 {
+  top: 18px;
+  right: 18px;
+  bottom: 18px;
+  left: 18px;
+}
+.trbl19 {
+  top: 19px;
+  right: 19px;
+  bottom: 19px;
+  left: 19px;
+}
+.trbl20 {
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+}
+.trbl21 {
+  top: 21px;
+  right: 21px;
+  bottom: 21px;
+  left: 21px;
+}
+.trbl22 {
+  top: 22px;
+  right: 22px;
+  bottom: 22px;
+  left: 22px;
+}
+.trbl23 {
+  top: 23px;
+  right: 23px;
+  bottom: 23px;
+  left: 23px;
+}
+.trbl24 {
+  top: 24px;
+  right: 24px;
+  bottom: 24px;
+  left: 24px;
+}
+.trbl25 {
+  top: 25px;
+  right: 25px;
+  bottom: 25px;
+  left: 25px;
+}
+.trbl26 {
+  top: 26px;
+  right: 26px;
+  bottom: 26px;
+  left: 26px;
+}
+.trbl27 {
+  top: 27px;
+  right: 27px;
+  bottom: 27px;
+  left: 27px;
+}
+.trbl28 {
+  top: 28px;
+  right: 28px;
+  bottom: 28px;
+  left: 28px;
+}
+.trbl29 {
+  top: 29px;
+  right: 29px;
+  bottom: 29px;
+  left: 29px;
+}
+.trbl30 {
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+}
+.trbl31 {
+  top: 31px;
+  right: 31px;
+  bottom: 31px;
+  left: 31px;
+}
+.trbl32 {
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+  left: 32px;
+}
 z0 {
   z-index: 0px;
 }
@@ -6457,6 +6665,9 @@ z40 {
 }
 z42 {
   z-index: 42px;
+}
+z44 {
+  z-index: 44px;
 }
 z50 {
   z-index: 50px;
@@ -6798,6 +7009,9 @@ z1024 {
 }
 .fs42 {
   font-size: 42px !important;
+}
+.fs44 {
+  font-size: 44px !important;
 }
 .fs50 {
   font-size: 50px !important;
@@ -7211,6 +7425,18 @@ textarea.input {
   -webkit-overflow-scrolling: touch;
   overflow-scrolling: touch;
 }
+.overflow-x-scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+.overflow-y-scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
 /*
  * object-fit
  */
@@ -7299,6 +7525,18 @@ textarea.input {
 .opacity-100 {
   opacity: 1;
 }
+/*
+ * show/hide
+ */
+.show {
+  display: block !important;
+}
+.hide {
+  display: none !important;
+}
+.hide-last:last-child {
+  display: none !important;
+}
 .box-shadow {
   box-shadow: 0px 0px 4px 0px #222;
 }
@@ -7307,6 +7545,30 @@ textarea.input {
 }
 .pointer-none {
   pointer-events: none;
+}
+.list-style-type-disc {
+  list-style: disc;
+}
+.list-style-type-circle {
+  list-style: circle;
+}
+.list-style-type-square {
+  list-style: square;
+}
+.list-style-type-decimal {
+  list-style: decimal;
+}
+.list-style-type-georgian {
+  list-style: georgian;
+}
+.list-style-type-cjk-ideographic {
+  list-style: cjk-ideographic;
+}
+.list-style-type-kannada {
+  list-style: kannada;
+}
+.list-style-type-none {
+  list-style: none;
 }
 /*
  * shrothand
@@ -13683,6 +13945,9 @@ textarea.input {
   .s-fs42 {
     font-size: 42px !important;
   }
+  .s-fs44 {
+    font-size: 44px !important;
+  }
   .s-fs50 {
     font-size: 50px !important;
   }
@@ -13849,6 +14114,9 @@ textarea.input {
   }
   .m-fs42 {
     font-size: 42px !important;
+  }
+  .m-fs44 {
+    font-size: 44px !important;
   }
   .m-fs50 {
     font-size: 50px !important;
@@ -14487,6 +14755,16 @@ textarea.input {
   .s-s42 {
     width: 42px !important;
     height: 42px !important;
+  }
+  .s-w44 {
+    width: 44px !important;
+  }
+  .s-h44 {
+    height: 44px !important;
+  }
+  .s-s44 {
+    width: 44px !important;
+    height: 44px !important;
   }
   .s-w50 {
     width: 50px !important;
@@ -16350,6 +16628,16 @@ textarea.input {
     width: 42px !important;
     height: 42px !important;
   }
+  .m-w44 {
+    width: 44px !important;
+  }
+  .m-h44 {
+    height: 44px !important;
+  }
+  .m-s44 {
+    width: 44px !important;
+    height: 44px !important;
+  }
   .m-w50 {
     width: 50px !important;
   }
@@ -18212,6 +18500,16 @@ textarea.input {
     width: 42px !important;
     height: 42px !important;
   }
+  .l-w44 {
+    width: 44px !important;
+  }
+  .l-h44 {
+    height: 44px !important;
+  }
+  .l-s44 {
+    width: 44px !important;
+    height: 44px !important;
+  }
   .l-w50 {
     width: 50px !important;
   }
@@ -19691,5 +19989,50 @@ textarea.input {
   .l-s-full {
     width: 100% !important;
     height: 100% !important;
+  }
+}
+/*
+ * position
+ */
+@media only screen and (max-width : 600px) {
+  .s-static {
+    position: static;
+  }
+  .s-relative {
+    position: relative;
+  }
+  .s-absolute {
+    position: absolute;
+  }
+  .s-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .m-static {
+    position: static;
+  }
+  .m-relative {
+    position: relative;
+  }
+  .m-absolute {
+    position: absolute;
+  }
+  .m-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (min-width : 993px) {
+  .l-static {
+    position: static;
+  }
+  .l-relative {
+    position: relative;
+  }
+  .l-absolute {
+    position: absolute;
+  }
+  .l-fixed {
+    position: fixed;
   }
 }
