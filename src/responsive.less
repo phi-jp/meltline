@@ -145,7 +145,7 @@
 
 
 /*
- *
+ * font-size
  */
 @media @media-mobile {
   .for(@nums, {
@@ -157,6 +157,13 @@
     .m-fs@{value} { font-size: @value * 1px !important; }
   });
 }
+@media @media-desktop {
+  .for(@nums, {
+    .l-fs@{value} { font-size: @value * 1px !important; }
+  });
+}
+
+
 
 @media @media-mobile {
   // line-height
