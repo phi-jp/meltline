@@ -6896,172 +6896,228 @@ svg {
 /*
  * font
  */
-.fs0 {
+.fs0,
+.fz0 {
   font-size: 0px !important;
 }
-.fs1 {
+.fs1,
+.fz1 {
   font-size: 1px !important;
 }
-.fs2 {
+.fs2,
+.fz2 {
   font-size: 2px !important;
 }
-.fs3 {
+.fs3,
+.fz3 {
   font-size: 3px !important;
 }
-.fs4 {
+.fs4,
+.fz4 {
   font-size: 4px !important;
 }
-.fs5 {
+.fs5,
+.fz5 {
   font-size: 5px !important;
 }
-.fs6 {
+.fs6,
+.fz6 {
   font-size: 6px !important;
 }
-.fs7 {
+.fs7,
+.fz7 {
   font-size: 7px !important;
 }
-.fs8 {
+.fs8,
+.fz8 {
   font-size: 8px !important;
 }
-.fs9 {
+.fs9,
+.fz9 {
   font-size: 9px !important;
 }
-.fs10 {
+.fs10,
+.fz10 {
   font-size: 10px !important;
 }
-.fs11 {
+.fs11,
+.fz11 {
   font-size: 11px !important;
 }
-.fs12 {
+.fs12,
+.fz12 {
   font-size: 12px !important;
 }
-.fs13 {
+.fs13,
+.fz13 {
   font-size: 13px !important;
 }
-.fs14 {
+.fs14,
+.fz14 {
   font-size: 14px !important;
 }
-.fs15 {
+.fs15,
+.fz15 {
   font-size: 15px !important;
 }
-.fs16 {
+.fs16,
+.fz16 {
   font-size: 16px !important;
 }
-.fs17 {
+.fs17,
+.fz17 {
   font-size: 17px !important;
 }
-.fs18 {
+.fs18,
+.fz18 {
   font-size: 18px !important;
 }
-.fs19 {
+.fs19,
+.fz19 {
   font-size: 19px !important;
 }
-.fs20 {
+.fs20,
+.fz20 {
   font-size: 20px !important;
 }
-.fs21 {
+.fs21,
+.fz21 {
   font-size: 21px !important;
 }
-.fs22 {
+.fs22,
+.fz22 {
   font-size: 22px !important;
 }
-.fs23 {
+.fs23,
+.fz23 {
   font-size: 23px !important;
 }
-.fs24 {
+.fs24,
+.fz24 {
   font-size: 24px !important;
 }
-.fs25 {
+.fs25,
+.fz25 {
   font-size: 25px !important;
 }
-.fs26 {
+.fs26,
+.fz26 {
   font-size: 26px !important;
 }
-.fs27 {
+.fs27,
+.fz27 {
   font-size: 27px !important;
 }
-.fs28 {
+.fs28,
+.fz28 {
   font-size: 28px !important;
 }
-.fs29 {
+.fs29,
+.fz29 {
   font-size: 29px !important;
 }
-.fs30 {
+.fs30,
+.fz30 {
   font-size: 30px !important;
 }
-.fs31 {
+.fs31,
+.fz31 {
   font-size: 31px !important;
 }
-.fs32 {
+.fs32,
+.fz32 {
   font-size: 32px !important;
 }
-.fs34 {
+.fs34,
+.fz34 {
   font-size: 34px !important;
 }
-.fs36 {
+.fs36,
+.fz36 {
   font-size: 36px !important;
 }
-.fs38 {
+.fs38,
+.fz38 {
   font-size: 38px !important;
 }
-.fs40 {
+.fs40,
+.fz40 {
   font-size: 40px !important;
 }
-.fs42 {
+.fs42,
+.fz42 {
   font-size: 42px !important;
 }
-.fs44 {
+.fs44,
+.fz44 {
   font-size: 44px !important;
 }
-.fs50 {
+.fs50,
+.fz50 {
   font-size: 50px !important;
 }
-.fs55 {
+.fs55,
+.fz55 {
   font-size: 55px !important;
 }
-.fs60 {
+.fs60,
+.fz60 {
   font-size: 60px !important;
 }
-.fs64 {
+.fs64,
+.fz64 {
   font-size: 64px !important;
 }
-.fs70 {
+.fs70,
+.fz70 {
   font-size: 70px !important;
 }
-.fs80 {
+.fs80,
+.fz80 {
   font-size: 80px !important;
 }
-.fs89 {
+.fs89,
+.fz89 {
   font-size: 89px !important;
 }
-.fs90 {
+.fs90,
+.fz90 {
   font-size: 90px !important;
 }
-.fs100 {
+.fs100,
+.fz100 {
   font-size: 100px !important;
 }
-.fs128 {
+.fs128,
+.fz128 {
   font-size: 128px !important;
 }
-.fs200 {
+.fs200,
+.fz200 {
   font-size: 200px !important;
 }
-.fs256 {
+.fs256,
+.fz256 {
   font-size: 256px !important;
 }
-.fs300 {
+.fs300,
+.fz300 {
   font-size: 300px !important;
 }
-.fs400 {
+.fs400,
+.fz400 {
   font-size: 400px !important;
 }
-.fs500 {
+.fs500,
+.fz500 {
   font-size: 500px !important;
 }
-.fs512 {
+.fs512,
+.fz512 {
   font-size: 512px !important;
 }
-.fs1024 {
+.fs1024,
+.fz1024 {
   font-size: 1024px !important;
 }
 .font-family-gothic {
