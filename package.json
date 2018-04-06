@@ -2,9 +2,13 @@
   "name": "meltline",
   "version": "0.1.5",
   "description": "",
-  "main": "main.js",
+  "main": "meltline.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "spalate",
+    "build": "spalate build",
+    "start": "spalate build; spalate start",
+    "deploy": "spalate deploy",
+    "webfont": "spalate webfont"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,7 @@
     "gulp": "^3.9.1",
     "gulp-cssmin": "^0.1.7",
     "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "spalate": "^0.1.3"
   }
 }
