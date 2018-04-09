@@ -1,7 +1,7 @@
 page-index
-  div.flex.flex-column.h-full
-    module-header
-    div.h-full.overflow-scroll
+  module-header.fixed.t0.l0.b0.w300
+  div.pl300.bg-top
+    div.overflow-scroll
       div.container.p10
         i.icon-home.fs64
         i.icon-star.fs64
@@ -14,7 +14,19 @@ page-index
               h3.text-primary
                 a(href='/items/{id}') {title}
               p.line-clamp-3.word-break-all.s-hide {body}
-    module-tabbar
+
+  style(type='less').
+    :scope {
+      .bg-top {
+        background: url('images/background/background.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #f6f7f9;
+      }
+      .pl300 {
+        padding-left: 300px;
+      }
+    }
 
   script.
     var self = this;
