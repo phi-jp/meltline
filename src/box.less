@@ -160,54 +160,28 @@
 /*
  *
  */
-.square {
-  position: relative;
+.define-rect(@key, @width, @height) {
+  .@{key} {
+    position: relative;
 
-  &:before {
-    content: '';
-    display: block;
-    padding-top: 100%;
-  }
-  &> * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.rect {
-  position: relative;
-
-  &:before {
-    content: '';
-    display: block;
-    padding-top: 66.6%;
-  }
-  &> * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    &:before {
+      content: '';
+      display: block;
+      padding-top: (@height/@width) * 100%;
+    }
+    &> * {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
-
-.rect-ogp {
-  position: relative;
-
-  &:before {
-    content: '';
-    display: block;
-    padding-top: (630/1200) * 100%;
-  }
-  &> * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-}
-
+.define-rect(square, 1, 1);
+.define-rect(rect, 3, 2);
+.define-rect(rect-16_9, 16, 9);
+.define-rect(rect-3_2, 3, 2);
+.define-rect(rect-3_2, 5, 4);
+.define-rect(rect-3_2, 7, 5);
+.define-rect(rect-ogp, 1200, 630);
