@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="102px" viewBox="0 0 57 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>sp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="3.24629313" y="10.2896223" width="51.8156733" height="79.8905742"></rect>
+        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#624EBD" offset="0%"></stop>
+            <stop stop-color="#4BC0C9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="meltline_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-321.000000, -1429.000000)">
+        <g id="point2" transform="translate(321.000000, 1285.000000)">
+            <g id="Group-8">
+                <g id="sp" transform="translate(0.000000, 144.000000)">
+                    <rect id="Rectangle-path" fill="#333333" fill-rule="nonzero" x="0.4144204" y="0.13904895" width="56.115285" height="101.109444" rx="2"></rect>
+                    <rect id="Rectangle-path" fill="#CCCCCC" fill-rule="nonzero" x="2.21024213" y="9.38580413" width="52.8517243" height="80.850012"></rect>
+                    <rect id="Rectangle-path" fill="#B3B3B3" fill-rule="nonzero" x="17.6819371" y="3.26765033" width="1.58923316" height="1.58182086"></rect>
+                    <rect id="Rectangle-path" fill="#B3B3B3" fill-rule="nonzero" x="22.3787016" y="3.40669928" width="12.0361498" height="1.38346753"></rect>
+                    <path d="M28.5259375,92.3980273 C27.540812,92.3979535 26.5960125,92.7918303 25.899417,93.4929956 C25.2028216,94.1941609 24.8115016,95.1451688 24.8115566,96.1367754 C24.8115016,97.1283821 25.2028216,98.07939 25.899417,98.7805553 C26.5960125,99.4817206 27.540812,99.8755974 28.5259375,99.8755236 C29.5110511,99.8755789 30.4558328,99.481694 31.1524134,98.7805307 C31.8489939,98.0793674 32.2403044,97.1283701 32.2402494,96.1367754 C32.2403044,95.1451808 31.8489939,94.1941834 31.1524134,93.4930202 C30.4558328,92.7918569 29.5110511,92.397972 28.5259375,92.3980273 Z M28.5259375,93.4565374 C29.9964429,93.456691 31.1884742,94.6565957 31.1885886,96.1367754 C31.1884742,97.6169552 29.9964429,98.8168599 28.5259375,98.8170135 C27.0554052,98.8168983 25.8633318,97.6169823 25.8632174,96.1367754 C25.8633318,94.6565686 27.0554052,93.4566526 28.5259375,93.4565374 Z" id="Shape" fill="#B3B3B3" fill-rule="nonzero"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="site" mask="url(#mask-2)">
+                        <g transform="translate(3.340583, 10.492562)" id="Rectangle-14">
+                            <rect fill="url(#linearGradient-3)" x="0" y="0" width="52" height="30"></rect>
+                            <rect fill="#D6D6D6" x="3" y="33" width="45" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="3" y="46" width="45" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="3" y="59" width="45" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="3" y="72" width="45" height="9.75528309"></rect>
+                        </g>
+                    </g>
+                    <path d="M56.555952,87.9693182 L56.555952,4.77633143 C56.555952,0.424804688 56.0249023,0.143150894 51.9530537,0.143150894 L14.6427851,0.143150894 L56.555952,87.9693182 Z" id="Shape" fill-opacity="0.20497" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

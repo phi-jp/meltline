@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="107px" viewBox="0 0 160 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8.7519045" y="11.8405829" width="89.255534" height="133.182322"></rect>
+        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#624EBD" offset="0%"></stop>
+            <stop stop-color="#4BC0C9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="meltline_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-349.000000, -1410.000000)">
+        <g id="point2" transform="translate(321.000000, 1285.000000)">
+            <g id="Group-8">
+                <g id="tablet" transform="translate(108.500000, 178.000000) rotate(-90.000000) translate(-108.500000, -178.000000) translate(55.000000, 98.000000)">
+                    <rect id="Rectangle-path" fill="#333333" fill-rule="nonzero" x="5.68434189e-14" y="0" width="106.210612" height="159.010026" rx="6"></rect>
+                    <rect id="Rectangle-path" fill="#CCCCCC" fill-rule="nonzero" x="8.19622802" y="11.2866375" width="89.8667781" height="133.736267"></rect>
+                    <rect id="Rectangle-path" fill="#B3B3B3" fill-rule="nonzero" x="32.645993" y="4.22383365" width="3.00801568" height="2.48769953"></rect>
+                    <rect id="Rectangle-path" fill="#B3B3B3" fill-rule="nonzero" x="41.6062762" y="4.50080635" width="22.7813463" height="2.17575903"></rect>
+                    <path d="M53.136563,147.764935 C51.9486405,147.764824 50.8093385,148.235196 49.9693374,149.072555 C49.1293363,149.909913 48.6574591,151.045651 48.6575328,152.229873 C48.6574591,153.414095 49.1293363,154.549833 49.9693374,155.387191 C50.8093385,156.22455 51.9486405,156.694922 53.136563,156.694811 C54.3244615,156.694885 55.4637278,156.224497 56.3036988,155.387142 C57.1436699,154.549788 57.615528,153.414071 57.6154544,152.229873 C57.615528,151.045675 57.1436699,149.909958 56.3036988,149.072604 C55.4637278,148.235249 54.3244615,147.764861 53.136563,147.764935 Z M53.136563,149.029038 C54.9097419,149.029267 56.3471083,150.462218 56.3472617,152.229873 C56.3471083,153.997528 54.9097419,155.430479 53.136563,155.430708 C51.3633028,155.430593 49.9258094,153.997609 49.925656,152.229873 C49.9258094,150.462137 51.3633028,149.029153 53.136563,149.029038 Z" id="Shape" fill="#B3B3B3" fill-rule="nonzero"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <g id="site" mask="url(#mask-2)">
+                        <g transform="translate(53.007438, 78.840583) rotate(-270.000000) translate(-53.007438, -78.840583) translate(-13.992562, 33.840583)" id="Rectangle-14">
+                            <rect fill="url(#linearGradient-3)" x="0" y="0" width="133.317834" height="38.4791722"></rect>
+                            <rect fill="#D6D6D6" x="3.31859683" y="42.2728934" width="61.5070662" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="68.0628771" y="42.2728934" width="61.5070662" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="3.31859683" y="55.2728934" width="61.5070662" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" x="68.0628771" y="55.2728934" width="61.5070662" height="9.75528309"></rect>
+                            <rect fill="#D6D6D6" transform="translate(87.284972, 79.500000) scale(1, -1) translate(-87.284972, -79.500000) " x="45" y="69" width="84.5699433" height="21"></rect>
+                            <rect fill="#D6D6D6" transform="translate(22.000000, 79.500000) scale(1, -1) translate(-22.000000, -79.500000) " x="3" y="69" width="38" height="21"></rect>
+                        </g>
+                    </g>
+                    <path d="M61.0501029,166.361096 L90.9342956,166.66051 C96.6698878,166.66051 98.2449143,163.410027 98.2449143,159.372665 L98.2449143,67.9383276 C98.2449143,62.148042 94.9842742,60.6504834 90.9342956,60.6504834 L8.1662845,60.6504834 L61.0501029,166.361096 Z" id="Shape" fill-opacity="0.20497" fill="#FFFFFF" fill-rule="nonzero" transform="translate(53.205599, 113.655497) rotate(90.000000) translate(-53.205599, -113.655497) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
