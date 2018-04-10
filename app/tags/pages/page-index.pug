@@ -12,6 +12,16 @@ page-index
         a(href="https://github.com/phi-jp/meltline" target="_blank")
           button.cursor-pointer.rounded-100.border-none.py16.px32.bg-white.text-4bc0c9 on Github
 
+    div.about.text-center.mt20.mb100
+      div.inner-box.bg-white-o6.box-shadow-o2.pt100.pb80.px40.rounded-8.relative.w700.mx-auto
+        div.white-line.w1.h40.absolute.bg-white.tn40.l50per
+        div.black-line.w1.h40.absolute.bg-black.t0.l50per
+        div.text-center.fs18.bold.mb32 meltline とは？
+        div.text-left.letter-spacing-2.lh20 meltline は melt と inline の造語で, html に溶け込むように使える css library にしたいという想いから名付けました.meltline には多くのユーティリティ系のクラスが定義されており, それらを html に指定することで手軽にスタイリングできるようになっています.
+
+      
+
+
     div.overflow-scroll
       div.container.p10
         i.icon-home.fs64
@@ -34,16 +44,30 @@ page-index
         background-repeat: no-repeat;
         background-color: #f6f7f9;
       }
+      .bg-white-o6 {
+        background-color: rgba(255, 255, 255, 0.6);
+      }
+      .bg-4bc0c9 {
+        background-color: #4bc0c9 !important;
+      }
+      .box-shadow-o2 {
+        box-shadow: 0 0 4 0 rgba(0, 0, 0, 0.2);
+      }
       .pl300 {
         padding-left: 300px;
       }
       .text-4bc0c9 {
         color: #4bc0c9 !important;
       }
-      .bg-4bc0c9 {
-        background-color: #4bc0c9 !important;
+      .tn40 {
+        top: -40px;
       }
-
+      .l50per {
+        left: 50%;
+      }
+      .w700 {
+        width: 700px;
+      }
     }
 
   script.
