@@ -84,6 +84,10 @@ page-index
 
     div.footer.bg-263f4d.text-center.white.fs12.py26 &copy; 2018 Get It Inc. All Rights Reserved. 
 
+    div.scroll-top.fixed.r20.b100
+      div.w1.h60.bg-263f4d.mx-auto.mb80.box-shadow-white
+      div.rotate90.letter-spacing-4.text-shadow-white BACK TO TOP
+
   style(type='less').
     :scope {
       .bg-top {
@@ -127,6 +131,15 @@ page-index
       }
       .container-l {
         max-width: 1000px;
+      }
+      .rotate90 {
+        transform: rotate(90deg);
+      }
+      .text-shadow-white {
+        text-shadow: 1px 1px 1px #fff;
+      }
+      .box-shadow-white {
+        box-shadow: 1px 1px 1px #fff;
       }
     }
 
