@@ -1,140 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1023px" height="679px" viewBox="0 0 1023 679" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 3</title>
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>meltline_design</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="1023" height="679"></rect>
-        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-3">
+        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-1">
             <stop stop-color="#624EBD" offset="0%"></stop>
             <stop stop-color="#4BC0C9" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="66.3146973%" y1="69.5657677%" x2="67.3782349%" y2="18.2287831%" id="linearGradient-4">
+        <linearGradient x1="66.3146973%" y1="69.5657677%" x2="67.3782349%" y2="18.2287831%" id="linearGradient-2">
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#F6F7F9" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="42.0726701%" y1="50%" x2="160.319706%" y2="161.621856%" id="linearGradient-5">
+        <linearGradient x1="42.0726701%" y1="50%" x2="160.319706%" y2="161.621856%" id="linearGradient-3">
             <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#000000" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="meltline_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-257.000000, 0.000000)">
-        <g id="background" transform="translate(34.000000, 0.000000)">
-            <g id="Group-3" transform="translate(223.000000, 0.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
-                <g mask="url(#mask-2)">
-                    <g transform="translate(-93.000000, -90.000000)">
-                        <rect id="Rectangle-4" fill="url(#linearGradient-3)" x="92" y="91" width="1024" height="606"></rect>
-                        <rect id="Rectangle-4" fill="url(#linearGradient-4)" transform="translate(604.000000, 429.500000) scale(1, -1) translate(-604.000000, -429.500000) " x="92" y="90" width="1024" height="679"></rect>
-                        <g id="Group-5" stroke-width="1" fill="none" fill-opacity="0.200000003">
-                            <g id="Group-4" opacity="0.5" transform="translate(86.000000, 0.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.5" transform="translate(0.000000, 85.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.5" transform="translate(86.000000, 170.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.5" transform="translate(0.000000, 255.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.5" transform="translate(86.000000, 341.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.400000006" transform="translate(0.000000, 426.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.300000012" transform="translate(86.000000, 510.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.100000001" transform="translate(0.000000, 595.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                        </g>
-                        <g id="Group-5" stroke-width="1" fill="none" transform="translate(0.000000, 251.000000)" fill-opacity="0.200000003">
-                            <g id="Group-4" opacity="0.5" transform="translate(86.000000, 0.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.400000006" transform="translate(0.000000, 85.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.300000012" transform="translate(86.000000, 169.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                            <g id="Group-4" opacity="0.100000001" transform="translate(0.000000, 254.000000)" fill="url(#linearGradient-5)">
-                                <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
-                                <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
-                            </g>
-                        </g>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="meltline_design" transform="translate(-257.000000, 0.000000)">
+            <g id="background" transform="translate(34.000000, -90.000000)">
+                <rect id="Rectangle-4" fill="url(#linearGradient-1)" x="222" y="91" width="1024" height="606"></rect>
+                <rect id="Rectangle-4" fill="url(#linearGradient-2)" transform="translate(734.000000, 429.500000) scale(1, -1) translate(-734.000000, -429.500000) " x="222" y="90" width="1024" height="679"></rect>
+                <g id="Group-5" transform="translate(130.000000, 0.000000)" fill="url(#linearGradient-3)" fill-opacity="0.200000003">
+                    <g id="Group-4" opacity="0.5" transform="translate(86.000000, 0.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.5" transform="translate(0.000000, 85.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.5" transform="translate(86.000000, 170.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.5" transform="translate(0.000000, 255.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.5" transform="translate(86.000000, 341.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.400000006" transform="translate(0.000000, 426.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.300000012" transform="translate(86.000000, 510.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.100000001" transform="translate(0.000000, 595.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(130.000000, 251.000000)" fill="url(#linearGradient-3)" fill-opacity="0.200000003">
+                    <g id="Group-4" opacity="0.5" transform="translate(86.000000, 0.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.400000006" transform="translate(0.000000, 85.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.300000012" transform="translate(86.000000, 169.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
+                    </g>
+                    <g id="Group-4" opacity="0.100000001" transform="translate(0.000000, 254.000000)">
+                        <rect id="Rectangle-5" transform="translate(944.852814, 84.852814) rotate(-315.000000) translate(-944.852814, -84.852814) " x="884.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(1114.852814, 84.852814) rotate(-315.000000) translate(-1114.852814, -84.852814) " x="1054.85281" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(773.852814, 84.852814) rotate(-315.000000) translate(-773.852814, -84.852814) " x="713.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(603.852814, 84.852814) rotate(-315.000000) translate(-603.852814, -84.852814) " x="543.852814" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(426.000000, 84.852814) rotate(-315.000000) translate(-426.000000, -84.852814) " x="366" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(255.000000, 84.852814) rotate(-315.000000) translate(-255.000000, -84.852814) " x="195" y="24.8528137" width="120" height="120"></rect>
+                        <rect id="Rectangle-5" transform="translate(85.000000, 84.852814) rotate(-315.000000) translate(-85.000000, -84.852814) " x="25" y="24.8528137" width="120" height="120"></rect>
                     </g>
                 </g>
             </g>
