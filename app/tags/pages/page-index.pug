@@ -17,38 +17,92 @@ page-index
         div.white-line.w1.h40.absolute.bg-white.tn40.l50per
         div.black-line.w1.h40.absolute.bg-black.t0.l50per
         div.text-center.fs18.bold.mb32 meltline とは？
-        div.text-left.letter-spacing-2.lh20 meltline は melt と inline の造語で, html に溶け込むように使える css library にしたいという想いから名付けました.meltline には多くのユーティリティ系のクラスが定義されており, それらを html に指定することで手軽にスタイリングできるようになっています.
+        div.text-left.letter-spacing-2.lh24 meltline は melt と inline の造語で, html に溶け込むように使える css library にしたいという想いから名付けました.meltline には多くのユーティリティ系のクラスが定義されており, それらを html に指定することで手軽にスタイリングできるようになっています.
 
-      
+    div.main-content1.row.px64.mb100.container-l.mx-auto
+      div.left.pr18.col6
+        div.left-upper.f
+          div.left-upper-left.relative
+            img(src="/images/icons/melt-circle.svg")
+            div.absolute.t0.l20.white.fs60 Q
+          div.leftupper-right
+            div.text-624ebd.fs60 uickstart
+            div.bold すぐに始められる
+        div.left-lower.lh24 GitHub から css ファイルをダウンロードして html にファイルを読み込むだけですぐに使うことができます。右記のコードを記述するだけでも始められます。
+      div.right.pl18.col6.f.fh
+        div.bg-white.rounded-10.py40.px28
+          //- p \\<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"\\>
+          p.fs14 todo:memo ここにあとでコードを書くから、エスケープのやり方を調べる
 
+    div.main-content2.row.px64.mb100.container-l.mx-auto
+      div.left.pr18.col6
+        div.s-full.relative
+          img.absolute.t0.l100.h100per(src="images/images/pc.svg")
+          img.absolute.b10.l30(src="images/images/tablet.svg")
+          img.absolute.b0.l0(src="images/images/sp.svg")
+      div.right.pl18.col6
+        div.left-upper.f
+          div.left-upper-left.relative
+            img(src="/images/icons/melt-circle.svg")
+            div.absolute.t0.l20.white.fs60 R
+          div.leftupper-right
+            div.text-624ebd.fs60 esponsive
+            div.bold レスポンシブなレイアウトを実現
+        div.left-lower.lh24 モバイルファーストなレイアウトを実現するためのクラスが多数用意されていて、複雑なレスポンシブサイトの構築を実現できます。
 
-    div.overflow-scroll
-      div.container.p10
-        i.icon-home.fs64
-        i.icon-star.fs64
-        div.items
-          div.rounded-4.mb32.f(each='{items}')
-            div.flex-fixed.mr16
-              div.w200.s-w100.rect
-                img.block.s-full.object-fit-cover(src='{image_url}')
-            div.w-full
-              h3.text-primary
-                a(href='/items/{id}') {title}
-              p.line-clamp-3.word-break-all.s-hide {body}
+    div.main-content3.row.px64.mb100.container-l.mx-auto
+      div.left.pr18.col6
+        div.left-upper.f
+          div.left-upper-left.relative
+            img(src="/images/icons/melt-circle.svg")
+            div.absolute.t0.l20.white.fs60 E
+          div.leftupper-right
+            div.text-624ebd.fs60 asy customizable
+            div.bold 修正が簡単に
+        div.left-lower.lh24 クラス名を変更するだけでデザインを変更できるので、少ないコードで理想のwebサイトを構築できます。
+      div.right.pl18.col6
+        div.bg-white.rounded-10.py40.px28.mb30
+          //- p \\<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"\\>
+          p.fs14 todo:memo ここにあとでコードを書くから、エスケープのやり方を調べる
+        div.f.flex-between
+          div.s100.bg-gray.f.fh
+            div.f.fh.s64.bg-dimgray.white one
+          div.s100.bg-gray.f.flex-start
+            div.f.fh.s64.bg-dimgray.white two
+          div.s100.bg-gray.f.fh
+            div.f.fh.s64.bg-dimgray.white three
+
+    div.3points.relative.bg-main.py100.px64
+      div.black-line.absolute.tn40.l50per.w1.h40.bg-black
+      div.white-line.absolute.t0.l50per.w1.h40.bg-white
+      div.text-center.white.fs24.mb60.bold meltlineの３つのポイント
+      div.f.flex-between.container-l.mx-auto
+        div(each='{points}')
+          div.bg-white.box-shadow-o2.circle.s256.f.fh.mb20
+            img(src="/images/images/{img}")
+          div.white.lh24.bold.fs18 {desc}
+
+    div.footer.bg-263f4d.text-center.white.fs12.py26 &copy; 2018 Get It Inc. All Rights Reserved. 
 
   style(type='less').
     :scope {
       .bg-top {
-        background: url('images/background/background.svg');
+        background: url('images/background/background.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-color: #f6f7f9;
+      }
+      .bg-main {
+        background-image: linear-gradient(270deg, #624EBD 0%, #4BC0C9 100%);
       }
       .bg-white-o6 {
         background-color: rgba(255, 255, 255, 0.6);
       }
       .bg-4bc0c9 {
         background-color: #4bc0c9 !important;
+      }
+      .bg-263f4d {
+        background-color: #263f4d !important;
       }
       .box-shadow-o2 {
         box-shadow: 0 0 4 0 rgba(0, 0, 0, 0.2);
@@ -59,6 +113,9 @@ page-index
       .text-4bc0c9 {
         color: #4bc0c9 !important;
       }
+      .text-624ebd {
+        color: #624ebd !important;
+      }
       .tn40 {
         top: -40px;
       }
@@ -68,10 +125,28 @@ page-index
       .w700 {
         width: 700px;
       }
+      .container-l {
+        max-width: 1000px;
+      }
     }
 
   script.
     var self = this;
+
+    self.points = [
+      {
+        img: 'free.svg',
+        desc: '導入＆学習コストが一切不要',
+      },
+      {
+        img: 'component.svg',
+        desc: 'コンポーネント指向にマッチ',
+      },
+      {
+        img: 'japan.svg',
+        desc: '日本製なので説明が分かりやすい',
+      },
+    ];
 
     this.on('fetch', function(e) {
       this.items = e.response.data.items;
