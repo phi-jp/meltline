@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="274px" height="232px" viewBox="0 0 274 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13.2562388" y="14.3712327" width="248.876289" height="139.826877"></rect>
+        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#624EBD" offset="0%"></stop>
+            <stop stop-color="#4BC0C9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="meltline_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-419.000000, -1285.000000)">
+        <g id="point2" transform="translate(321.000000, 1285.000000)">
+            <g id="Group-8">
+                <g id="pc" transform="translate(98.000000, 0.000000)">
+                    <polygon id="Shape" fill="#BDBEC0" fill-rule="nonzero" points="106.700264 182.923039 167.013314 184.279394 171.972164 231.226009 101.493432 231.226009"></polygon>
+                    <polygon id="Shape" fill="#CCCCCC" fill-rule="nonzero" points="106.700264 182.923039 105.124628 197.539608 168.413863 197.539608 167.013175 184.279877 106.700125 182.923108"></polygon>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(136.746752, 105.096435) scale(-1, 1) rotate(-180.000000) translate(-136.746752, -105.096435) " x="0.343468634" y="16.0146301" width="272.806567" height="178.163609"></rect>
+                    <path d="M0.274045139,12.2306731 L0.274045139,169.313223 L273.163921,169.313223 L273.163921,12.2306731 L0.274045139,12.2306731 Z M6.70654853,20.3482275 L265.545109,20.3482275 L230.831278,149.727793 L36.8620322,136.823671 L6.70654853,20.3482275 Z" id="Shape" fill="#333333"></path>
+                    <rect id="Rectangle-path" fill="#333333" fill-rule="nonzero" x="0.274045139" y="0.699271373" width="272.869049" height="74.7952956" rx="4"></rect>
+                    <rect id="Rectangle-path" fill="#BDBEC0" fill-rule="nonzero" x="81.1524172" y="224.077024" width="111.153958" height="7.11218191"></rect>
+                    <ellipse id="Oval" fill="#333333" fill-rule="nonzero" cx="136.760637" cy="182.025385" rx="7.0131615" ry="6.97546229"></ellipse>
+                    <rect id="Rectangle-path" fill="#4D4D4D" x="11.3123809" y="12.644975" width="250.813204" height="143.74203"></rect>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle-path" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <g id="site" mask="url(#mask-2)">
+                        <g transform="translate(13.000000, 14.000000)" id="Rectangle-14">
+                            <rect fill="url(#linearGradient-3)" x="0" y="0" width="254" height="71"></rect>
+                            <rect fill="#D6D6D6" transform="translate(42.500000, 134.000000) scale(1, -1) translate(-42.500000, -134.000000) " x="7" y="103" width="71" height="62"></rect>
+                            <rect fill="#D6D6D6" x="7" y="78" width="54" height="18"></rect>
+                            <rect fill="#D6D6D6" x="68" y="78" width="54" height="18"></rect>
+                            <rect fill="#D6D6D6" x="128" y="78" width="54" height="18"></rect>
+                            <rect fill="#D6D6D6" x="188" y="78" width="54" height="18"></rect>
+                            <rect fill="#D6D6D6" transform="translate(164.000000, 121.500000) scale(1, -1) translate(-164.000000, -121.500000) " x="86" y="103" width="156" height="37"></rect>
+                        </g>
+                    </g>
+                    <path d="M136.968908,0.699271373 L218.388783,169.278698 L273.157673,169.278698 L272.912261,8.39723491 C272.912261,0.646484375 271.95166,0.693747348 262.844229,0.693747348 L172.564763,0.693747348 L136.968908,0.699271373 Z" id="Shape" fill-opacity="0.20497" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

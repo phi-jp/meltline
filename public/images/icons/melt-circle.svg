@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="121px" viewBox="0 0 86 121" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="105.850351%" x2="0%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#624EBD" offset="0%"></stop>
+            <stop stop-color="#4BC0C9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="meltline_design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-320.000000, -951.000000)">
+        <g id="point1" transform="translate(320.000000, 948.000000)">
+            <g id="Group-2">
+                <g id="Group" transform="translate(0.000000, 3.000000)">
+                    <path d="M31,84.303265 C13.0913507,79.1091935 0,62.5834212 0,43 C0,19.2517558 19.2517558,0 43,0 C66.7482442,0 86,19.2517558 86,43 C86,62.2170519 73.3938969,78.4897906 56,83.9999069 L56,100 C56,102.761424 53.7614237,105 51,105 C48.2385763,105 46,102.761424 46,100 L46,85.8969779 C45.008862,85.9652827 44.0084853,86 43,86 C42.3296399,86 41.6628626,85.9846601 41,85.9543121 L41,113 C41,115.761424 38.7614237,118 36,118 C33.2385763,118 31,115.761424 31,113 L31,84.303265 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                    <path d="M51.5,120.115385 C53.9852814,120.115385 56,118.083612 56,115.63796 C56,114.007525 54.5,111.461538 51.5,108 C48.5,111.443431 47,113.989418 47,115.63796 C47,118.110773 49.0147186,120.115385 51.5,120.115385 Z" id="Oval-3" fill="#624EBD"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
