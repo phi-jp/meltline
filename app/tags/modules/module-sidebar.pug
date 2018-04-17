@@ -1,0 +1,22 @@
+module-sidebar
+  div.bg-white.s-full
+    div.logo
+      img(src="/images/logo/logo.svg")
+    div.search
+
+    div.menu
+      div.title(each)
+        div.subtitle(each)
+
+
+  style(type='less').
+    :scope {
+      display: block;
+    }
+  
+  script.
+    var self = this;
+
+    this.on('mount', () => {
+
+    });
