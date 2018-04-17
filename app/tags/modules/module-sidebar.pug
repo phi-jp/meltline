@@ -5,9 +5,9 @@ module-sidebar
     div.search
 
     div.menu
-      div.title(each)
-        div.subtitle(each)
-
+      div.title(each='{title in titles}')
+        div.py15.ml20 {title.label}
+        div.subtitle.ml32.py15.ml20(each='{subtitle in title.subtitles}') {subtitle.label}
 
   style(type='less').
     :scope {
@@ -16,6 +16,35 @@ module-sidebar
   
   script.
     var self = this;
+
+    this.titles = [
+      {
+        label: 'TOP',
+        subtitles: [
+          { label: 'dummy', link: '/' },
+        ],
+      },
+      {
+        label: 'DOCUMENTATION',
+        subtitles: [
+          { label: 'dummy', link: '/' },
+        ],
+      },
+      {
+        label: 'ELEMENTS',
+        subtitles: [
+          { label: 'color', link: '/' },
+          { label: 'box', link: '/' },
+          { label: 'size', link: '/' },
+          { label: 'flex', link: '/' },
+          { label: 'font', link: '/' },
+          { label: 'form', link: '/' },
+          { label: 'until', link: '/' },
+          { label: 'shorthand', link: '/' },
+          { label: 'responsive', link: '/' },
+        ],
+      },      
+    ];
 
     this.on('mount', () => {
 
