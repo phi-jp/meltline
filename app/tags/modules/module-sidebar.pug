@@ -4,7 +4,9 @@ module-sidebar
       div.my50.text-center
         img(src="/images/logo/logo.svg")
         div.text-624ebd.fs30 meltline
-    div.search
+    form.search.f.fm.border-bottom(onsubmit='{submit}', action)
+      input.p15.w-full(name='search', type='search', placeholder='Type to search')
+      i.icon-search.fs18.m15
 
     div.menu
       div.title(each='{title in titles}')
