@@ -17,25 +17,25 @@
  * top, right, bottom, left
  */
 .for(@nums-1-100, {
-  .t@{value} { top: @value * 1px; }
-  .r@{value} { right: @value * 1px; }
-  .b@{value} { bottom: @value * 1px; }
-  .l@{value} { left: @value * 1px; }
+  .t@{value} { top: @value * 1px !important; }
+  .r@{value} { right: @value * 1px !important; }
+  .b@{value} { bottom: @value * 1px !important; }
+  .l@{value} { left: @value * 1px !important; }
 });
 // negative
 .for(@nums-1-32, {
-  .tn@{value} { top: @value * -1px; }
-  .rn@{value} { right: @value * -1px; }
-  .bn@{value} { bottom: @value * -1px; }
-  .ln@{value} { left: @value * -1px; }
+  .tn@{value} { top: @value * -1px !important; }
+  .rn@{value} { right: @value * -1px !important; }
+  .bn@{value} { bottom: @value * -1px !important; }
+  .ln@{value} { left: @value * -1px !important; }
 });
 // all
 .for(@nums-1-32, {
   .trbl@{value} {
-    top: @value * 1px;
-    right: @value * 1px;
-    bottom: @value * 1px;
-    left: @value * 1px;
+    top: @value * 1px !important;
+    right: @value * 1px !important;
+    bottom: @value * 1px !important;
+    left: @value * 1px !important;
   }
 });
 
