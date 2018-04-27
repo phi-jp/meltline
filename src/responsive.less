@@ -225,3 +225,31 @@
   .l-absolute { position: absolute; }
   .l-fixed { position: fixed; }
 }
+
+/*
+ * top, right, bottom, left
+ */
+@media @media-mobile {
+  .for(@nums-1-100, {
+    .s-t@{value} { top: @value * 1px !important; }
+    .s-r@{value} { right: @value * 1px !important; }
+    .s-b@{value} { bottom: @value * 1px !important; }
+    .s-l@{value} { left: @value * 1px !important; }
+  });
+}
+@media @media-tablet {
+  .for(@nums-1-100, {
+    .m-t@{value} { top: @value * 1px !important; }
+    .m-r@{value} { right: @value * 1px !important; }
+    .m-b@{value} { bottom: @value * 1px !important; }
+    .m-l@{value} { left: @value * 1px !important; }
+  });
+}
+@media @media-desktop {
+  .for(@nums-1-100, {
+    .l-t@{value} { top: @value * 1px !important; }
+    .l-r@{value} { right: @value * 1px !important; }
+    .l-b@{value} { bottom: @value * 1px !important; }
+    .l-l@{value} { left: @value * 1px !important; }
+  });
+}
