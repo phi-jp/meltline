@@ -14,7 +14,7 @@
   }
 }
 
-.define-color-grad(@key, @angle, @a, @b) {
+.define-color-grad(@key, @a, @b, @angle:0deg) {
   .@{key} {
     background-image: -webkit-linear-gradient(@a, @b);
     -webkit-background-clip: text;
@@ -34,5 +34,19 @@
 }
 
 .for(@colors, {
-  .define-color(@value, @value)
+  .define-color(@value, @value);
 }) !important;
+
+
+/*
+ * gradients
+ * ref: https://digitalsynopsis.com/design/beautiful-color-gradients-backgrounds/
+ */
+.define-color-grad(warmflame, #ff9a9e, #fad0c4, 0deg);
+.define-color-grad(juicypeach, #ffecd2, #fcb69f, 0deg);
+.define-color-grad(ladylips, #ff9a9e, #fecfef, 0deg);
+.define-color-grad(winterneva, #a1c4fd, #c2e9fb, 0deg);
+.define-color-grad(heavyrain, #cfd9df, #e2ebf0, 0deg);
+.define-color-grad(cloudyknoxville, #cfd9df, #e2ebf0, 0deg);
+.define-color-grad(saintpetersberg, #f5f7fa, #c3cfe2, 0deg);
+
