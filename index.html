@@ -178,6 +178,15 @@ section-flex
     div.f.fh.p8.border-dark.s100
       div.p8.border-dark first
 
+section-font
+  h2 Font
+
+  div: span normal ... 123ABCDあいうえお
+  div: span.bold bold ... 123ABCDあいうえお
+  div: span.bolder bolder ... 123ABCDあいうえお
+  div: span.lighter lighter ... 123ABCDあいうえお
+  div(each='{i in [1,2,3,4,5,6,7,8,9]}'): span(class='fw{i}') fw{i} ... 123ABCDあいうえお
+
 section-form
   h2 Form
 
