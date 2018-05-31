@@ -272,13 +272,42 @@ section-color
     p grad
 
     div.f.mn4.row
-      div.s200.white.bg-warmflame.m4.f.fh warmflame
-      div.s200.white.bg-juicypeach.m4.f.fh juicypeach
-      div.s200.white.bg-ladylips.m4.f.fh ladylips
-      div.s200.white.bg-winterneva.m4.f.fh winterneva
-      div.s200.white.bg-heavyrain.m4.f.fh heavyrain
-      div.s200.white.bg-cloudyknoxville.m4.f.fh cloudyknoxville
-      div.s200.white.bg-saintpetersberg.m4.f.fh saintpetersberg
+      div.s200.white.m4.f.fh(each='{grad, index in gradients}', class='bg-{grad}')
+        span.fs18.bold {index+1}. {grad}
+    
+    script.
+      this.gradients = [
+        "warmflame",
+        "juicypeach",
+        "ladylips",
+        "winterneva",
+        "heavyrain",
+        "cloudyknoxville",
+        "saintpetersberg",
+        "plumplate",
+        "everlastingsky",
+        "happyfisher",
+        "flyhigh",
+        "strongbliss",
+        "freshmilk",
+        "greatwhale",
+        "aquasplash",
+        "cleanmirror",
+        "premiumdark",
+        "cochitilake",
+        "passionatebed",
+        "mountainrock",
+        "deserthump",
+        "eternalconstance",
+        "healthywater",
+        "viciousstance",
+        "nega",
+        "nightsky",
+        "gentlecare",
+        "angelcare",
+        "morningsalad",
+        "deeprelief",
+      ];
 
 section-util
   h2 util
