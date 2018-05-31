@@ -185,3 +185,65 @@
 .define-rect(rect-3_2, 5, 4);
 .define-rect(rect-3_2, 7, 5);
 .define-rect(rect-ogp, 1200, 630);
+
+
+
+
+// grid
+.define-box-gird-shorthand(@nums, @prefix, @property) {
+  // padding
+  .for(@nums, {
+    // all
+    .@{prefix}@{value}g { @{property}: ~"calc( var(--grid) * @{value})"; }
+    // top
+    .@{prefix}t@{value}g { @{property}-top: ~"calc( var(--grid) * @{value})"; }
+    // right
+    .@{prefix}r@{value}g { @{property}-right: ~"calc( var(--grid) * @{value})"; }
+    // bottom
+    .@{prefix}b@{value}g { @{property}-bottom: ~"calc( var(--grid) * @{value})"; }
+    // left
+    .@{prefix}l@{value}g { @{property}-left: ~"calc( var(--grid) * @{value})"; }
+    // x
+    .@{prefix}x@{value}g {
+      @{property}-left: ~"calc( var(--grid) * @{value})";
+      @{property}-right: ~"calc( var(--grid) * @{value})";
+    }
+    // y
+    .@{prefix}y@{value}g {
+      @{property}-top: ~"calc( var(--grid) * @{value})";
+      @{property}-bottom: ~"calc( var(--grid) * @{value})";
+    }
+  });
+}
+
+.define-box-gird-shorthand(1 2 3 4, p, padding) !important;
+
+
+// space
+.define-box-space-shorthand(@nums, @prefix, @property) {
+  // padding
+  .for(@nums, {
+    // all
+    .@{prefix}@{value}s { @{property}: ~"var(--space-@{value})"; }
+    // top
+    .@{prefix}t@{value}s { @{property}-top: ~"var(--space-@{value})"; }
+    // right
+    .@{prefix}r@{value}s { @{property}-right: ~"var(--space-@{value})"; }
+    // bottom
+    .@{prefix}b@{value}s { @{property}-bottom: ~"var(--space-@{value})"; }
+    // left
+    .@{prefix}l@{value}s { @{property}-left: ~"var(--space-@{value})"; }
+    // x
+    .@{prefix}x@{value}s {
+      @{property}-left: ~"var(--space-@{value})";
+      @{property}-right: ~"var(--space-@{value})";
+    }
+    // y
+    .@{prefix}y@{value}s {
+      @{property}-top: ~"var(--space-@{value})";
+      @{property}-bottom: ~"var(--space-@{value})";
+    }
+  });
+}
+
+.define-box-space-shorthand(1 2 3 4, p, padding) !important;
