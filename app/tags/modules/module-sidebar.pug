@@ -1,0 +1,57 @@
+module-sidebar
+  div.bg-white.s-full
+    div.logo.f.fh
+      div.my50.text-center
+        img(src="/images/logo/logo.svg")
+        div.text-624ebd.fs30 meltline
+    form.search.f.fm.border-bottom(onsubmit='{submit}', action)
+      input.p15.w-full(name='search', type='search', placeholder='Type to search')
+      i.icon-search.fs18.m15
+
+    div.menu
+      div.title(each='{title in titles}')
+        div.py15.pl20.f.fm(class='{text-624ebd: title.selected}')
+          i.icon-list.fs9(if='{!title.selected}')
+          i.icon-list_active.fs12(if='{title.selected}')
+          span.ml8 {title.label}
+        div.subtitle.ml32.py15.ml20.pl20(each='{subtitle in title.subtitles}', class='{"bg-main white": subtitle.selected}') {subtitle.label}
+
+  style(type='less').
+    :scope {
+      display: block;
+    }
+  
+  script.
+    var self = this;
+
+    this.titles = [
+      {
+        label: 'TOP',
+        selected: false,
+        link: '/',
+      },
+      {
+        label: 'DOCUMENTATION',
+        selected: false,
+        link: '/',
+      },
+      {
+        label: 'ELEMENTS',
+        selected: true,
+        subtitles: [
+          { label: 'color', link: '/', selected: false },
+          { label: 'box', link: '/', selected: true },
+          { label: 'size', link: '/', selected: false },
+          { label: 'flex', link: '/', selected: false },
+          { label: 'font', link: '/', selected: false },
+          { label: 'form', link: '/', selected: false },
+          { label: 'until', link: '/', selected: false },
+          { label: 'shorthand', link: '/', selected: false },
+          { label: 'responsive', link: '/', selected: false },
+        ],
+      },      
+    ];
+
+    this.on('mount', () => {
+
+    });
