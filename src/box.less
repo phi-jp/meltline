@@ -137,11 +137,23 @@
 
 // font-weight
 .for(@nums-1-32, {
-  .border-width-@{value} { border-width: @value * 1px; }
+  .border-width-@{value}, .bw@{value} { border-width: @value * 1px; }
 });
 
 .border-none {
   border: none !important;
+}
+
+.border-none-last {
+  &:last-child {
+    border: none !important;
+  }
+}
+
+.border-width-0-last, .bw0-last {
+  &:last-child {
+    border-width: 0 !important;
+  }
 }
 
 /*
