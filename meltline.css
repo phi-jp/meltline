@@ -5727,6 +5727,9 @@ svg {
 .rounded {
   border-radius: 3px;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .rounded-1 {
   border-radius: 1px !important;
 }
