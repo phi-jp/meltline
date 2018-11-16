@@ -9282,6 +9282,11 @@ svg {
   -moz-align-items: flex-end;
   align-items: flex-end;
 }
+.flex-stretch {
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch;
+}
 .flex-heart {
   -webkit-justify-content: center;
   -moz-justify-content: center;
@@ -10188,6 +10193,18 @@ textarea.input {
 }
 .list-style-type-none {
   list-style-type: none;
+}
+.border-collapse-collapse {
+  border-collapse: collapse;
+}
+.border-collapse-separate {
+  border-collapse: separate;
+}
+.table-layout-fixed {
+  table-layout: auto;
+}
+.table-layout-fixed {
+  table-layout: fixed;
 }
 /*
  * shrothand
