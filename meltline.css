@@ -10036,6 +10036,15 @@ textarea.input {
   display: inline-block !important;
 }
 /*
+ * visible
+ */
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+/*
  * overflow
  */
 .overflow-hidden {
