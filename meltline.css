@@ -23760,6 +23760,10 @@ textarea.input {
   .s-fixed {
     position: fixed;
   }
+  .s-fixed {
+    position: -webkit-sticky;
+    position: sticky;
+  }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   .m-static {
@@ -23774,6 +23778,10 @@ textarea.input {
   .m-fixed {
     position: fixed;
   }
+  .m-fixed {
+    position: -webkit-sticky;
+    position: sticky;
+  }
 }
 @media only screen and (min-width : 993px) {
   .l-static {
@@ -23787,6 +23795,10 @@ textarea.input {
   }
   .l-fixed {
     position: fixed;
+  }
+  .l-fixed {
+    position: -webkit-sticky;
+    position: sticky;
   }
 }
 /*
