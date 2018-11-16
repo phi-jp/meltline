@@ -4,11 +4,7 @@
   "description": "",
   "main": "meltline.css",
   "scripts": {
-    "dev": "spalate",
-    "build": "spalate build",
-    "start": "spalate build; spalate start",
-    "deploy": "spalate deploy",
-    "webfont": "spalate webfont",
+    "dev": "gulp",
     "test": ""
   },
   "repository": {
