@@ -17,6 +17,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
 
     <link rel="stylesheet" href="meltline.css" />
+    <script src='meltline.js'></script>
   </head>
   <body>
     <app></app>
@@ -76,10 +77,9 @@ section-about
   p meltline には多くのユーティリティ系のクラスが定義されており, それらを html に指定することで手軽にスタイリングできるようになっています.  
 
 section-responsive
-  h2 Device
+  h2 Device ({meltline.media})
   section.mb8
     p.device
-    p window.getComputedStyle($0, '::after').getPropertyValue('content').replace(/"/g, '')
 
   h2 Show/Hide
 

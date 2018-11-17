@@ -10262,16 +10262,25 @@ textarea.input {
  * device
  */
 @media only screen and (max-width : 600px) {
+  :root {
+    --media: mobile;
+  }
   .device:after {
     content: 'mobile';
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
+  :root {
+    --media: tablet;
+  }
   .device:after {
     content: 'tablet';
   }
 }
 @media only screen and (min-width : 993px) {
+  :root {
+    --media: desktop;
+  }
   .device:after {
     content: 'desktop';
   }

@@ -5,17 +5,27 @@
 /*
  * device
  */
+// window.getComputedStyle(document.documentElement).getPropertyValue('--media').trim()
 @media @media-mobile {
+  :root {
+    --media: mobile;
+  }
   .device:after {
     content: 'mobile';
   }
 }
 @media @media-tablet {
+  :root {
+    --media: tablet;
+  }
   .device:after {
     content: 'tablet';
   }
 }
 @media @media-desktop {
+  :root {
+    --media: desktop;
+  }
   .device:after {
     content: 'desktop';
   }
