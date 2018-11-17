@@ -14,7 +14,7 @@
 .bolder { font-weight: bolder; }
 .lighter { font-weight: lighter; }
 
-.for(100 200 300 400 500 600 700 800 900, {
+each(100 200 300 400 500 600 700 800 900, {
   .font-weight-@{value} { font-weight: @value !important; }
 });
 

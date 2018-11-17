@@ -2143,12 +2143,6 @@ svg {
 .border-transparent {
   border-color: transparent !important;
 }
-/*
- * gradients
- * refs
- * https://digitalsynopsis.com/design/beautiful-color-gradients-backgrounds/
- * https://runstant.com/phi/projects/529a951c
- */
 .warmflame {
   background-image: -webkit-linear-gradient(#ff9a9e, #fad0c4);
   -webkit-background-clip: text;
@@ -10006,7 +10000,7 @@ textarea.input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   background-color: white;
-  color: #666666;
+  color: hsl(0, 0%, 40%);
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -10014,14 +10008,14 @@ textarea.input {
   outline: none;
 }
 .button.primary {
-  color: #ffffff;
-  background-color: #347ab7;
-  border-color: #2e6ca3;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(208, 56%, 46%);
+  border-color: hsl(208, 56%, 41%);
 }
 .button.danger {
-  color: #ffffff;
-  background-color: #d8544f;
-  border-color: #d4403a;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(2, 64%, 58%);
+  border-color: hsl(2, 64%, 53%);
 }
 /*
  * display
