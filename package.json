@@ -1,9 +1,10 @@
 {
   "name": "meltline",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "main": "meltline.css",
   "scripts": {
+    "build": "gulp less",
     "dev": "gulp",
     "test": ""
   },
