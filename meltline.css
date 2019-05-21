@@ -23789,7 +23789,7 @@ textarea.input {
   .s-fixed {
     position: fixed;
   }
-  .s-fixed {
+  .s-sticky {
     position: -webkit-sticky;
     position: sticky;
   }
@@ -23807,7 +23807,7 @@ textarea.input {
   .m-fixed {
     position: fixed;
   }
-  .m-fixed {
+  .m-sticky {
     position: -webkit-sticky;
     position: sticky;
   }
@@ -23825,7 +23825,7 @@ textarea.input {
   .l-fixed {
     position: fixed;
   }
-  .l-fixed {
+  .l-sticky {
     position: -webkit-sticky;
     position: sticky;
   }
