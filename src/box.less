@@ -124,14 +124,47 @@
 .border-light {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.border-bottom-not-last {
-  &:not(:last-child) {
+
+.border-top-only-last {
+  &:last-child {
+    .border-top;
+  }
+}
+.border-right-only-last {
+  &:last-child {
+    .border-right;
+  }
+}
+.border-bottom-only-last {
+  &:last-child {
     .border-bottom;
+  }
+}
+.border-left-only-last {
+  &:last-child {
+    .border-left;
+  }
+}
+
+
+.border-top-not-last {
+  &:not(:last-child) {
+    .border-top;
   }
 }
 .border-right-not-last {
   &:not(:last-child) {
     .border-right;
+  }
+}
+.border-bottom-not-last {
+  &:not(:last-child) {
+    .border-bottom;
+  }
+}
+.border-left-not-last {
+  &:not(:last-child) {
+    .border-left;
   }
 }
 
