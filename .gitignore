@@ -3,3 +3,4 @@ node_modules
 public/scripts/tags.js
 public/styles/main.css
 yarn.lock
+.cache
