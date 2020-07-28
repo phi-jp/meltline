@@ -4,6 +4,7 @@
   "description": "",
   "main": "meltline.css",
   "scripts": {
+    "setup": "yarn",
     "build": "gulp less",
     "dev": "gulp",
     "test": ""
