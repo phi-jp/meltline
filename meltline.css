@@ -9367,6 +9367,16 @@ svg {
   -moz-flex-direction: column-reverse;
   flex-direction: column-reverse;
 }
+.align-items-baseline {
+  -webkit-align-items: baseline;
+  -moz-align-items: baseline;
+  align-items: baseline;
+}
+.justify-content-baseline {
+  -webkit-justify-content: baseline;
+  -moz-justify-content: baseline;
+  justify-content: baseline;
+}
 /*
  * text
  */

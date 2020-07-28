@@ -17,7 +17,7 @@ var banner = [
   "",
 ].join('\n');
 
-gulp.task('less', function() {
+gulp.task('less', function(done) {
   gulp
     .src(['src/index.less'])
     .pipe(less())
@@ -30,10 +30,11 @@ gulp.task('less', function() {
     }))
     .pipe(gulp.dest('./'))
     ;
+  done();
 });
 
 gulp.task('watch', function() {
-  gulp.watch(['src/**/*.less'], ['less']);
+  gulp.watch(['src/**/*.less'], gulp.task('less'));
 });
 
-gulp.task('default', ['less', 'watch']);
+gulp.task('default', gulp.series('less', 'watch'));
