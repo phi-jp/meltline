@@ -1,16 +1,16 @@
 
 .define-color(@key, @value) {
   .@{key} {
-    color: @value;
+    color: @value !important;
   }
   .text-@{key} {
-    color: @value;
+    color: @value !important;
   }
   .bg-@{key} {
-    background-color: @value;
+    background-color: @value !important;
   }
   .border-@{key} {
-    border-color: @value;
+    border-color: @value !important;
   }
 }
 
@@ -33,9 +33,9 @@
   }
 }
 
-.for(@colors, {
-  .define-color(@value, @value);
-}) !important;
+each(@colors, {
+  .define-color(@key, @value);
+})
 
 
 each(@gradients, {
