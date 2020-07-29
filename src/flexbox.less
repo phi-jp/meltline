@@ -44,6 +44,11 @@
   .vendor(justify-content, baseline);
 }
 
+.align-self-middle   { .vendor(align-self, center); }
+.align-self-top      { .vendor(align-self, flex-start); }
+.align-self-bottom   { .vendor(align-self, flex-end); }
+.align-self-stretch  { .vendor(align-self, stretch); }
+.align-self-baseline { .vendor(align-self, baseline); }
 // order
 .for(1 2 3 4 5 6 7 8 9 10 100, {
   .order-@{value} {
