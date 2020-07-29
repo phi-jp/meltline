@@ -1,6 +1,21 @@
 
 .define-color(@key, @value) {
   .@{key} {
+    color: @value;
+  }
+  .text-@{key} {
+    color: @value;
+  }
+  .bg-@{key} {
+    background-color: @value;
+  }
+  .border-@{key} {
+    border-color: @value;
+  }
+}
+
+.define-color-by-object(@key, @value) {
+  .@{key} {
     color: @value !important;
   }
   .text-@{key} {
@@ -33,10 +48,13 @@
   }
 }
 
-each(@colors, {
-  .define-color(@key, @value);
-})
+.for(@colors, {
+  .define-color(@value, @value);
+}) !important;
 
+each(@colors, {
+  .define-color-by-object(@key, @value);
+})
 
 each(@gradients, {
   .define-color-grad(@key, extract(@value, 1), extract(@value, 2), 0deg);
