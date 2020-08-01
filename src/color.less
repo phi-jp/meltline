@@ -48,9 +48,10 @@
   }
 }
 
-.for(@colors, {
-  .define-color(@value, @value);
-}) !important;
+// 現状色は配列で作られているためfor処理は一旦コメントアウト
+// .for(@colors, {
+//   .define-color(@value, @value);
+// }) !important;
 
 each(@colors, {
   .define-color-by-object(@key, @value);
