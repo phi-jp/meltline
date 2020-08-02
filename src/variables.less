@@ -64,4 +64,8 @@
   --main-color: #222;
   --border-color: rgba(0, 0, 0, 0.1);
   --font-weight-bold: 700;
+}@responsive: {
+  s-: ~"@media only screen and (max-width : @{small-max}) {";
+  m-: ~"@media only screen and (min-width: @{medium-min}) and (max-width: @{medium-max}) {";
+  l-: ~"@media only screen and (min-width : @{desktop-min}) {";
 }

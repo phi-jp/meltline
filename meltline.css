@@ -23869,6 +23869,47 @@ textarea.input {
     position: -webkit-sticky;
     position: sticky;
   }
+@media only screen and (max-width : 600px) .s-a {
+  position: absolute;
+}
+@media only screen and (max-width : 600px) .s-a {
+  position: fixed;
+}
+@media only screen and (max-width : 600px) .s-a {
+  position: -webkit-sticky;
+  position: sticky;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) .m-a {
+  position: static;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) .m-a {
+  position: relative;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) .m-a {
+  position: absolute;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) .m-a {
+  position: fixed;
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) .m-a {
+  position: -webkit-sticky;
+  position: sticky;
+}
+@media only screen and (min-width : 993px) .l-a {
+  position: static;
+}
+@media only screen and (min-width : 993px) .l-a {
+  position: relative;
+}
+@media only screen and (min-width : 993px) .l-a {
+  position: absolute;
+}
+@media only screen and (min-width : 993px) .l-a {
+  position: fixed;
+}
+@media only screen and (min-width : 993px) .l-a {
+  position: -webkit-sticky;
+  position: sticky;
 }
 /*
  * top, right, bottom, left

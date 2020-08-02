@@ -254,6 +254,15 @@
   .l-sticky { .sticky; }
 }
 
+each(@responsive,{
+  @{value} { 
+    .@{key}a { position: static; }
+    .@{key}a { position: relative; }
+    .@{key}a { position: absolute; }
+    .@{key}a { position: fixed; }
+    .@{key}a { .sticky; }
+  }
+});
 /*
  * top, right, bottom, left
  */
