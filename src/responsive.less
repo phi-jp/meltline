@@ -215,6 +215,33 @@
   });
 }
 
+/*
+ * letter-spacing
+ */
+
+@media @media-mobile {
+  // 
+  .for(@nums-1-32, {
+    .s-letter-spacing-@{value} {
+      letter-spacing: @value * 1px;
+    }
+  });
+}
+@media @media-tablet {
+  .for(@nums-1-32, {
+    .m-letter-spacing-@{value} {
+      letter-spacing: @value * 1px;
+    }
+  });
+}
+@media @media-desktop {
+  .for(@nums-1-32, {
+    .l-letter-spacing-@{value} {
+      letter-spacing: @value * 1px;
+    }
+  });
+}
+
 
 /*
  * width, height
