@@ -60,16 +60,34 @@
 @media-desktop: ~"only screen and (min-width : @{desktop-min})";
 
 
+
+.define-responsive(@classes) {
+  @media @media-mobile {
+    each(@classes, {
+      @name: extract(@value, 1);
+      @property: extract(@value, 2);
+      .s-@{key} {@{name}: @property;}
+    });
+  }
+  @media @media-tablet {
+    each(@classes, {
+      @name: extract(@value, 1);
+      @property: extract(@value, 2);
+      .m-@{key} {@{name}: @property;}
+    });
+  }
+  @media @media-desktop {
+    each(@classes, {
+      @name: extract(@value, 1);
+      @property: extract(@value, 2);
+      .l-@{key} {@{name}: @property;}
+    });
+  }
+}
+
+
 :root {
   --main-color: #222;
   --border-color: rgba(0, 0, 0, 0.1);
   --font-weight-bold: 700;
-}@responsive: {
-  s-: ~"@media only screen and (max-width : @{small-max}) {";
-  m-: ~"@media only screen and (min-width: @{medium-min}) and (max-width: @{medium-max}) {";
-  l-: ~"@media only screen and (min-width : @{desktop-min}) {";
-}@responsive: {
-  s-: ~"@media only screen and (max-width : @{small-max})";
-  m-: ~"@media only screen and (min-width: @{medium-min}) and (max-width: @{medium-max})";
-  l-: ~"@media only screen and (min-width : @{desktop-min})";
 }
