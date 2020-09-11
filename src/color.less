@@ -14,6 +14,21 @@
   }
 }
 
+.define-color-by-object(@key, @value) {
+  .@{key} {
+    color: @value !important;
+  }
+  .text-@{key} {
+    color: @value !important;
+  }
+  .bg-@{key} {
+    background-color: @value !important;
+  }
+  .border-@{key} {
+    border-color: @value !important;
+  }
+}
+
 .define-color-grad(@key, @a, @b, @angle:0deg) {
   .@{key} {
     background-image: -webkit-linear-gradient(@a, @b);
@@ -33,10 +48,14 @@
   }
 }
 
-.for(@colors, {
-  .define-color(@value, @value);
-}) !important;
+// 現状色はオブジェクトで作られているためfor処理は一旦コメントアウト
+// .for(@colors, {
+//   .define-color(@value, @value);
+// }) !important;
 
+each(@colors, {
+  .define-color-by-object(@key, @value);
+})
 
 each(@gradients, {
   .define-color-grad(@key, extract(@value, 1), extract(@value, 2), 0deg);

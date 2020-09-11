@@ -125,6 +125,10 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.outline-none {
+  outline: none;
+}
+
 .border-top-only-last {
   &:last-child {
     .border-top;
@@ -213,12 +217,22 @@
 .rounded-bottom-left-full {
   border-bottom-left-radius: 9999px !important;
 }
-.for(1 2 3 4 5 6 7 8 9 10 100, {
+.for(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 100, {
   .rounded-@{value} { border-radius: @value * 1px !important; }
+
   .rounded-top-right-@{value} { border-top-right-radius: @value * 1px !important;}
   .rounded-top-left-@{value} { border-top-left-radius: @value * 1px !important;}
   .rounded-bottom-right-@{value} { border-bottom-right-radius: @value * 1px !important;}
   .rounded-bottom-left-@{value} { border-bottom-left-radius: @value * 1px !important;}
+
+  .rounded-top-@{value} {
+    border-top-right-radius: @value * 1px !important;
+    border-top-left-radius: @value * 1px !important;
+  }
+  .rounded-bottom-@{value} {
+    border-bottom-right-radius: @value * 1px !important;
+    border-bottom-left-radius: @value * 1px !important;
+  }
 });
 
 /*

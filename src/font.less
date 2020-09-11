@@ -11,6 +11,11 @@
 .italic { font-style: italic; }
 
 // font-weight
+.font-normal { font-weight: normal; }
+.font-bold { font-weight: bold; }
+.font-lighter { font-weight: lighter; }
+.font-bolder { font-weight: bolder; }
+
 .bold { font-weight: var(--font-weight-bold); }
 .bolder { font-weight: bolder; }
 .lighter { font-weight: lighter; }
@@ -91,6 +96,62 @@ each(100 200 300 400 500 600 700 800 900, {
   }
 });
 
+.for(1 2 3 4 5 6 7 8 9, {
+  .letter-spacing-0_@{value} {
+    letter-spacing: @value * 0.1px;
+  }
+});
+
+@media @media-mobile {
+  // 
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .s-letter-spacing-0_@{value} {
+      letter-spacing: @value * 0.1px;
+    }
+  });
+}
+@media @media-tablet {
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .m-letter-spacing-0_@{value} {
+      letter-spacing: @value * 0.1px;
+    }
+  });
+}
+@media @media-desktop {
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .l-letter-spacing-0_@{value} {
+      letter-spacing: @value * 0.1px;
+    }
+  });
+}
+
+.for(1 2 3 4 5 6 7 8 9, {
+  .letter-spacing-0_0@{value}em {
+    letter-spacing: @value * 0.01em;
+  }
+});
+
+@media @media-mobile {
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .s-letter-spacing-0_0@{value}em {
+      letter-spacing: @value * 0.01em;
+    }
+  });
+}
+@media @media-tablet {
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .m-letter-spacing-0_0@{value}em {
+      letter-spacing: @value * 0.01em;
+    }
+  });
+}
+@media @media-desktop {
+  .for(1 2 3 3 4 5 6 7 8 9, {
+    .l-letter-spacing-0_0@{value}em {
+      letter-spacing: @value * 0.01em;
+    }
+  });
+}
 
 // ellipsis/line-clamp
 .ellipsis {
