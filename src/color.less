@@ -36,15 +36,15 @@
     -webkit-text-fill-color: transparent;
   }
   .text-@{key} {
-    background-image: -webkit-linear-gradient(@a, @b);
+    background-image: -webkit-linear-gradient(@a, @b) !important;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .bg-@{key} {
-    background-image: linear-gradient(@angle, @a 0%, @b 100%);
+    background-image: linear-gradient(@angle, @a 0%, @b 100%) !important;
   }
   .border-@{key} {
-    border-color: @a;
+    border-color: @a !important;
   }
 }
 
