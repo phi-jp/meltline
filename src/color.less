@@ -31,7 +31,7 @@
 
 .define-color-grad(@key, @a, @b, @angle:0deg) {
   .@{key} {
-    background-image: -webkit-linear-gradient(@a, @b);
+    background-image: -webkit-linear-gradient(@a, @b) !important;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
