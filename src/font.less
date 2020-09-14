@@ -91,7 +91,7 @@ each(100 200 300 400 500 600 700 800 900, {
 
 // letter-spacing
 .for(@nums-1-32, {
-  .letter-spacing-@{value} {
+  .letter-spacing-@{value},.ls@{value} {
     letter-spacing: @value * 1px;
   }
 });
