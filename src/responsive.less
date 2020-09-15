@@ -369,27 +369,14 @@
 /*
  * position
  */
-@media @media-mobile {
-  .s-static { position: static; }
-  .s-relative { position: relative; }
-  .s-absolute { position: absolute; }
-  .s-fixed { position: fixed; }
-  .s-sticky { .sticky; }
-}
-@media @media-tablet {
-  .m-static { position: static; }
-  .m-relative { position: relative; }
-  .m-absolute { position: absolute; }
-  .m-fixed { position: fixed; }
-  .m-sticky { .sticky; }
-}
-@media @media-desktop {
-  .l-static { position: static; }
-  .l-relative { position: relative; }
-  .l-absolute { position: absolute; }
-  .l-fixed { position: fixed; }
-  .l-sticky { .sticky; }
-}
+.define-responsive({
+  static: position static;
+  relative: position relative;
+  absolute: position absolute;
+  fixed: position fixed;
+  sticky: position -webkit-sticky;
+  sticky: position sticky;
+});
 
 /*
  * top, right, bottom, left
