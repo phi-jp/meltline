@@ -31,20 +31,21 @@
 
 .define-color-grad(@key, @a, @b, @angle:0deg) {
   .@{key} {
-    background-image: -webkit-linear-gradient(@a, @b) !important;
+    background-image: -webkit-linear-gradient(@a, @b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .text-@{key} {
-    background-image: -webkit-linear-gradient(@a, @b) !important;
+    background-image: -webkit-linear-gradient(@a, @b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .bg-@{key} {
-    background-image: linear-gradient(@angle, @a 0%, @b 100%) !important;
+    background-image: linear-gradient(@angle, @a 0%, @b 100%);
   }
   .border-@{key} {
-    border-color: @a !important;
+    border-image: linear-gradient(to top, @a 0%, @b 100%);
+    border-image-slice: 1;
   }
 }
 
