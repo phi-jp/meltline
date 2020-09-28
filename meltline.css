@@ -11789,12 +11789,6 @@ textarea.input {
 .transition {
   transition: 256ms;
 }
-.transition512 {
-  transition: 512ms;
-}
-.transition1024 {
-  transition: 1024ms;
-}
 /*
  * animation
  */
