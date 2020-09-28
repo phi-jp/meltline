@@ -44,7 +44,8 @@
     background-image: linear-gradient(@angle, @a 0%, @b 100%);
   }
   .border-@{key} {
-    border-color: @a;
+    border-image: linear-gradient(@angle, @a 0%, @b 100%);
+    border-image-slice: 1;
   }
 }
 
