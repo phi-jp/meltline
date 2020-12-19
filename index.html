@@ -68,7 +68,7 @@ app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
       { label: 'Font', link: '#font' },
       { label: 'Form', link: '#form' },
       { label: 'Util', link: '#util' },
-      { label: 'Anim', link: '#anim' },
+      { label: 'Animation', link: '#animation' },
       { label: 'Shorthand', link: '#shorthand' },
       { label: 'Responsive', link: '#responsive' },
     ];
@@ -434,34 +434,23 @@ section-shorthand.block
       },
     ];
 
-section-anim
-  h2 anim
+section-animation
+  h2.mb32 animation
 
-  section.mb8
-    h3 anim-spin
-    div
-      i.material-icons.anim-spin sync
+  section.mb16(each='{item in items}')
+    h3.mb8 {item.label}
+    div.bg-white.p16.border
+      div(class='{item.class}') {item.content || item.label}
 
-  section.mb8
-    h3 anim-appear
-    div
-      div.anim-appear.anim-infinite anim-appear
-      
-  section.mb8
-    h3 anim-disappear
-    div
-      div.anim-disappear.anim-infinite anim-disappear
-      
-  section.mb8
-    h3 anim-shake-x
-    div
-      div.anim-shake-x.anim-infinite anim-shake
-      
-  section.mb8
-    h3 anim-shake-y
-    div
-      div.anim-shake-y.anim-infinite anim-shake
-              
+  script.
+    this.items = [
+      { label: 'animation-spin', class: 'material-icons animation-spin', content: 'sync' },
+      { label: 'animation-appear', class: 'animation-appear animation-infinite' },
+      { label: 'animation-disappear', class: 'animation-disappear animation-infinite' },
+      { label: 'animation-shake-x', class: 'animation-shake-x animation-infinite' },
+      { label: 'animation-shake-y', class: 'animation-shake-y animation-infinite' },
+    ];
+
 </script>
 
 
