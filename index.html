@@ -440,18 +440,22 @@ section-transform
   
   section.mb16(each='{item in items}')
     h3.mb8 {item.label}
-    div.bg-white.p16.border
-      div(class='{item.class}') {item.content || item.label}
+    div.bg-white.p16.border.relative
+      div.s64.bg-skyblue
+      div.absolute.t16.l16.s64.bg-red.opacity-50(class='{item.class}')
 
   script.
     this.items = [
-      { label: 'animation-spin', class: 'material-icons animation-spin', content: 'sync' },
-      { label: 'animation-appear', class: 'animation-appear animation-infinite' },
-      { label: 'animation-disappear', class: 'animation-disappear animation-infinite' },
-      { label: 'animation-shake-x', class: 'animation-shake-x animation-infinite' },
-      { label: 'animation-shake-y', class: 'animation-shake-y animation-infinite' },
+      { label: 'translate-x', class: 'translate-x-12' },
+      { label: 'translate-y', class: 'translate-y-12' },
+      { label: 'translate-z', class: 'translate-z-12' },
+      { label: 'rotate', class: 'rotate-30' },
+      { label: 'scale', class: 'scale-50' },
+      { label: 'scale', class: 'scale-120' },
+      { label: 'scale-x', class: 'scale-x-120' },
+      { label: 'scale-y', class: 'scale-y-80' },
+      { label: 'scale-z', class: 'scale-z-50' },
     ];
-  
 
 section-animation
   h2.mb32  animation

@@ -10,18 +10,19 @@
 
 .define-rotate(@nums) {
   .for(@nums, {
-    .scale-@{value} { transform: scale(@value*0.01); }
+    .rotate-@{value} { transform: rotate(@value * 1deg); }
   });
 }
 
 .define-scale(@nums) {
   .for(@nums, {
     .scale-@{value} { transform: scale(@value*0.01); }
+    .scale-x-@{value} { transform: scaleX(@value*0.01); }
+    .scale-y-@{value} { transform: scaleY(@value*0.01); }
+    .scale-z-@{value} { transform: scaleZ(@value*0.01); }
   });
 }
 
-.define-translate(1 2 3 4 5 6 7 8 9 10);
+.define-translate(@nums-1-32);
 .define-rotate(0 15 30 45 60 75 90 105 120 135 150 165 180 195 210 225 240 255 270 285 300 315 330 345 360);
 .define-scale(10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 300 400 500);
-
-
