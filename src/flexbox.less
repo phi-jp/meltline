@@ -79,3 +79,33 @@
     }
   });
 }
+
+.for(1 2 3 4 5 6 7 8 9 10 100, {
+  .order-n@{value} {
+    order: @value * -1 !important;
+  }
+});
+
+@media @media-mobile {
+  .for(1 2 3 4 5 6 7 8 9 10 100, {
+    .s-order-n@{value} {
+      order: @value * -1 !important;
+    }
+  });
+}
+
+@media @media-tablet {
+  .for(1 2 3 4 5 6 7 8 9 10 100, {
+    .m-order-n@{value} {
+      order: @value * -1 !important;
+    }
+  });
+}
+
+@media @media-desktop {
+  .for(1 2 3 4 5 6 7 8 9 10 100, {
+    .l-order-n@{value} {
+      order: @value * -1 !important;
+    }
+  });
+}
