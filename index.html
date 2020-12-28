@@ -68,6 +68,7 @@ app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
       { label: 'Font', link: '#font' },
       { label: 'Form', link: '#form' },
       { label: 'Util', link: '#util' },
+      { label: 'Transform', link: '#transform' },
       { label: 'Animation', link: '#animation' },
       { label: 'Shorthand', link: '#shorthand' },
       { label: 'Responsive', link: '#responsive' },
@@ -434,8 +435,31 @@ section-shorthand.block
       },
     ];
 
+section-transform
+  h2.mb32  transform
+  
+  section.mb16(each='{item in items}')
+    h3.mb8 {item.label}
+    div.bg-white.p16.border.relative
+      div.s64.bg-skyblue
+      div.absolute.t16.l16.s64.bg-red.opacity-50(class='{item.class}')
+
+  script.
+    this.items = [
+      { label: 'translate-x', class: 'translate-x-12' },
+      { label: 'translate-y', class: 'translate-y-12' },
+      { label: 'translate-z', class: 'translate-z-12' },
+      { label: 'rotate-30', class: 'rotate-30' },
+      { label: 'rotate-n30', class: 'rotate-n30' },
+      { label: 'scale', class: 'scale-50' },
+      { label: 'scale', class: 'scale-120' },
+      { label: 'scale-x', class: 'scale-x-120' },
+      { label: 'scale-y', class: 'scale-y-80' },
+      { label: 'scale-z', class: 'scale-z-50' },
+    ];
+
 section-animation
-  h2.mb32 animation
+  h2.mb32  animation
 
   section.mb16(each='{item in items}')
     h3.mb8 {item.label}
