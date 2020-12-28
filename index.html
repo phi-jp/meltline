@@ -16,6 +16,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.6.3/riot+compiler.js'></script>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="meltline.css" />
     <script src='meltline.js'></script>
   </head>
@@ -67,6 +68,7 @@ app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
       { label: 'Font', link: '#font' },
       { label: 'Form', link: '#form' },
       { label: 'Util', link: '#util' },
+      { label: 'Animation', link: '#animation' },
       { label: 'Shorthand', link: '#shorthand' },
       { label: 'Responsive', link: '#responsive' },
     ];
@@ -430,6 +432,23 @@ section-shorthand.block
           {name:'size-*-vh', shorthand: 's*vh'},
         ],
       },
+    ];
+
+section-animation
+  h2.mb32 animation
+
+  section.mb16(each='{item in items}')
+    h3.mb8 {item.label}
+    div.bg-white.p16.border
+      div(class='{item.class}') {item.content || item.label}
+
+  script.
+    this.items = [
+      { label: 'animation-spin', class: 'material-icons animation-spin', content: 'sync' },
+      { label: 'animation-appear', class: 'animation-appear animation-infinite' },
+      { label: 'animation-disappear', class: 'animation-disappear animation-infinite' },
+      { label: 'animation-shake-x', class: 'animation-shake-x animation-infinite' },
+      { label: 'animation-shake-y', class: 'animation-shake-y animation-infinite' },
     ];
 
 </script>

@@ -1,0 +1,65 @@
+@keyframes meltline-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animation-spin {
+  animation: meltline-spin 1s linear infinite;
+}
+
+@keyframes meltline-appear {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+
+}
+.animation-appear {
+  animation: meltline-appear 1s;
+}
+
+@keyframes meltline-disappear {
+  0% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+.animation-disappear {
+  animation: meltline-disappear 1s forwards;
+}
+
+
+@keyframes meltline-shake-x {
+  0% { transform: translateX(0px); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(0px); }
+  75% { transform: translateX(4px); }
+  100% { transform: translateX(0px); }
+}
+.animation-shake-x {
+  animation: meltline-shake-x 200ms linear 2;
+}
+
+@keyframes meltline-shake-y {
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(-4px); }
+  50% { transform: translateY(0px); }
+  75% { transform: translateY(4px); }
+  100% { transform: translateY(0px); }
+}
+.animation-shake-y {
+  animation: meltline-shake-y 200ms linear 2;
+}
+
+// 
+
+.animation-infinite {
+  animation-iteration-count: infinite;
+}
