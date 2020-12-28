@@ -19,3 +19,58 @@
      -moz-@{property}: @value;
           @{property}: @value;
 }
+
+/*
+ * 色を定義
+ */
+.define-color(@key, @value) {
+  .text-@{key} {
+    color: @value;
+  }
+  .bg-@{key} {
+    background-color: @value;
+  }
+  .border-@{key} {
+    border-color: @value;
+  }
+}
+
+.define-color-by-object(@key, @value) {
+  .@{key} {
+    color: @value !important;
+  }
+  .text-@{key} {
+    color: @value !important;
+  }
+  .bg-@{key} {
+    background-color: @value !important;
+  }
+  .border-@{key} {
+    border-color: @value !important;
+  }
+}
+
+.define-color-grad(@key, @a, @b, @angle:0deg) {
+  .@{key} {
+    background-image: -webkit-linear-gradient(@a, @b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-@{key} {
+    background-image: -webkit-linear-gradient(@a, @b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bg-@{key} {
+    background-image: linear-gradient(@angle, @a 0%, @b 100%);
+  }
+  .border-@{key} {
+    border-image: linear-gradient(@angle, @a 0%, @b 100%);
+    border-image-slice: 1;
+  }
+}
+
+// 現状色はオブジェクトで作られているためfor処理は一旦コメントアウト
+// .for(@colors, {
+//   .define-color(@value, @value);
+// }) !important;
