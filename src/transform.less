@@ -11,6 +11,7 @@
 .define-rotate(@nums) {
   .for(@nums, {
     .rotate-@{value} { transform: rotate(@value * 1deg); }
+    .rotate-n@{value} { transform: rotate(@value * -1deg); }
   });
 }
 
