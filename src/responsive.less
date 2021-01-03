@@ -266,16 +266,16 @@
  * padding, margin
  */
 @media @media-mobile {
-  .define-box-shorthand(@nums-1-100, s-p, padding) !important;
-  .define-box-shorthand(@nums-1-100, s-m, margin) !important;
+  .define-padding(@nums-1-100, s-) !important;
+  .define-margin(@nums-1-100, s-) !important;
 }
 @media @media-tablet {
-  .define-box-shorthand(@nums-1-100, m-p, padding) !important;
-  .define-box-shorthand(@nums-1-100, m-m, margin) !important;
+  .define-padding(@nums-1-100, m-) !important;
+  .define-margin(@nums-1-100, m-) !important;
 }
 @media @media-desktop {
-  .define-box-shorthand(@nums-1-100, l-p, padding) !important;
-  .define-box-shorthand(@nums-1-100, l-m, margin) !important;
+  .define-padding(@nums-1-100, l-) !important;
+  .define-margin(@nums-1-100, l-) !important;
 }
 
 
@@ -354,16 +354,23 @@
 
 
 /*
- * width, height
+ * size(width, height)
  */
 @media @media-mobile {
-  .define-size(s-) !important;
+  .define-size(@nums, s-) !important;
+  .define-size-per(@nums-1-100, s-) !important;
+  .define-size-util(s-) !important;
 }
 @media @media-tablet {
-  .define-size(m-) !important;
+  .define-size(@nums, m-) !important;
+  .define-size-per(@nums-1-100, m-) !important;
+  .define-size-util(m-) !important;
+
 }
 @media @media-desktop {
-  .define-size(l-) !important;
+  .define-size(@nums, l-) !important;
+  .define-size-per(@nums-1-100, l-) !important;
+  .define-size-util(l-) !important;
 }
 
 /*

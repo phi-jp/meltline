@@ -1,6 +1,6 @@
-/**
- * method
- */
+// 
+// method
+// 
 .for(@list, @code) {
   & {
     .loop(@i:0) when (@i < length(@list)) {
@@ -20,9 +20,9 @@
           @{property}: @value;
 }
 
-/*
- * 色を定義
- */
+// 
+// 色を定義
+// 
 .define-color(@key, @value) {
   .text-@{key} {
     color: @value;
@@ -71,3 +71,142 @@
 // .for(@colors, {
 //   .define-color(@value, @value);
 // }) !important;
+
+
+// 
+// size
+// 
+.define-size(@nums, @prefix:~'') {
+  .for(@nums, {
+    // width
+    .@{prefix}w@{value} { width: unit(@value, px); }
+    // height
+    .@{prefix}h@{value} { height: unit(@value, px); }
+    // size
+    .@{prefix}s@{value} { width: unit(@value, px); height: unit(@value, px); }
+  });
+}
+
+.define-size-per(@nums, @prefix:~'') {
+  .for(@nums, {
+    // width %
+    .@{prefix}w@{value}per { width: unit(@value, %); }
+    // height %
+    .@{prefix}h@{value}per { height: unit(@value, %); }
+    // size %
+    .@{prefix}s@{value}per { width: unit(@value, %); height: unit(@value, %); }
+
+    // width vw
+    .@{prefix}w@{value}vw { width: unit(@value, vw); }
+    // height vw
+    .@{prefix}h@{value}vw { height: unit(@value, vw); }
+    // size vw
+    .@{prefix}s@{value}vw { width: unit(@value, vw); height: unit(@value, vw); }
+
+    // width vh
+    .@{prefix}w@{value}vh { width: unit(@value, vh); }
+    // height vh
+    .@{prefix}h@{value}vh { height: unit(@value, vh); }
+    // size vh
+    .@{prefix}s@{value}vh { width: unit(@value, vh); height: unit(@value, vh); }
+  });
+}
+
+.define-size-util(@prefix:~'') {
+  .@{prefix}w-auto {
+    width: auto;
+  }
+  
+  .@{prefix}w-full {
+    width: 100%;
+  }
+  .@{prefix}h-auto {
+    height: auto;
+  }
+  .@{prefix}h-full {
+    height: 100%;
+  }
+  .@{prefix}s-auto {
+    width: auto;
+    height: auto;
+  }
+  .@{prefix}s-full {
+    width: 100%;
+    height: 100%;
+  }  
+}
+
+// 
+// box
+// 
+
+// padding, margin といったプロパティ定義の大元となる関数
+.define-box(@nums, @property, @prefix:~'') {
+  .for(@nums, {
+    // all
+    .@{prefix}@{value} { @{property}: @value * 1px; }
+    // top
+    .@{prefix}t@{value} { @{property}-top: @value * 1px; }
+    // right
+    .@{prefix}r@{value} { @{property}-right: @value * 1px; }
+    // bottom
+    .@{prefix}b@{value} { @{property}-bottom: @value * 1px; }
+    // left
+    .@{prefix}l@{value} { @{property}-left: @value * 1px; }
+    // x
+    .@{prefix}x@{value} { @{property}-left: @value * 1px; @{property}-right: @value * 1px; }
+    // y
+    .@{prefix}y@{value} { @{property}-top: @value * 1px; @{property}-bottom: @value * 1px; }
+  });
+}
+
+// padding を定義
+.define-padding(@nums, @prefix:~'') {
+  .define-box(@nums, padding, ~'@{prefix}p');
+}
+
+// margin を定義
+.define-margin(@nums, @prefix:~'') {
+  .define-box(@nums, margin, ~'@{prefix}m');
+}
+
+// rounded を定義
+.define-rounded(@nums, @prefix:~'') {
+  .for(@nums, {
+    .@{prefix}rounded-@{value} { border-radius: @value * 1px !important; }
+
+    .@{prefix}rounded-top-right-@{value} { border-top-right-radius: @value * 1px !important;}
+    .@{prefix}rounded-top-left-@{value} { border-top-left-radius: @value * 1px !important;}
+    .@{prefix}rounded-bottom-right-@{value} { border-bottom-right-radius: @value * 1px !important;}
+    .@{prefix}rounded-bottom-left-@{value} { border-bottom-left-radius: @value * 1px !important;}
+  
+    .@{prefix}rounded-top-@{value} {
+      border-top-right-radius: @value * 1px !important;
+      border-top-left-radius: @value * 1px !important;
+    }
+    .@{prefix}rounded-bottom-@{value} {
+      border-bottom-right-radius: @value * 1px !important;
+      border-bottom-left-radius: @value * 1px !important;
+    }
+  });
+}
+
+// rect を定義
+.define-rect(@key, @width, @height, @prefix:~'') {
+  .@{prefix}@{key} {
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      padding-top: (@height/@width) * 100%;
+    }
+    &> * {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
