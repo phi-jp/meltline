@@ -1,5 +1,5 @@
 /*!
- * meltline 0.1.12
+ * meltline 0.1.13
  * 
  * MIT Licensed
  * 
@@ -6261,7 +6261,7 @@ svg {
   border-bottom-left-radius: 100px !important;
 }
 /*
- *
+ * rect を定義
  */
 .square {
   position: relative;
@@ -20522,7 +20522,7 @@ textarea.input {
   }
 }
 /*
- * width, height
+ * size(width, height)
  */
 @media only screen and (max-width : 600px) {
   .s-w0 {
