@@ -2,63 +2,10 @@
  *
  */
 
-.define-size(@prefix:~'') {
-  .for(@nums, {
-    // width
-    .@{prefix}w@{value} { width: unit(@value, px); }
-    // height
-    .@{prefix}h@{value} { height: unit(@value, px); }
-    // size
-    .@{prefix}s@{value} { width: unit(@value, px); height: unit(@value, px); }
-  });
+.define-size(@nums);
+.define-size-per(@nums-1-100);
+.define-size-util();
 
-  .for(@nums-1-100, {
-    // width %
-    .@{prefix}w@{value}per { width: unit(@value, %); }
-    // height %
-    .@{prefix}h@{value}per { height: unit(@value, %); }
-    // size %
-    .@{prefix}s@{value}per { width: unit(@value, %); height: unit(@value, %); }
-
-    // width vw
-    .@{prefix}w@{value}vw { width: unit(@value, vw); }
-    // height vw
-    .@{prefix}h@{value}vw { height: unit(@value, vw); }
-    // size vw
-    .@{prefix}s@{value}vw { width: unit(@value, vw); height: unit(@value, vw); }
-
-    // width vh
-    .@{prefix}w@{value}vh { width: unit(@value, vh); }
-    // height vh
-    .@{prefix}h@{value}vh { height: unit(@value, vh); }
-    // size vh
-    .@{prefix}s@{value}vh { width: unit(@value, vh); height: unit(@value, vh); }
-  });
-
-  .@{prefix}w-auto {
-    width: auto;
-  }
-
-  .@{prefix}w-full {
-    width: 100%;
-  }
-  .@{prefix}h-auto {
-    height: auto;
-  }
-  .@{prefix}h-full {
-    height: 100%;
-  }
-  .@{prefix}s-auto {
-    width: auto;
-    height: auto;
-  }
-  .@{prefix}s-full {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.define-size();
 
 // max-width
 .for(@nums-container,{

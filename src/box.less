@@ -2,61 +2,15 @@
  * box
  */
 
-.define-box(@prefix, @property) {
-  // padding
-  .for(@nums, {
-    // all
-    .@{prefix}-@{value} { @{property}: @value * 1px; }
-    // top
-    .@{prefix}-top-@{value} { @{property}-top: @value * 1px; }
-    // right
-    .@{prefix}-right-@{value} { @{property}-right: @value * 1px; }
-    // bottom
-    .@{prefix}-bottom-@{value} { @{property}-bottom: @value * 1px; }
-    // left
-    .@{prefix}-left-@{value} { @{property}-left: @value * 1px; }
-    // x
-    .@{prefix}-x-@{value} {
-      @{property}-left: @value * 1px;
-      @{property}-right: @value * 1px;
-    }
-    // y
-    .@{prefix}-y-@{value} {
-      @{property}-top: @value * 1px;
-      @{property}-bottom: @value * 1px;
-    }
-  });
-}
-
-.define-box-shorthand(@nums, @prefix, @property) {
-  // padding
-  .for(@nums, {
-    // all
-    .@{prefix}@{value} { @{property}: @value * 1px; }
-    // top
-    .@{prefix}t@{value} { @{property}-top: @value * 1px; }
-    // right
-    .@{prefix}r@{value} { @{property}-right: @value * 1px; }
-    // bottom
-    .@{prefix}b@{value} { @{property}-bottom: @value * 1px; }
-    // left
-    .@{prefix}l@{value} { @{property}-left: @value * 1px; }
-    // x
-    .@{prefix}x@{value} { @{property}-left: @value * 1px; @{property}-right: @value * 1px; }
-    // y
-    .@{prefix}y@{value} { @{property}-top: @value * 1px; @{property}-bottom: @value * 1px; }
-  });
-}
-
 /*
  * padding
  */
-.define-box-shorthand(@nums-1-100, p, padding) !important;
+.define-padding(@nums-1-100) !important;
 
 /*
  * margin
  */
-.define-box-shorthand(@nums-1-100, m, margin) !important;
+.define-margin(@nums-1-100) !important;
 .ml-auto, .mla { margin-left: auto !important; }
 .mr-auto, .mra { margin-right: auto !important; }
 .mx-auto, .mxa { .ml-auto; .mr-auto; }
@@ -217,45 +171,11 @@
 .rounded-bottom-left-full {
   border-bottom-left-radius: 9999px !important;
 }
-.for(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 100, {
-  .rounded-@{value} { border-radius: @value * 1px !important; }
-
-  .rounded-top-right-@{value} { border-top-right-radius: @value * 1px !important;}
-  .rounded-top-left-@{value} { border-top-left-radius: @value * 1px !important;}
-  .rounded-bottom-right-@{value} { border-bottom-right-radius: @value * 1px !important;}
-  .rounded-bottom-left-@{value} { border-bottom-left-radius: @value * 1px !important;}
-
-  .rounded-top-@{value} {
-    border-top-right-radius: @value * 1px !important;
-    border-top-left-radius: @value * 1px !important;
-  }
-  .rounded-bottom-@{value} {
-    border-bottom-right-radius: @value * 1px !important;
-    border-bottom-left-radius: @value * 1px !important;
-  }
-});
+.define-rounded(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 100);
 
 /*
- *
+ * rect を定義
  */
-.define-rect(@key, @width, @height) {
-  .@{key} {
-    position: relative;
-
-    &:before {
-      content: '';
-      display: block;
-      padding-top: (@height/@width) * 100%;
-    }
-    &> * {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
 .define-rect(square, 1, 1);
 .define-rect(rect, 3, 2);
 .define-rect(rect-16_9, 16, 9);
