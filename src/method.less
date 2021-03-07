@@ -136,6 +136,20 @@
   }  
 }
 
+.define-size-max(@nums, @prefix:~'') {
+  // max-width
+  .@{prefix}max-width-@{value} { max-width: unit(@value, px); }
+  // max-height
+  .@{prefix}max-height-@{value} { max-height: unit(@value, px); }
+}
+
+.define-size-min(@nums, @prefix:~'') {
+  // min-width
+  .@{prefix}min-width-@{value} { min-width: unit(@value, px); }
+  // min-height
+  .@{prefix}min-height-@{value} { min-height: unit(@value, px); }
+}
+
 // 
 // box
 // 
