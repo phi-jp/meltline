@@ -44,6 +44,11 @@
  * scrollbar
  */
 .scrollbar-none, .scrollbar-hide {
+  // firefox
+  -ms-overflow-style: none;
+  // ie
+  scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
