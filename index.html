@@ -29,7 +29,7 @@
 <script type='riot/tag' template='jade'>
 app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
   div.f.h100per
-    div.s-hide.menu.box-shadow.flex-fixed.white.bg-cornflowerblue.px24.py16.overflow-scroll
+    div.s-hide.menu.box-shadow.flex-fixed.text-white.bg-cornflowerblue.px24.py16.overflow-scroll
       h1.mb16
         a(href='#') meltline
       div.item.mb2(each='{menus}')
@@ -272,19 +272,19 @@ section-box
   section.mb8
     div.bold.mb8 square
     div.w200.square
-      div.bg-gray.white.f.fh square
+      div.bg-gray.text-white.f.fh square
   section.mb8
     div.bold.mb8 rect
     div.w200.rect
-      div.bg-gray.white.f.fh rect
+      div.bg-gray.text-white.f.fh rect
   section.mb8
     div.bold.mb8 rect-16_9
     div.w200.rect-16_9
-      div.bg-gray.white.f.fh rect
+      div.bg-gray.text-white.f.fh rect
   section.mb8
     div.bold.mb8 rect-ogp
     div.w200.rect-ogp
-      div.bg-gray.white.f.fh rect-ogp
+      div.bg-gray.text-white.f.fh rect-ogp
 
 
 section-color
@@ -318,7 +318,7 @@ section-color
     p grad
 
     div.f.mn4.row
-      div.s200.white.m4.f.fh(each='{grad, index in gradients}', class='bg-{grad}')
+      div.s200.text-white.m4.f.fh(each='{grad, index in gradients}', class='bg-{grad}')
         span.fs18.bold {index+1}. {grad}
     
     script.
