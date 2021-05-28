@@ -153,13 +153,14 @@ each(100 200 300 400 500 600 700 800 900, {
   });
 }
 
-// ellipsis/line-clamp
+// ellipsis
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis; 
   white-space: nowrap;
 }
 
+// /line-clamp
 .for(1 2 3 4 5 6 7 8 9 10, {
   .line-clamp-@{value} {
     overflow: hidden;
@@ -168,6 +169,37 @@ each(100 200 300 400 500 600 700 800 900, {
     -webkit-line-clamp: @value;
   }
 });
+
+@media @media-mobile {
+  .for(1 2 3 4 5 6 7 8 9 10, {
+    .s-line-clamp-@{value} {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: @value;
+    }
+  });
+}
+@media @media-tablet {
+  .for(1 2 3 4 5 6 7 8 9 10, {
+    .m-line-clamp-@{value} {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: @value;
+    }  
+  });
+}
+@media @media-desktop {
+  .for(1 2 3 4 5 6 7 8 9 10, {
+    .l-line-clamp-@{value} {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: @value;
+    }  
+  });
+}
 
 // word-break
 .word-break-normal {
