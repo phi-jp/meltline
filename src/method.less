@@ -224,3 +224,20 @@
     }
   }
 }
+
+// 
+// position
+// 
+.define-position(@nums, @prefix:~'') {
+  .for(@nums, {
+    // top
+    .@{prefix}t@{value} { top: unit(@value, px); }
+    // right
+    .@{prefix}r@{value} { right: unit(@value, px); }
+    // bottom
+    .@{prefix}b@{value} { bottom: unit(@value, px); }
+    // left
+    .@{prefix}l@{value} { left: unit(@value, px); }
+  });
+}
+
