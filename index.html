@@ -73,6 +73,7 @@ app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
       { label: 'Shorthand', link: '#shorthand' },
       { label: 'Responsive', link: '#responsive' },
       { label: 'aspcet-ratio', link: '#aspcet-ratio' },
+      { label: 'flex-box gap', link: '#flex-box-gap' },
     ];
 
 section-about
@@ -493,6 +494,28 @@ section-aspcet-ratio
       { label: 'aspect-ratio-4_3', class: 'aspect-ratio-4_3 w60per' },
       { label: 'aspect-ratio-5_4', class: 'aspect-ratio-5_4 w60per' },
       { label: 'aspect-ratio-7_5', class: 'aspect-ratio-7_5 w60per' },
+    ];
+
+section-flex-box-gap
+  h2.mb32  flex-box-gap
+
+  section.mb16(each='{item in items}')
+    h3.mb8 {item.label}
+    div.f.fh.bg-white.p16.border(class='{item.class}')
+      divs.30.border {item.content || item.label}
+      divs.30.border {item.content || item.label}
+      divs.30.border {item.content || item.label}
+      divs.30.border {item.content || item.label}
+
+  
+  script.
+    this.items = [
+      { label: 'gap4', class: 'gap4' },
+      { label: 'gap8', class: 'gap8' },
+      { label: 'gap12', class: 'gap12' },
+      { label: 'gap16', class: 'gap16' },
+      { label: 'gap18', class: 'gap18' },
+      { label: 'gap24', class: 'gap24' },
     ];
 
 </script>
