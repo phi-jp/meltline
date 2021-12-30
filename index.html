@@ -72,6 +72,7 @@ app.block.h100vh.fs14.font-smoothing-antialiased.font-family-default
       { label: 'Animation', link: '#animation' },
       { label: 'Shorthand', link: '#shorthand' },
       { label: 'Responsive', link: '#responsive' },
+      { label: 'aspcet-ratio', link: '#aspcet-ratio' },
     ];
 
 section-about
@@ -473,6 +474,25 @@ section-animation
       { label: 'animation-disappear', class: 'animation-disappear animation-infinite' },
       { label: 'animation-shake-x', class: 'animation-shake-x animation-infinite' },
       { label: 'animation-shake-y', class: 'animation-shake-y animation-infinite' },
+    ];
+
+section-aspcet-ratio
+  h2.mb32  aspcet-ratio
+
+  section.mb16(each='{item in items}')
+    h3.mb8 {item.label}
+    div.f.fh.bg-white.p16.border
+      div.border(class='{item.class}') {item.content || item.label}
+
+  
+  script.
+    this.items = [
+      { label: 'aspect-ratio-square', class: 'aspect-ratio-square w60per' },
+      { label: 'aspect-ratio-16_9', class: 'aspect-ratio-16_9 w60per' },
+      { label: 'aspect-ratio-3_2', class: 'aspect-ratio-3_2 w60per' },
+      { label: 'aspect-ratio-4_3', class: 'aspect-ratio-4_3 w60per' },
+      { label: 'aspect-ratio-5_4', class: 'aspect-ratio-5_4 w60per' },
+      { label: 'aspect-ratio-7_5', class: 'aspect-ratio-7_5 w60per' },
     ];
 
 </script>
