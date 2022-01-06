@@ -502,20 +502,20 @@ section-flex-box-gap
   section.mb16(each='{item in items}')
     h3.mb8 {item.label}
     div.f.fh.bg-white.p16.border(class='{item.class}')
-      div.s30.border {item.content || item.label}
-      div.s30.border {item.content || item.label}
-      div.s30.border {item.content || item.label}
-      div.s30.border {item.content || item.label}
+      div.s100.border {item.content || item.label}
+      div.s100.border {item.content || item.label}
+      div.s100.border {item.content || item.label}
+      div.s100.border {item.content || item.label}
 
   
   script.
     this.items = [
-      { label: 'gap4', class: 'gap4' },
-      { label: 'gap8', class: 'gap8' },
-      { label: 'gap12', class: 'gap12' },
-      { label: 'gap16', class: 'gap16' },
-      { label: 'gap18', class: 'gap18' },
-      { label: 'gap24', class: 'gap24' },
+      { label: 'gap-4', class: 'gap-4' },
+      { label: 'gap-8', class: 'gap-8' },
+      { label: 'gap-12', class: 'gap-12' },
+      { label: 'gap-16', class: 'gap-16' },
+      { label: 'gap-18', class: 'gap-18' },
+      { label: 'gap-24', class: 'gap-24' },
     ];
 
 </script>
