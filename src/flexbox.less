@@ -59,9 +59,7 @@
 
 // gap
 .for(1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 22 24 26, {
-  .gap-@{value} {
-    gap: @value * 1px !important;
-  }
+  .gap-@{value} { gap: unit(@value, px); }
 });
 
 @media @media-mobile {
@@ -71,9 +69,7 @@
     }
   });
   .for(1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 22 24 26, {
-    .s-gap-@{value} {
-      gap: @value * 1px !important;
-    }
+    .s-gap-@{value} { gap: unit(@value, px); }
   });
 }
 
@@ -84,9 +80,7 @@
     }
   });
   .for(1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 22 24 26, {
-    .m-gap-@{value} {
-      gap: @value * 1px !important;
-    }
+    .m-gap-@{value} { gap: unit(@value, px); }
   });
 }
 
@@ -97,9 +91,7 @@
     }
   });
   .for(1 2 3 4 5 6 7 8 9 10 12 14 16 18 20 22 24 26, {
-    .l-gap-@{value} {
-      gap: @value * 1px !important;
-    }
+    .l-gap-@{value} { gap: unit(@value, px); }
   });
 }
 
