@@ -225,6 +225,13 @@
   }
 }
 
+// rect を定義
+.define-aspect-ratio(@key, @width, @height, @prefix:~'') {
+  .@{prefix}@{key} {
+    aspect-ratio: @width ~"/" @height;
+  }
+}
+
 // 
 // position
 // 
