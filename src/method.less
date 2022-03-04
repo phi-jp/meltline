@@ -24,6 +24,9 @@
 // 色を定義
 // 
 .define-color(@key, @value) {
+  :root {
+    --color-@{key}: @value;
+  }
   .text-@{key} {
     color: @value;
   }
@@ -36,6 +39,9 @@
 }
 
 .define-color-by-object(@key, @value) {
+  :root {
+    --color-@{key}: @value;
+  }
   .text-@{key} {
     color: @value !important;
   }
@@ -48,6 +54,9 @@
 }
 
 .define-color-grad(@key, @a, @b, @angle:0deg) {
+  :root {
+    --color-@{key}: linear-gradient(@angle, @a 0%, @b 100%);
+  }
   .@{key} {
     background-image: -webkit-linear-gradient(@a, @b);
     -webkit-background-clip: text;
