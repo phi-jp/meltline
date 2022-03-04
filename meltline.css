@@ -1,5 +1,5 @@
 /*!
- * meltline 0.1.13
+ * meltline 0.1.14
  * 
  * MIT Licensed
  * 
@@ -352,6 +352,9 @@ svg {
   --border-color: rgba(0, 0, 0, 0.1);
   --font-weight-bold: 700;
 }
+:root {
+  --color-aliceblue: aliceblue;
+}
 .text-aliceblue {
   color: aliceblue !important;
 }
@@ -360,6 +363,9 @@ svg {
 }
 .border-aliceblue {
   border-color: aliceblue !important;
+}
+:root {
+  --color-antiquewhite: antiquewhite;
 }
 .text-antiquewhite {
   color: antiquewhite !important;
@@ -370,6 +376,9 @@ svg {
 .border-antiquewhite {
   border-color: antiquewhite !important;
 }
+:root {
+  --color-aqua: aqua;
+}
 .text-aqua {
   color: aqua !important;
 }
@@ -378,6 +387,9 @@ svg {
 }
 .border-aqua {
   border-color: aqua !important;
+}
+:root {
+  --color-aquamarine: aquamarine;
 }
 .text-aquamarine {
   color: aquamarine !important;
@@ -388,6 +400,9 @@ svg {
 .border-aquamarine {
   border-color: aquamarine !important;
 }
+:root {
+  --color-azure: azure;
+}
 .text-azure {
   color: azure !important;
 }
@@ -396,6 +411,9 @@ svg {
 }
 .border-azure {
   border-color: azure !important;
+}
+:root {
+  --color-beige: beige;
 }
 .text-beige {
   color: beige !important;
@@ -406,6 +424,9 @@ svg {
 .border-beige {
   border-color: beige !important;
 }
+:root {
+  --color-bisque: bisque;
+}
 .text-bisque {
   color: bisque !important;
 }
@@ -414,6 +435,9 @@ svg {
 }
 .border-bisque {
   border-color: bisque !important;
+}
+:root {
+  --color-black: black;
 }
 .text-black {
   color: black !important;
@@ -424,6 +448,9 @@ svg {
 .border-black {
   border-color: black !important;
 }
+:root {
+  --color-blanchedalmond: blanchedalmond;
+}
 .text-blanchedalmond {
   color: blanchedalmond !important;
 }
@@ -432,6 +459,9 @@ svg {
 }
 .border-blanchedalmond {
   border-color: blanchedalmond !important;
+}
+:root {
+  --color-blue: blue;
 }
 .text-blue {
   color: blue !important;
@@ -442,6 +472,9 @@ svg {
 .border-blue {
   border-color: blue !important;
 }
+:root {
+  --color-blueviolet: blueviolet;
+}
 .text-blueviolet {
   color: blueviolet !important;
 }
@@ -450,6 +483,9 @@ svg {
 }
 .border-blueviolet {
   border-color: blueviolet !important;
+}
+:root {
+  --color-brown: brown;
 }
 .text-brown {
   color: brown !important;
@@ -460,6 +496,9 @@ svg {
 .border-brown {
   border-color: brown !important;
 }
+:root {
+  --color-burlywood: burlywood;
+}
 .text-burlywood {
   color: burlywood !important;
 }
@@ -468,6 +507,9 @@ svg {
 }
 .border-burlywood {
   border-color: burlywood !important;
+}
+:root {
+  --color-cadetblue: cadetblue;
 }
 .text-cadetblue {
   color: cadetblue !important;
@@ -478,6 +520,9 @@ svg {
 .border-cadetblue {
   border-color: cadetblue !important;
 }
+:root {
+  --color-chartreuse: chartreuse;
+}
 .text-chartreuse {
   color: chartreuse !important;
 }
@@ -486,6 +531,9 @@ svg {
 }
 .border-chartreuse {
   border-color: chartreuse !important;
+}
+:root {
+  --color-chocolate: chocolate;
 }
 .text-chocolate {
   color: chocolate !important;
@@ -496,6 +544,9 @@ svg {
 .border-chocolate {
   border-color: chocolate !important;
 }
+:root {
+  --color-coral: coral;
+}
 .text-coral {
   color: coral !important;
 }
@@ -504,6 +555,9 @@ svg {
 }
 .border-coral {
   border-color: coral !important;
+}
+:root {
+  --color-cornflowerblue: cornflowerblue;
 }
 .text-cornflowerblue {
   color: cornflowerblue !important;
@@ -514,6 +568,9 @@ svg {
 .border-cornflowerblue {
   border-color: cornflowerblue !important;
 }
+:root {
+  --color-cornsilk: cornsilk;
+}
 .text-cornsilk {
   color: cornsilk !important;
 }
@@ -522,6 +579,9 @@ svg {
 }
 .border-cornsilk {
   border-color: cornsilk !important;
+}
+:root {
+  --color-crimson: crimson;
 }
 .text-crimson {
   color: crimson !important;
@@ -532,6 +592,9 @@ svg {
 .border-crimson {
   border-color: crimson !important;
 }
+:root {
+  --color-cyan: cyan;
+}
 .text-cyan {
   color: cyan !important;
 }
@@ -540,6 +603,9 @@ svg {
 }
 .border-cyan {
   border-color: cyan !important;
+}
+:root {
+  --color-darkblue: darkblue;
 }
 .text-darkblue {
   color: darkblue !important;
@@ -550,6 +616,9 @@ svg {
 .border-darkblue {
   border-color: darkblue !important;
 }
+:root {
+  --color-darkcyan: darkcyan;
+}
 .text-darkcyan {
   color: darkcyan !important;
 }
@@ -558,6 +627,9 @@ svg {
 }
 .border-darkcyan {
   border-color: darkcyan !important;
+}
+:root {
+  --color-darkgoldenrod: darkgoldenrod;
 }
 .text-darkgoldenrod {
   color: darkgoldenrod !important;
@@ -568,6 +640,9 @@ svg {
 .border-darkgoldenrod {
   border-color: darkgoldenrod !important;
 }
+:root {
+  --color-darkgray: darkgray;
+}
 .text-darkgray {
   color: darkgray !important;
 }
@@ -576,6 +651,9 @@ svg {
 }
 .border-darkgray {
   border-color: darkgray !important;
+}
+:root {
+  --color-darkgreen: darkgreen;
 }
 .text-darkgreen {
   color: darkgreen !important;
@@ -586,6 +664,9 @@ svg {
 .border-darkgreen {
   border-color: darkgreen !important;
 }
+:root {
+  --color-darkgrey: darkgrey;
+}
 .text-darkgrey {
   color: darkgrey !important;
 }
@@ -594,6 +675,9 @@ svg {
 }
 .border-darkgrey {
   border-color: darkgrey !important;
+}
+:root {
+  --color-darkkhaki: darkkhaki;
 }
 .text-darkkhaki {
   color: darkkhaki !important;
@@ -604,6 +688,9 @@ svg {
 .border-darkkhaki {
   border-color: darkkhaki !important;
 }
+:root {
+  --color-darkmagenta: darkmagenta;
+}
 .text-darkmagenta {
   color: darkmagenta !important;
 }
@@ -612,6 +699,9 @@ svg {
 }
 .border-darkmagenta {
   border-color: darkmagenta !important;
+}
+:root {
+  --color-darkolivegreen: darkolivegreen;
 }
 .text-darkolivegreen {
   color: darkolivegreen !important;
@@ -622,6 +712,9 @@ svg {
 .border-darkolivegreen {
   border-color: darkolivegreen !important;
 }
+:root {
+  --color-darkorange: darkorange;
+}
 .text-darkorange {
   color: darkorange !important;
 }
@@ -630,6 +723,9 @@ svg {
 }
 .border-darkorange {
   border-color: darkorange !important;
+}
+:root {
+  --color-darkorchid: darkorchid;
 }
 .text-darkorchid {
   color: darkorchid !important;
@@ -640,6 +736,9 @@ svg {
 .border-darkorchid {
   border-color: darkorchid !important;
 }
+:root {
+  --color-darkred: darkred;
+}
 .text-darkred {
   color: darkred !important;
 }
@@ -648,6 +747,9 @@ svg {
 }
 .border-darkred {
   border-color: darkred !important;
+}
+:root {
+  --color-darksalmon: darksalmon;
 }
 .text-darksalmon {
   color: darksalmon !important;
@@ -658,6 +760,9 @@ svg {
 .border-darksalmon {
   border-color: darksalmon !important;
 }
+:root {
+  --color-darkseagreen: darkseagreen;
+}
 .text-darkseagreen {
   color: darkseagreen !important;
 }
@@ -666,6 +771,9 @@ svg {
 }
 .border-darkseagreen {
   border-color: darkseagreen !important;
+}
+:root {
+  --color-darkslateblue: darkslateblue;
 }
 .text-darkslateblue {
   color: darkslateblue !important;
@@ -676,6 +784,9 @@ svg {
 .border-darkslateblue {
   border-color: darkslateblue !important;
 }
+:root {
+  --color-darkslategray: darkslategray;
+}
 .text-darkslategray {
   color: darkslategray !important;
 }
@@ -684,6 +795,9 @@ svg {
 }
 .border-darkslategray {
   border-color: darkslategray !important;
+}
+:root {
+  --color-darkslategrey: darkslategrey;
 }
 .text-darkslategrey {
   color: darkslategrey !important;
@@ -694,6 +808,9 @@ svg {
 .border-darkslategrey {
   border-color: darkslategrey !important;
 }
+:root {
+  --color-darkturquoise: darkturquoise;
+}
 .text-darkturquoise {
   color: darkturquoise !important;
 }
@@ -702,6 +819,9 @@ svg {
 }
 .border-darkturquoise {
   border-color: darkturquoise !important;
+}
+:root {
+  --color-darkviolet: darkviolet;
 }
 .text-darkviolet {
   color: darkviolet !important;
@@ -712,6 +832,9 @@ svg {
 .border-darkviolet {
   border-color: darkviolet !important;
 }
+:root {
+  --color-deeppink: deeppink;
+}
 .text-deeppink {
   color: deeppink !important;
 }
@@ -720,6 +843,9 @@ svg {
 }
 .border-deeppink {
   border-color: deeppink !important;
+}
+:root {
+  --color-deepskyblue: deepskyblue;
 }
 .text-deepskyblue {
   color: deepskyblue !important;
@@ -730,6 +856,9 @@ svg {
 .border-deepskyblue {
   border-color: deepskyblue !important;
 }
+:root {
+  --color-dimgray: dimgray;
+}
 .text-dimgray {
   color: dimgray !important;
 }
@@ -738,6 +867,9 @@ svg {
 }
 .border-dimgray {
   border-color: dimgray !important;
+}
+:root {
+  --color-dimgrey: dimgrey;
 }
 .text-dimgrey {
   color: dimgrey !important;
@@ -748,6 +880,9 @@ svg {
 .border-dimgrey {
   border-color: dimgrey !important;
 }
+:root {
+  --color-dodgerblue: dodgerblue;
+}
 .text-dodgerblue {
   color: dodgerblue !important;
 }
@@ -756,6 +891,9 @@ svg {
 }
 .border-dodgerblue {
   border-color: dodgerblue !important;
+}
+:root {
+  --color-firebrick: firebrick;
 }
 .text-firebrick {
   color: firebrick !important;
@@ -766,6 +904,9 @@ svg {
 .border-firebrick {
   border-color: firebrick !important;
 }
+:root {
+  --color-floralwhite: floralwhite;
+}
 .text-floralwhite {
   color: floralwhite !important;
 }
@@ -774,6 +915,9 @@ svg {
 }
 .border-floralwhite {
   border-color: floralwhite !important;
+}
+:root {
+  --color-forestgreen: forestgreen;
 }
 .text-forestgreen {
   color: forestgreen !important;
@@ -784,6 +928,9 @@ svg {
 .border-forestgreen {
   border-color: forestgreen !important;
 }
+:root {
+  --color-fuchsia: fuchsia;
+}
 .text-fuchsia {
   color: fuchsia !important;
 }
@@ -792,6 +939,9 @@ svg {
 }
 .border-fuchsia {
   border-color: fuchsia !important;
+}
+:root {
+  --color-gainsboro: gainsboro;
 }
 .text-gainsboro {
   color: gainsboro !important;
@@ -802,6 +952,9 @@ svg {
 .border-gainsboro {
   border-color: gainsboro !important;
 }
+:root {
+  --color-ghostwhite: ghostwhite;
+}
 .text-ghostwhite {
   color: ghostwhite !important;
 }
@@ -810,6 +963,9 @@ svg {
 }
 .border-ghostwhite {
   border-color: ghostwhite !important;
+}
+:root {
+  --color-gold: gold;
 }
 .text-gold {
   color: gold !important;
@@ -820,6 +976,9 @@ svg {
 .border-gold {
   border-color: gold !important;
 }
+:root {
+  --color-goldenrod: goldenrod;
+}
 .text-goldenrod {
   color: goldenrod !important;
 }
@@ -828,6 +987,9 @@ svg {
 }
 .border-goldenrod {
   border-color: goldenrod !important;
+}
+:root {
+  --color-gray: gray;
 }
 .text-gray {
   color: gray !important;
@@ -838,6 +1000,9 @@ svg {
 .border-gray {
   border-color: gray !important;
 }
+:root {
+  --color-green: green;
+}
 .text-green {
   color: green !important;
 }
@@ -846,6 +1011,9 @@ svg {
 }
 .border-green {
   border-color: green !important;
+}
+:root {
+  --color-greenyellow: greenyellow;
 }
 .text-greenyellow {
   color: greenyellow !important;
@@ -856,6 +1024,9 @@ svg {
 .border-greenyellow {
   border-color: greenyellow !important;
 }
+:root {
+  --color-grey: grey;
+}
 .text-grey {
   color: grey !important;
 }
@@ -864,6 +1035,9 @@ svg {
 }
 .border-grey {
   border-color: grey !important;
+}
+:root {
+  --color-honeydew: honeydew;
 }
 .text-honeydew {
   color: honeydew !important;
@@ -874,6 +1048,9 @@ svg {
 .border-honeydew {
   border-color: honeydew !important;
 }
+:root {
+  --color-hotpink: hotpink;
+}
 .text-hotpink {
   color: hotpink !important;
 }
@@ -882,6 +1059,9 @@ svg {
 }
 .border-hotpink {
   border-color: hotpink !important;
+}
+:root {
+  --color-indianred: indianred;
 }
 .text-indianred {
   color: indianred !important;
@@ -892,6 +1072,9 @@ svg {
 .border-indianred {
   border-color: indianred !important;
 }
+:root {
+  --color-indigo: indigo;
+}
 .text-indigo {
   color: indigo !important;
 }
@@ -900,6 +1083,9 @@ svg {
 }
 .border-indigo {
   border-color: indigo !important;
+}
+:root {
+  --color-ivory: ivory;
 }
 .text-ivory {
   color: ivory !important;
@@ -910,6 +1096,9 @@ svg {
 .border-ivory {
   border-color: ivory !important;
 }
+:root {
+  --color-khaki: khaki;
+}
 .text-khaki {
   color: khaki !important;
 }
@@ -918,6 +1107,9 @@ svg {
 }
 .border-khaki {
   border-color: khaki !important;
+}
+:root {
+  --color-lavender: lavender;
 }
 .text-lavender {
   color: lavender !important;
@@ -928,6 +1120,9 @@ svg {
 .border-lavender {
   border-color: lavender !important;
 }
+:root {
+  --color-lavenderblush: lavenderblush;
+}
 .text-lavenderblush {
   color: lavenderblush !important;
 }
@@ -936,6 +1131,9 @@ svg {
 }
 .border-lavenderblush {
   border-color: lavenderblush !important;
+}
+:root {
+  --color-lawngreen: lawngreen;
 }
 .text-lawngreen {
   color: lawngreen !important;
@@ -946,6 +1144,9 @@ svg {
 .border-lawngreen {
   border-color: lawngreen !important;
 }
+:root {
+  --color-lemonchiffon: lemonchiffon;
+}
 .text-lemonchiffon {
   color: lemonchiffon !important;
 }
@@ -954,6 +1155,9 @@ svg {
 }
 .border-lemonchiffon {
   border-color: lemonchiffon !important;
+}
+:root {
+  --color-lightblue: lightblue;
 }
 .text-lightblue {
   color: lightblue !important;
@@ -964,6 +1168,9 @@ svg {
 .border-lightblue {
   border-color: lightblue !important;
 }
+:root {
+  --color-lightcoral: lightcoral;
+}
 .text-lightcoral {
   color: lightcoral !important;
 }
@@ -972,6 +1179,9 @@ svg {
 }
 .border-lightcoral {
   border-color: lightcoral !important;
+}
+:root {
+  --color-lightcyan: lightcyan;
 }
 .text-lightcyan {
   color: lightcyan !important;
@@ -982,6 +1192,9 @@ svg {
 .border-lightcyan {
   border-color: lightcyan !important;
 }
+:root {
+  --color-lightgoldenrodyellow: lightgoldenrodyellow;
+}
 .text-lightgoldenrodyellow {
   color: lightgoldenrodyellow !important;
 }
@@ -990,6 +1203,9 @@ svg {
 }
 .border-lightgoldenrodyellow {
   border-color: lightgoldenrodyellow !important;
+}
+:root {
+  --color-lightgray: lightgray;
 }
 .text-lightgray {
   color: lightgray !important;
@@ -1000,6 +1216,9 @@ svg {
 .border-lightgray {
   border-color: lightgray !important;
 }
+:root {
+  --color-lightgreen: lightgreen;
+}
 .text-lightgreen {
   color: lightgreen !important;
 }
@@ -1008,6 +1227,9 @@ svg {
 }
 .border-lightgreen {
   border-color: lightgreen !important;
+}
+:root {
+  --color-lightgrey: lightgrey;
 }
 .text-lightgrey {
   color: lightgrey !important;
@@ -1018,6 +1240,9 @@ svg {
 .border-lightgrey {
   border-color: lightgrey !important;
 }
+:root {
+  --color-lightpink: lightpink;
+}
 .text-lightpink {
   color: lightpink !important;
 }
@@ -1026,6 +1251,9 @@ svg {
 }
 .border-lightpink {
   border-color: lightpink !important;
+}
+:root {
+  --color-lightsalmon: lightsalmon;
 }
 .text-lightsalmon {
   color: lightsalmon !important;
@@ -1036,6 +1264,9 @@ svg {
 .border-lightsalmon {
   border-color: lightsalmon !important;
 }
+:root {
+  --color-lightseagreen: lightseagreen;
+}
 .text-lightseagreen {
   color: lightseagreen !important;
 }
@@ -1044,6 +1275,9 @@ svg {
 }
 .border-lightseagreen {
   border-color: lightseagreen !important;
+}
+:root {
+  --color-lightskyblue: lightskyblue;
 }
 .text-lightskyblue {
   color: lightskyblue !important;
@@ -1054,6 +1288,9 @@ svg {
 .border-lightskyblue {
   border-color: lightskyblue !important;
 }
+:root {
+  --color-lightslategray: lightslategray;
+}
 .text-lightslategray {
   color: lightslategray !important;
 }
@@ -1062,6 +1299,9 @@ svg {
 }
 .border-lightslategray {
   border-color: lightslategray !important;
+}
+:root {
+  --color-lightslategrey: lightslategrey;
 }
 .text-lightslategrey {
   color: lightslategrey !important;
@@ -1072,6 +1312,9 @@ svg {
 .border-lightslategrey {
   border-color: lightslategrey !important;
 }
+:root {
+  --color-lightsteelblue: lightsteelblue;
+}
 .text-lightsteelblue {
   color: lightsteelblue !important;
 }
@@ -1080,6 +1323,9 @@ svg {
 }
 .border-lightsteelblue {
   border-color: lightsteelblue !important;
+}
+:root {
+  --color-lightyellow: lightyellow;
 }
 .text-lightyellow {
   color: lightyellow !important;
@@ -1090,6 +1336,9 @@ svg {
 .border-lightyellow {
   border-color: lightyellow !important;
 }
+:root {
+  --color-lime: lime;
+}
 .text-lime {
   color: lime !important;
 }
@@ -1098,6 +1347,9 @@ svg {
 }
 .border-lime {
   border-color: lime !important;
+}
+:root {
+  --color-limegreen: limegreen;
 }
 .text-limegreen {
   color: limegreen !important;
@@ -1108,6 +1360,9 @@ svg {
 .border-limegreen {
   border-color: limegreen !important;
 }
+:root {
+  --color-linen: linen;
+}
 .text-linen {
   color: linen !important;
 }
@@ -1116,6 +1371,9 @@ svg {
 }
 .border-linen {
   border-color: linen !important;
+}
+:root {
+  --color-magenta: magenta;
 }
 .text-magenta {
   color: magenta !important;
@@ -1126,6 +1384,9 @@ svg {
 .border-magenta {
   border-color: magenta !important;
 }
+:root {
+  --color-maroon: maroon;
+}
 .text-maroon {
   color: maroon !important;
 }
@@ -1134,6 +1395,9 @@ svg {
 }
 .border-maroon {
   border-color: maroon !important;
+}
+:root {
+  --color-mediumaquamarine: mediumaquamarine;
 }
 .text-mediumaquamarine {
   color: mediumaquamarine !important;
@@ -1144,6 +1408,9 @@ svg {
 .border-mediumaquamarine {
   border-color: mediumaquamarine !important;
 }
+:root {
+  --color-mediumblue: mediumblue;
+}
 .text-mediumblue {
   color: mediumblue !important;
 }
@@ -1152,6 +1419,9 @@ svg {
 }
 .border-mediumblue {
   border-color: mediumblue !important;
+}
+:root {
+  --color-mediumorchid: mediumorchid;
 }
 .text-mediumorchid {
   color: mediumorchid !important;
@@ -1162,6 +1432,9 @@ svg {
 .border-mediumorchid {
   border-color: mediumorchid !important;
 }
+:root {
+  --color-mediumpurple: mediumpurple;
+}
 .text-mediumpurple {
   color: mediumpurple !important;
 }
@@ -1170,6 +1443,9 @@ svg {
 }
 .border-mediumpurple {
   border-color: mediumpurple !important;
+}
+:root {
+  --color-mediumseagreen: mediumseagreen;
 }
 .text-mediumseagreen {
   color: mediumseagreen !important;
@@ -1180,6 +1456,9 @@ svg {
 .border-mediumseagreen {
   border-color: mediumseagreen !important;
 }
+:root {
+  --color-mediumslateblue: mediumslateblue;
+}
 .text-mediumslateblue {
   color: mediumslateblue !important;
 }
@@ -1188,6 +1467,9 @@ svg {
 }
 .border-mediumslateblue {
   border-color: mediumslateblue !important;
+}
+:root {
+  --color-mediumspringgreen: mediumspringgreen;
 }
 .text-mediumspringgreen {
   color: mediumspringgreen !important;
@@ -1198,6 +1480,9 @@ svg {
 .border-mediumspringgreen {
   border-color: mediumspringgreen !important;
 }
+:root {
+  --color-mediumturquoise: mediumturquoise;
+}
 .text-mediumturquoise {
   color: mediumturquoise !important;
 }
@@ -1206,6 +1491,9 @@ svg {
 }
 .border-mediumturquoise {
   border-color: mediumturquoise !important;
+}
+:root {
+  --color-mediumvioletred: mediumvioletred;
 }
 .text-mediumvioletred {
   color: mediumvioletred !important;
@@ -1216,6 +1504,9 @@ svg {
 .border-mediumvioletred {
   border-color: mediumvioletred !important;
 }
+:root {
+  --color-midnightblue: midnightblue;
+}
 .text-midnightblue {
   color: midnightblue !important;
 }
@@ -1224,6 +1515,9 @@ svg {
 }
 .border-midnightblue {
   border-color: midnightblue !important;
+}
+:root {
+  --color-mintcream: mintcream;
 }
 .text-mintcream {
   color: mintcream !important;
@@ -1234,6 +1528,9 @@ svg {
 .border-mintcream {
   border-color: mintcream !important;
 }
+:root {
+  --color-mistyrose: mistyrose;
+}
 .text-mistyrose {
   color: mistyrose !important;
 }
@@ -1242,6 +1539,9 @@ svg {
 }
 .border-mistyrose {
   border-color: mistyrose !important;
+}
+:root {
+  --color-moccasin: moccasin;
 }
 .text-moccasin {
   color: moccasin !important;
@@ -1252,6 +1552,9 @@ svg {
 .border-moccasin {
   border-color: moccasin !important;
 }
+:root {
+  --color-navajowhite: navajowhite;
+}
 .text-navajowhite {
   color: navajowhite !important;
 }
@@ -1260,6 +1563,9 @@ svg {
 }
 .border-navajowhite {
   border-color: navajowhite !important;
+}
+:root {
+  --color-navy: navy;
 }
 .text-navy {
   color: navy !important;
@@ -1270,6 +1576,9 @@ svg {
 .border-navy {
   border-color: navy !important;
 }
+:root {
+  --color-oldlace: oldlace;
+}
 .text-oldlace {
   color: oldlace !important;
 }
@@ -1278,6 +1587,9 @@ svg {
 }
 .border-oldlace {
   border-color: oldlace !important;
+}
+:root {
+  --color-olive: olive;
 }
 .text-olive {
   color: olive !important;
@@ -1288,6 +1600,9 @@ svg {
 .border-olive {
   border-color: olive !important;
 }
+:root {
+  --color-olivedrab: olivedrab;
+}
 .text-olivedrab {
   color: olivedrab !important;
 }
@@ -1296,6 +1611,9 @@ svg {
 }
 .border-olivedrab {
   border-color: olivedrab !important;
+}
+:root {
+  --color-orange: orange;
 }
 .text-orange {
   color: orange !important;
@@ -1306,6 +1624,9 @@ svg {
 .border-orange {
   border-color: orange !important;
 }
+:root {
+  --color-orangered: orangered;
+}
 .text-orangered {
   color: orangered !important;
 }
@@ -1314,6 +1635,9 @@ svg {
 }
 .border-orangered {
   border-color: orangered !important;
+}
+:root {
+  --color-orchid: orchid;
 }
 .text-orchid {
   color: orchid !important;
@@ -1324,6 +1648,9 @@ svg {
 .border-orchid {
   border-color: orchid !important;
 }
+:root {
+  --color-palegoldenrod: palegoldenrod;
+}
 .text-palegoldenrod {
   color: palegoldenrod !important;
 }
@@ -1332,6 +1659,9 @@ svg {
 }
 .border-palegoldenrod {
   border-color: palegoldenrod !important;
+}
+:root {
+  --color-palegreen: palegreen;
 }
 .text-palegreen {
   color: palegreen !important;
@@ -1342,6 +1672,9 @@ svg {
 .border-palegreen {
   border-color: palegreen !important;
 }
+:root {
+  --color-paleturquoise: paleturquoise;
+}
 .text-paleturquoise {
   color: paleturquoise !important;
 }
@@ -1350,6 +1683,9 @@ svg {
 }
 .border-paleturquoise {
   border-color: paleturquoise !important;
+}
+:root {
+  --color-palevioletred: palevioletred;
 }
 .text-palevioletred {
   color: palevioletred !important;
@@ -1360,6 +1696,9 @@ svg {
 .border-palevioletred {
   border-color: palevioletred !important;
 }
+:root {
+  --color-papayawhip: papayawhip;
+}
 .text-papayawhip {
   color: papayawhip !important;
 }
@@ -1368,6 +1707,9 @@ svg {
 }
 .border-papayawhip {
   border-color: papayawhip !important;
+}
+:root {
+  --color-peachpuff: peachpuff;
 }
 .text-peachpuff {
   color: peachpuff !important;
@@ -1378,6 +1720,9 @@ svg {
 .border-peachpuff {
   border-color: peachpuff !important;
 }
+:root {
+  --color-peru: peru;
+}
 .text-peru {
   color: peru !important;
 }
@@ -1386,6 +1731,9 @@ svg {
 }
 .border-peru {
   border-color: peru !important;
+}
+:root {
+  --color-pink: pink;
 }
 .text-pink {
   color: pink !important;
@@ -1396,6 +1744,9 @@ svg {
 .border-pink {
   border-color: pink !important;
 }
+:root {
+  --color-plum: plum;
+}
 .text-plum {
   color: plum !important;
 }
@@ -1404,6 +1755,9 @@ svg {
 }
 .border-plum {
   border-color: plum !important;
+}
+:root {
+  --color-powderblue: powderblue;
 }
 .text-powderblue {
   color: powderblue !important;
@@ -1414,6 +1768,9 @@ svg {
 .border-powderblue {
   border-color: powderblue !important;
 }
+:root {
+  --color-purple: purple;
+}
 .text-purple {
   color: purple !important;
 }
@@ -1422,6 +1779,9 @@ svg {
 }
 .border-purple {
   border-color: purple !important;
+}
+:root {
+  --color-rebeccapurple: rebeccapurple;
 }
 .text-rebeccapurple {
   color: rebeccapurple !important;
@@ -1432,6 +1792,9 @@ svg {
 .border-rebeccapurple {
   border-color: rebeccapurple !important;
 }
+:root {
+  --color-red: red;
+}
 .text-red {
   color: red !important;
 }
@@ -1440,6 +1803,9 @@ svg {
 }
 .border-red {
   border-color: red !important;
+}
+:root {
+  --color-rosybrown: rosybrown;
 }
 .text-rosybrown {
   color: rosybrown !important;
@@ -1450,6 +1816,9 @@ svg {
 .border-rosybrown {
   border-color: rosybrown !important;
 }
+:root {
+  --color-royalblue: royalblue;
+}
 .text-royalblue {
   color: royalblue !important;
 }
@@ -1458,6 +1827,9 @@ svg {
 }
 .border-royalblue {
   border-color: royalblue !important;
+}
+:root {
+  --color-saddlebrown: saddlebrown;
 }
 .text-saddlebrown {
   color: saddlebrown !important;
@@ -1468,6 +1840,9 @@ svg {
 .border-saddlebrown {
   border-color: saddlebrown !important;
 }
+:root {
+  --color-salmon: salmon;
+}
 .text-salmon {
   color: salmon !important;
 }
@@ -1476,6 +1851,9 @@ svg {
 }
 .border-salmon {
   border-color: salmon !important;
+}
+:root {
+  --color-sandybrown: sandybrown;
 }
 .text-sandybrown {
   color: sandybrown !important;
@@ -1486,6 +1864,9 @@ svg {
 .border-sandybrown {
   border-color: sandybrown !important;
 }
+:root {
+  --color-seagreen: seagreen;
+}
 .text-seagreen {
   color: seagreen !important;
 }
@@ -1494,6 +1875,9 @@ svg {
 }
 .border-seagreen {
   border-color: seagreen !important;
+}
+:root {
+  --color-seashell: seashell;
 }
 .text-seashell {
   color: seashell !important;
@@ -1504,6 +1888,9 @@ svg {
 .border-seashell {
   border-color: seashell !important;
 }
+:root {
+  --color-sienna: sienna;
+}
 .text-sienna {
   color: sienna !important;
 }
@@ -1512,6 +1899,9 @@ svg {
 }
 .border-sienna {
   border-color: sienna !important;
+}
+:root {
+  --color-silver: silver;
 }
 .text-silver {
   color: silver !important;
@@ -1522,6 +1912,9 @@ svg {
 .border-silver {
   border-color: silver !important;
 }
+:root {
+  --color-skyblue: skyblue;
+}
 .text-skyblue {
   color: skyblue !important;
 }
@@ -1530,6 +1923,9 @@ svg {
 }
 .border-skyblue {
   border-color: skyblue !important;
+}
+:root {
+  --color-slateblue: slateblue;
 }
 .text-slateblue {
   color: slateblue !important;
@@ -1540,6 +1936,9 @@ svg {
 .border-slateblue {
   border-color: slateblue !important;
 }
+:root {
+  --color-slategray: slategray;
+}
 .text-slategray {
   color: slategray !important;
 }
@@ -1548,6 +1947,9 @@ svg {
 }
 .border-slategray {
   border-color: slategray !important;
+}
+:root {
+  --color-slategrey: slategrey;
 }
 .text-slategrey {
   color: slategrey !important;
@@ -1558,6 +1960,9 @@ svg {
 .border-slategrey {
   border-color: slategrey !important;
 }
+:root {
+  --color-snow: snow;
+}
 .text-snow {
   color: snow !important;
 }
@@ -1566,6 +1971,9 @@ svg {
 }
 .border-snow {
   border-color: snow !important;
+}
+:root {
+  --color-springgreen: springgreen;
 }
 .text-springgreen {
   color: springgreen !important;
@@ -1576,6 +1984,9 @@ svg {
 .border-springgreen {
   border-color: springgreen !important;
 }
+:root {
+  --color-steelblue: steelblue;
+}
 .text-steelblue {
   color: steelblue !important;
 }
@@ -1584,6 +1995,9 @@ svg {
 }
 .border-steelblue {
   border-color: steelblue !important;
+}
+:root {
+  --color-tan: tan;
 }
 .text-tan {
   color: tan !important;
@@ -1594,6 +2008,9 @@ svg {
 .border-tan {
   border-color: tan !important;
 }
+:root {
+  --color-teal: teal;
+}
 .text-teal {
   color: teal !important;
 }
@@ -1602,6 +2019,9 @@ svg {
 }
 .border-teal {
   border-color: teal !important;
+}
+:root {
+  --color-thistle: thistle;
 }
 .text-thistle {
   color: thistle !important;
@@ -1612,6 +2032,9 @@ svg {
 .border-thistle {
   border-color: thistle !important;
 }
+:root {
+  --color-tomato: tomato;
+}
 .text-tomato {
   color: tomato !important;
 }
@@ -1620,6 +2043,9 @@ svg {
 }
 .border-tomato {
   border-color: tomato !important;
+}
+:root {
+  --color-turquoise: turquoise;
 }
 .text-turquoise {
   color: turquoise !important;
@@ -1630,6 +2056,9 @@ svg {
 .border-turquoise {
   border-color: turquoise !important;
 }
+:root {
+  --color-violet: violet;
+}
 .text-violet {
   color: violet !important;
 }
@@ -1638,6 +2067,9 @@ svg {
 }
 .border-violet {
   border-color: violet !important;
+}
+:root {
+  --color-wheat: wheat;
 }
 .text-wheat {
   color: wheat !important;
@@ -1648,6 +2080,9 @@ svg {
 .border-wheat {
   border-color: wheat !important;
 }
+:root {
+  --color-white: white;
+}
 .text-white {
   color: white !important;
 }
@@ -1656,6 +2091,9 @@ svg {
 }
 .border-white {
   border-color: white !important;
+}
+:root {
+  --color-whitesmoke: whitesmoke;
 }
 .text-whitesmoke {
   color: whitesmoke !important;
@@ -1666,6 +2104,9 @@ svg {
 .border-whitesmoke {
   border-color: whitesmoke !important;
 }
+:root {
+  --color-yellow: yellow;
+}
 .text-yellow {
   color: yellow !important;
 }
@@ -1674,6 +2115,9 @@ svg {
 }
 .border-yellow {
   border-color: yellow !important;
+}
+:root {
+  --color-yellowgreen: yellowgreen;
 }
 .text-yellowgreen {
   color: yellowgreen !important;
@@ -1684,6 +2128,9 @@ svg {
 .border-yellowgreen {
   border-color: yellowgreen !important;
 }
+:root {
+  --color-transparent: transparent;
+}
 .text-transparent {
   color: transparent !important;
 }
@@ -1692,6 +2139,9 @@ svg {
 }
 .border-transparent {
   border-color: transparent !important;
+}
+:root {
+  --color-facebook: #1877f2;
 }
 .text-facebook {
   color: #1877f2 !important;
@@ -1702,6 +2152,9 @@ svg {
 .border-facebook {
   border-color: #1877f2 !important;
 }
+:root {
+  --color-twitter: #1DA1F2;
+}
 .text-twitter {
   color: #1DA1F2 !important;
 }
@@ -1710,6 +2163,9 @@ svg {
 }
 .border-twitter {
   border-color: #1DA1F2 !important;
+}
+:root {
+  --color-tumblr: #36465d;
 }
 .text-tumblr {
   color: #36465d !important;
@@ -1720,6 +2176,9 @@ svg {
 .border-tumblr {
   border-color: #36465d !important;
 }
+:root {
+  --color-hatena: #008fde;
+}
 .text-hatena {
   color: #008fde !important;
 }
@@ -1728,6 +2187,9 @@ svg {
 }
 .border-hatena {
   border-color: #008fde !important;
+}
+:root {
+  --color-line: #00b900;
 }
 .text-line {
   color: #00b900 !important;
@@ -1738,6 +2200,9 @@ svg {
 .border-line {
   border-color: #00b900 !important;
 }
+:root {
+  --color-youtube: #cd201f;
+}
 .text-youtube {
   color: #cd201f !important;
 }
@@ -1746,6 +2211,9 @@ svg {
 }
 .border-youtube {
   border-color: #cd201f !important;
+}
+:root {
+  --color-vimeo: #1ab7ea;
 }
 .text-vimeo {
   color: #1ab7ea !important;
@@ -1756,6 +2224,9 @@ svg {
 .border-vimeo {
   border-color: #1ab7ea !important;
 }
+:root {
+  --color-dropbox: #007ee5;
+}
 .text-dropbox {
   color: #007ee5 !important;
 }
@@ -1764,6 +2235,9 @@ svg {
 }
 .border-dropbox {
   border-color: #007ee5 !important;
+}
+:root {
+  --color-snapchat: #FFFC00;
 }
 .text-snapchat {
   color: #FFFC00 !important;
@@ -1774,6 +2248,9 @@ svg {
 .border-snapchat {
   border-color: #FFFC00 !important;
 }
+:root {
+  --color-pinterest: #bd081c;
+}
 .text-pinterest {
   color: #bd081c !important;
 }
@@ -1782,6 +2259,9 @@ svg {
 }
 .border-pinterest {
   border-color: #bd081c !important;
+}
+:root {
+  --color-note: #2dcdb5;
 }
 .text-note {
   color: #2dcdb5 !important;
@@ -1792,6 +2272,9 @@ svg {
 .border-note {
   border-color: #2dcdb5 !important;
 }
+:root {
+  --color-wordpress: #21759b;
+}
 .text-wordpress {
   color: #21759b !important;
 }
@@ -1800,6 +2283,9 @@ svg {
 }
 .border-wordpress {
   border-color: #21759b !important;
+}
+:root {
+  --color-mixi: #d1ad59;
 }
 .text-mixi {
   color: #d1ad59 !important;
@@ -1810,6 +2296,9 @@ svg {
 .border-mixi {
   border-color: #d1ad59 !important;
 }
+:root {
+  --color-evernote: #6fb537;
+}
 .text-evernote {
   color: #6fb537 !important;
 }
@@ -1819,6 +2308,9 @@ svg {
 .border-evernote {
   border-color: #6fb537 !important;
 }
+:root {
+  --color-flickr: #0063dc;
+}
 .text-flickr {
   color: #0063dc !important;
 }
@@ -1827,6 +2319,9 @@ svg {
 }
 .border-flickr {
   border-color: #0063dc !important;
+}
+:root {
+  --color-warmflame: linear-gradient(0deg, #ff9a9e 0%, #fad0c4 100%);
 }
 .warmflame {
   background-image: -webkit-linear-gradient(#ff9a9e, #fad0c4);
@@ -1845,6 +2340,9 @@ svg {
   border-image: linear-gradient(0deg, #ff9a9e 0%, #fad0c4 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-juicypeach: linear-gradient(0deg, #ffecd2 0%, #fcb69f 100%);
+}
 .juicypeach {
   background-image: -webkit-linear-gradient(#ffecd2, #fcb69f);
   -webkit-background-clip: text;
@@ -1861,6 +2359,9 @@ svg {
 .border-juicypeach {
   border-image: linear-gradient(0deg, #ffecd2 0%, #fcb69f 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-ladylips: linear-gradient(0deg, #ff9a9e 0%, #fecfef 100%);
 }
 .ladylips {
   background-image: -webkit-linear-gradient(#ff9a9e, #fecfef);
@@ -1879,6 +2380,9 @@ svg {
   border-image: linear-gradient(0deg, #ff9a9e 0%, #fecfef 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-winterneva: linear-gradient(0deg, #a1c4fd 0%, #c2e9fb 100%);
+}
 .winterneva {
   background-image: -webkit-linear-gradient(#a1c4fd, #c2e9fb);
   -webkit-background-clip: text;
@@ -1895,6 +2399,9 @@ svg {
 .border-winterneva {
   border-image: linear-gradient(0deg, #a1c4fd 0%, #c2e9fb 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-heavyrain: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
 }
 .heavyrain {
   background-image: -webkit-linear-gradient(#cfd9df, #e2ebf0);
@@ -1913,6 +2420,9 @@ svg {
   border-image: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-cloudyknoxville: linear-gradient(0deg, #fdfbfb 0%, #ebedee 100%);
+}
 .cloudyknoxville {
   background-image: -webkit-linear-gradient(#fdfbfb, #ebedee);
   -webkit-background-clip: text;
@@ -1929,6 +2439,9 @@ svg {
 .border-cloudyknoxville {
   border-image: linear-gradient(0deg, #fdfbfb 0%, #ebedee 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-saintpetersberg: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .saintpetersberg {
   background-image: -webkit-linear-gradient(#f5f7fa, #c3cfe2);
@@ -1947,6 +2460,9 @@ svg {
   border-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-plumplate: linear-gradient(0deg, #667eea 0%, #764ba2 100%);
+}
 .plumplate {
   background-image: -webkit-linear-gradient(#667eea, #764ba2);
   -webkit-background-clip: text;
@@ -1963,6 +2479,9 @@ svg {
 .border-plumplate {
   border-image: linear-gradient(0deg, #667eea 0%, #764ba2 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-everlastingsky: linear-gradient(0deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .everlastingsky {
   background-image: -webkit-linear-gradient(#fdfcfb, #e2d1c3);
@@ -1981,6 +2500,9 @@ svg {
   border-image: linear-gradient(0deg, #fdfcfb 0%, #e2d1c3 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-happyfisher: linear-gradient(0deg, #89f7fe 0%, #66a6ff 100%);
+}
 .happyfisher {
   background-image: -webkit-linear-gradient(#89f7fe, #66a6ff);
   -webkit-background-clip: text;
@@ -1997,6 +2519,9 @@ svg {
 .border-happyfisher {
   border-image: linear-gradient(0deg, #89f7fe 0%, #66a6ff 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-flyhigh: linear-gradient(0deg, #48c6ef 0%, #6f86d6 100%);
 }
 .flyhigh {
   background-image: -webkit-linear-gradient(#48c6ef, #6f86d6);
@@ -2015,6 +2540,9 @@ svg {
   border-image: linear-gradient(0deg, #48c6ef 0%, #6f86d6 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-strongbliss: linear-gradient(0deg, #F68297 0%, #FE9181 100%);
+}
 .strongbliss {
   background-image: -webkit-linear-gradient(#F68297, #FE9181);
   -webkit-background-clip: text;
@@ -2031,6 +2559,9 @@ svg {
 .border-strongbliss {
   border-image: linear-gradient(0deg, #F68297 0%, #FE9181 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-freshmilk: linear-gradient(0deg, #feada6 0%, #f5efef 100%);
 }
 .freshmilk {
   background-image: -webkit-linear-gradient(#feada6, #f5efef);
@@ -2049,6 +2580,9 @@ svg {
   border-image: linear-gradient(0deg, #feada6 0%, #f5efef 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-greatwhale: linear-gradient(0deg, #a3bded 0%, #6991c7 100%);
+}
 .greatwhale {
   background-image: -webkit-linear-gradient(#a3bded, #6991c7);
   -webkit-background-clip: text;
@@ -2065,6 +2599,9 @@ svg {
 .border-greatwhale {
   border-image: linear-gradient(0deg, #a3bded 0%, #6991c7 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-aquasplash: linear-gradient(0deg, #13547a 0%, #80d0c7 100%);
 }
 .aquasplash {
   background-image: -webkit-linear-gradient(#13547a, #80d0c7);
@@ -2083,6 +2620,9 @@ svg {
   border-image: linear-gradient(0deg, #13547a 0%, #80d0c7 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-cleanmirror: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
+}
 .cleanmirror {
   background-image: -webkit-linear-gradient(#93a5cf, #e4efe9);
   -webkit-background-clip: text;
@@ -2099,6 +2639,9 @@ svg {
 .border-cleanmirror {
   border-image: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-premiumdark: linear-gradient(0deg, #434343 0%, #000000 100%);
 }
 .premiumdark {
   background-image: -webkit-linear-gradient(#434343, #000000);
@@ -2117,6 +2660,9 @@ svg {
   border-image: linear-gradient(0deg, #434343 0%, #000000 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-cochitilake: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
+}
 .cochitilake {
   background-image: -webkit-linear-gradient(#93a5cf, #e4efe9);
   -webkit-background-clip: text;
@@ -2133,6 +2679,9 @@ svg {
 .border-cochitilake {
   border-image: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-passionatebed: linear-gradient(0deg, #ff758c 0%, #ff7eb3 100%);
 }
 .passionatebed {
   background-image: -webkit-linear-gradient(#ff758c, #ff7eb3);
@@ -2151,6 +2700,9 @@ svg {
   border-image: linear-gradient(0deg, #ff758c 0%, #ff7eb3 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-mountainrock: linear-gradient(0deg, #868f96 0%, #596164 100%);
+}
 .mountainrock {
   background-image: -webkit-linear-gradient(#868f96, #596164);
   -webkit-background-clip: text;
@@ -2167,6 +2719,9 @@ svg {
 .border-mountainrock {
   border-image: linear-gradient(0deg, #868f96 0%, #596164 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-deserthump: linear-gradient(0deg, #c79081 0%, #dfa579 100%);
 }
 .deserthump {
   background-image: -webkit-linear-gradient(#c79081, #dfa579);
@@ -2185,6 +2740,9 @@ svg {
   border-image: linear-gradient(0deg, #c79081 0%, #dfa579 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-eternalconstance: linear-gradient(0deg, #09203f 0%, #537895 100%);
+}
 .eternalconstance {
   background-image: -webkit-linear-gradient(#09203f, #537895);
   -webkit-background-clip: text;
@@ -2201,6 +2759,9 @@ svg {
 .border-eternalconstance {
   border-image: linear-gradient(0deg, #09203f 0%, #537895 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-healthywater: linear-gradient(0deg, #96deda 0%, #50c9c3 100%);
 }
 .healthywater {
   background-image: -webkit-linear-gradient(#96deda, #50c9c3);
@@ -2219,6 +2780,9 @@ svg {
   border-image: linear-gradient(0deg, #96deda 0%, #50c9c3 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-viciousstance: linear-gradient(0deg, #29323c 0%, #485563 100%);
+}
 .viciousstance {
   background-image: -webkit-linear-gradient(#29323c, #485563);
   -webkit-background-clip: text;
@@ -2235,6 +2799,9 @@ svg {
 .border-viciousstance {
   border-image: linear-gradient(0deg, #29323c 0%, #485563 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-nega: linear-gradient(0deg, #ee9ca7 0%, #ffdde1 100%);
 }
 .nega {
   background-image: -webkit-linear-gradient(#ee9ca7, #ffdde1);
@@ -2253,6 +2820,9 @@ svg {
   border-image: linear-gradient(0deg, #ee9ca7 0%, #ffdde1 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-nightsky: linear-gradient(0deg, #1e3c72 0%, #2a5298 100%);
+}
 .nightsky {
   background-image: -webkit-linear-gradient(#1e3c72, #2a5298);
   -webkit-background-clip: text;
@@ -2269,6 +2839,9 @@ svg {
 .border-nightsky {
   border-image: linear-gradient(0deg, #1e3c72 0%, #2a5298 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-gentlecare: linear-gradient(0deg, #ffc3a0 0%, #ffafbd 100%);
 }
 .gentlecare {
   background-image: -webkit-linear-gradient(#ffc3a0, #ffafbd);
@@ -2287,6 +2860,9 @@ svg {
   border-image: linear-gradient(0deg, #ffc3a0 0%, #ffafbd 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-angelcare: linear-gradient(0deg, #FFDD96 0%, #FF6691 100%);
+}
 .angelcare {
   background-image: -webkit-linear-gradient(#FFDD96, #FF6691);
   -webkit-background-clip: text;
@@ -2303,6 +2879,9 @@ svg {
 .border-angelcare {
   border-image: linear-gradient(0deg, #FFDD96 0%, #FF6691 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-morningsalad: linear-gradient(0deg, #B7F8DB 0%, #50A7C2 100%);
 }
 .morningsalad {
   background-image: -webkit-linear-gradient(#B7F8DB, #50A7C2);
@@ -2321,6 +2900,9 @@ svg {
   border-image: linear-gradient(0deg, #B7F8DB 0%, #50A7C2 100%);
   border-image-slice: 1;
 }
+:root {
+  --color-deeprelief: linear-gradient(0deg, #D9F0F7 0%, #657BAF 100%);
+}
 .deeprelief {
   background-image: -webkit-linear-gradient(#D9F0F7, #657BAF);
   -webkit-background-clip: text;
@@ -2337,6 +2919,9 @@ svg {
 .border-deeprelief {
   border-image: linear-gradient(0deg, #D9F0F7 0%, #657BAF 100%);
   border-image-slice: 1;
+}
+:root {
+  --color-instagram: linear-gradient(0deg, #1400c8 0%, #f50000 100%);
 }
 .instagram {
   background-image: -webkit-linear-gradient(#1400c8, #f50000);
@@ -4488,6 +5073,14 @@ svg {
 .mra {
   margin-right: auto !important;
 }
+.mt-auto,
+.mta {
+  margin-top: auto !important;
+}
+.mb-auto,
+.mba {
+  margin-bottom: auto !important;
+}
 .mx-auto,
 .mxa {
   margin-left: auto !important;
@@ -5291,6 +5884,39 @@ svg {
 }
 .border-light {
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.border-style-none {
+  border-style: none;
+}
+.border-style-hidden {
+  border-style: hidden;
+}
+.border-style-solid {
+  border-style: solid;
+}
+.border-style-double {
+  border-style: double;
+}
+.border-style-groove {
+  border-style: groove;
+}
+.border-style-ridge {
+  border-style: ridge;
+}
+.border-style-inset {
+  border-style: inset;
+}
+.border-style-outset {
+  border-style: outset;
+}
+.border-style-dashed {
+  border-style: dashed;
+}
+.border-style-dotted {
+  border-style: dotted;
+}
+.border-style-dashed {
+  border-style: dashed;
 }
 .outline-none {
   outline: none;
@@ -10042,6 +10668,11 @@ svg {
   -moz-justify-content: space-around;
   justify-content: space-around;
 }
+.flex-evenly {
+  -webkit-justify-content: space-evenly;
+  -moz-justify-content: space-evenly;
+  justify-content: space-evenly;
+}
 .flex-middle {
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -11560,6 +12191,192 @@ svg {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
 }
+@media only screen and (max-width : 600px) {
+  .s-line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .s-line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .s-line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .s-line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .s-line-clamp-5 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .s-line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+  .s-line-clamp-7 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+  }
+  .s-line-clamp-8 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+  }
+  .s-line-clamp-9 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+  }
+  .s-line-clamp-10 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .m-line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .m-line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .m-line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .m-line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .m-line-clamp-5 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .m-line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+  .m-line-clamp-7 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+  }
+  .m-line-clamp-8 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+  }
+  .m-line-clamp-9 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+  }
+  .m-line-clamp-10 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+  }
+}
+@media only screen and (min-width : 993px) {
+  .l-line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .l-line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .l-line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .l-line-clamp-4 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .l-line-clamp-5 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+  .l-line-clamp-6 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+  }
+  .l-line-clamp-7 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+  }
+  .l-line-clamp-8 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+  }
+  .l-line-clamp-9 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+  }
+  .l-line-clamp-10 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+  }
+}
 .word-break-normal {
   word-break: normal;
 }
@@ -12468,6 +13285,11 @@ textarea.input {
 /*
  * scrollbar
  */
+.scrollbar-none,
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 .scrollbar-none::-webkit-scrollbar,
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
@@ -12507,11 +13329,11 @@ textarea.input {
  */
 .fadeIn {
   transition: 256ms;
-  opacity: 1;
+  opacity: 1 !important;
 }
 .fadeOut {
   transition: 256ms;
-  opacity: 0;
+  opacity: 0 !important;
 }
 /*
  * gpu
@@ -12783,6 +13605,30 @@ textarea.input {
   display: -moz-flex;
   display: flex;
   flex-wrap: wrap;
+}
+@media only screen and (max-width : 600px) {
+  .s-row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .m-row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width : 993px) {
+  .l-row {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 .col1 {
   width: 8.33333333%;
