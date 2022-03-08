@@ -23,9 +23,9 @@
 // 
 // 色を定義
 // 
-.define-color(@key, @value) {
+.define-color(@key, @value, @name:~'meltline-color') {
   :root {
-    --color-@{key}: @value;
+    --@{name}-@{key}: @value;
   }
   .text-@{key} {
     color: @value;
@@ -38,9 +38,9 @@
   }
 }
 
-.define-color-by-object(@key, @value) {
+.define-color-by-object(@key, @value, @name:~'meltline-color') {
   :root {
-    --color-@{key}: @value;
+    --@{name}-@{key}: @value;
   }
   .text-@{key} {
     color: @value !important;
@@ -53,9 +53,9 @@
   }
 }
 
-.define-color-grad(@key, @a, @b, @angle:0deg) {
+.define-color-grad(@key, @a, @b, @angle:0deg, @name:~'meltline-color') {
   :root {
-    --color-@{key}: linear-gradient(@angle, @a 0%, @b 100%);
+    --@{name}-@{key}: linear-gradient(@angle, @a 0%, @b 100%);
   }
   .@{key} {
     background-image: -webkit-linear-gradient(@a, @b);
