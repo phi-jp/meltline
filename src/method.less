@@ -274,3 +274,12 @@
   });
 }
 
+
+// hover
+.define-hover(@key, @code) {
+  .hover-trigger:hover {
+    &.hover-@{key}, .hover-@{key} {
+      @code();
+    }
+  }
+}
