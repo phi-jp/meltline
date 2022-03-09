@@ -159,6 +159,23 @@
   .@{prefix}min-height-@{value} { min-height: unit(@value, px); }
 }
 
+//
+// font-size
+//
+.define-font-size(@nums, @prefix:~'') {
+  .for(@nums, {
+    // px
+    .@{prefix}fs@{value} { font-size: unit(@value, px); }
+    // %
+    .@{prefix}fs@{value}per { font-size: unit(@value, %); }
+    // em
+    .@{prefix}fs@{value}em { font-size: unit(@value, em); }
+    // rem
+    .@{prefix}fs@{value}rem { font-size: unit(@value, rem); }
+  });
+}
+
+
 // 
 // box
 // 
