@@ -353,7 +353,7 @@ svg {
   --font-weight-bold: 700;
 }
 :root {
-  --color-aliceblue: aliceblue;
+  --meltline-color-aliceblue: aliceblue;
 }
 .text-aliceblue {
   color: aliceblue !important;
@@ -365,7 +365,7 @@ svg {
   border-color: aliceblue !important;
 }
 :root {
-  --color-antiquewhite: antiquewhite;
+  --meltline-color-antiquewhite: antiquewhite;
 }
 .text-antiquewhite {
   color: antiquewhite !important;
@@ -377,7 +377,7 @@ svg {
   border-color: antiquewhite !important;
 }
 :root {
-  --color-aqua: aqua;
+  --meltline-color-aqua: aqua;
 }
 .text-aqua {
   color: aqua !important;
@@ -389,7 +389,7 @@ svg {
   border-color: aqua !important;
 }
 :root {
-  --color-aquamarine: aquamarine;
+  --meltline-color-aquamarine: aquamarine;
 }
 .text-aquamarine {
   color: aquamarine !important;
@@ -401,7 +401,7 @@ svg {
   border-color: aquamarine !important;
 }
 :root {
-  --color-azure: azure;
+  --meltline-color-azure: azure;
 }
 .text-azure {
   color: azure !important;
@@ -413,7 +413,7 @@ svg {
   border-color: azure !important;
 }
 :root {
-  --color-beige: beige;
+  --meltline-color-beige: beige;
 }
 .text-beige {
   color: beige !important;
@@ -425,7 +425,7 @@ svg {
   border-color: beige !important;
 }
 :root {
-  --color-bisque: bisque;
+  --meltline-color-bisque: bisque;
 }
 .text-bisque {
   color: bisque !important;
@@ -437,7 +437,7 @@ svg {
   border-color: bisque !important;
 }
 :root {
-  --color-black: black;
+  --meltline-color-black: black;
 }
 .text-black {
   color: black !important;
@@ -449,7 +449,7 @@ svg {
   border-color: black !important;
 }
 :root {
-  --color-blanchedalmond: blanchedalmond;
+  --meltline-color-blanchedalmond: blanchedalmond;
 }
 .text-blanchedalmond {
   color: blanchedalmond !important;
@@ -461,7 +461,7 @@ svg {
   border-color: blanchedalmond !important;
 }
 :root {
-  --color-blue: blue;
+  --meltline-color-blue: blue;
 }
 .text-blue {
   color: blue !important;
@@ -473,7 +473,7 @@ svg {
   border-color: blue !important;
 }
 :root {
-  --color-blueviolet: blueviolet;
+  --meltline-color-blueviolet: blueviolet;
 }
 .text-blueviolet {
   color: blueviolet !important;
@@ -485,7 +485,7 @@ svg {
   border-color: blueviolet !important;
 }
 :root {
-  --color-brown: brown;
+  --meltline-color-brown: brown;
 }
 .text-brown {
   color: brown !important;
@@ -497,7 +497,7 @@ svg {
   border-color: brown !important;
 }
 :root {
-  --color-burlywood: burlywood;
+  --meltline-color-burlywood: burlywood;
 }
 .text-burlywood {
   color: burlywood !important;
@@ -509,7 +509,7 @@ svg {
   border-color: burlywood !important;
 }
 :root {
-  --color-cadetblue: cadetblue;
+  --meltline-color-cadetblue: cadetblue;
 }
 .text-cadetblue {
   color: cadetblue !important;
@@ -521,7 +521,7 @@ svg {
   border-color: cadetblue !important;
 }
 :root {
-  --color-chartreuse: chartreuse;
+  --meltline-color-chartreuse: chartreuse;
 }
 .text-chartreuse {
   color: chartreuse !important;
@@ -533,7 +533,7 @@ svg {
   border-color: chartreuse !important;
 }
 :root {
-  --color-chocolate: chocolate;
+  --meltline-color-chocolate: chocolate;
 }
 .text-chocolate {
   color: chocolate !important;
@@ -545,7 +545,7 @@ svg {
   border-color: chocolate !important;
 }
 :root {
-  --color-coral: coral;
+  --meltline-color-coral: coral;
 }
 .text-coral {
   color: coral !important;
@@ -557,7 +557,7 @@ svg {
   border-color: coral !important;
 }
 :root {
-  --color-cornflowerblue: cornflowerblue;
+  --meltline-color-cornflowerblue: cornflowerblue;
 }
 .text-cornflowerblue {
   color: cornflowerblue !important;
@@ -569,7 +569,7 @@ svg {
   border-color: cornflowerblue !important;
 }
 :root {
-  --color-cornsilk: cornsilk;
+  --meltline-color-cornsilk: cornsilk;
 }
 .text-cornsilk {
   color: cornsilk !important;
@@ -581,7 +581,7 @@ svg {
   border-color: cornsilk !important;
 }
 :root {
-  --color-crimson: crimson;
+  --meltline-color-crimson: crimson;
 }
 .text-crimson {
   color: crimson !important;
@@ -593,7 +593,7 @@ svg {
   border-color: crimson !important;
 }
 :root {
-  --color-cyan: cyan;
+  --meltline-color-cyan: cyan;
 }
 .text-cyan {
   color: cyan !important;
@@ -605,7 +605,7 @@ svg {
   border-color: cyan !important;
 }
 :root {
-  --color-darkblue: darkblue;
+  --meltline-color-darkblue: darkblue;
 }
 .text-darkblue {
   color: darkblue !important;
@@ -617,7 +617,7 @@ svg {
   border-color: darkblue !important;
 }
 :root {
-  --color-darkcyan: darkcyan;
+  --meltline-color-darkcyan: darkcyan;
 }
 .text-darkcyan {
   color: darkcyan !important;
@@ -629,7 +629,7 @@ svg {
   border-color: darkcyan !important;
 }
 :root {
-  --color-darkgoldenrod: darkgoldenrod;
+  --meltline-color-darkgoldenrod: darkgoldenrod;
 }
 .text-darkgoldenrod {
   color: darkgoldenrod !important;
@@ -641,7 +641,7 @@ svg {
   border-color: darkgoldenrod !important;
 }
 :root {
-  --color-darkgray: darkgray;
+  --meltline-color-darkgray: darkgray;
 }
 .text-darkgray {
   color: darkgray !important;
@@ -653,7 +653,7 @@ svg {
   border-color: darkgray !important;
 }
 :root {
-  --color-darkgreen: darkgreen;
+  --meltline-color-darkgreen: darkgreen;
 }
 .text-darkgreen {
   color: darkgreen !important;
@@ -665,7 +665,7 @@ svg {
   border-color: darkgreen !important;
 }
 :root {
-  --color-darkgrey: darkgrey;
+  --meltline-color-darkgrey: darkgrey;
 }
 .text-darkgrey {
   color: darkgrey !important;
@@ -677,7 +677,7 @@ svg {
   border-color: darkgrey !important;
 }
 :root {
-  --color-darkkhaki: darkkhaki;
+  --meltline-color-darkkhaki: darkkhaki;
 }
 .text-darkkhaki {
   color: darkkhaki !important;
@@ -689,7 +689,7 @@ svg {
   border-color: darkkhaki !important;
 }
 :root {
-  --color-darkmagenta: darkmagenta;
+  --meltline-color-darkmagenta: darkmagenta;
 }
 .text-darkmagenta {
   color: darkmagenta !important;
@@ -701,7 +701,7 @@ svg {
   border-color: darkmagenta !important;
 }
 :root {
-  --color-darkolivegreen: darkolivegreen;
+  --meltline-color-darkolivegreen: darkolivegreen;
 }
 .text-darkolivegreen {
   color: darkolivegreen !important;
@@ -713,7 +713,7 @@ svg {
   border-color: darkolivegreen !important;
 }
 :root {
-  --color-darkorange: darkorange;
+  --meltline-color-darkorange: darkorange;
 }
 .text-darkorange {
   color: darkorange !important;
@@ -725,7 +725,7 @@ svg {
   border-color: darkorange !important;
 }
 :root {
-  --color-darkorchid: darkorchid;
+  --meltline-color-darkorchid: darkorchid;
 }
 .text-darkorchid {
   color: darkorchid !important;
@@ -737,7 +737,7 @@ svg {
   border-color: darkorchid !important;
 }
 :root {
-  --color-darkred: darkred;
+  --meltline-color-darkred: darkred;
 }
 .text-darkred {
   color: darkred !important;
@@ -749,7 +749,7 @@ svg {
   border-color: darkred !important;
 }
 :root {
-  --color-darksalmon: darksalmon;
+  --meltline-color-darksalmon: darksalmon;
 }
 .text-darksalmon {
   color: darksalmon !important;
@@ -761,7 +761,7 @@ svg {
   border-color: darksalmon !important;
 }
 :root {
-  --color-darkseagreen: darkseagreen;
+  --meltline-color-darkseagreen: darkseagreen;
 }
 .text-darkseagreen {
   color: darkseagreen !important;
@@ -773,7 +773,7 @@ svg {
   border-color: darkseagreen !important;
 }
 :root {
-  --color-darkslateblue: darkslateblue;
+  --meltline-color-darkslateblue: darkslateblue;
 }
 .text-darkslateblue {
   color: darkslateblue !important;
@@ -785,7 +785,7 @@ svg {
   border-color: darkslateblue !important;
 }
 :root {
-  --color-darkslategray: darkslategray;
+  --meltline-color-darkslategray: darkslategray;
 }
 .text-darkslategray {
   color: darkslategray !important;
@@ -797,7 +797,7 @@ svg {
   border-color: darkslategray !important;
 }
 :root {
-  --color-darkslategrey: darkslategrey;
+  --meltline-color-darkslategrey: darkslategrey;
 }
 .text-darkslategrey {
   color: darkslategrey !important;
@@ -809,7 +809,7 @@ svg {
   border-color: darkslategrey !important;
 }
 :root {
-  --color-darkturquoise: darkturquoise;
+  --meltline-color-darkturquoise: darkturquoise;
 }
 .text-darkturquoise {
   color: darkturquoise !important;
@@ -821,7 +821,7 @@ svg {
   border-color: darkturquoise !important;
 }
 :root {
-  --color-darkviolet: darkviolet;
+  --meltline-color-darkviolet: darkviolet;
 }
 .text-darkviolet {
   color: darkviolet !important;
@@ -833,7 +833,7 @@ svg {
   border-color: darkviolet !important;
 }
 :root {
-  --color-deeppink: deeppink;
+  --meltline-color-deeppink: deeppink;
 }
 .text-deeppink {
   color: deeppink !important;
@@ -845,7 +845,7 @@ svg {
   border-color: deeppink !important;
 }
 :root {
-  --color-deepskyblue: deepskyblue;
+  --meltline-color-deepskyblue: deepskyblue;
 }
 .text-deepskyblue {
   color: deepskyblue !important;
@@ -857,7 +857,7 @@ svg {
   border-color: deepskyblue !important;
 }
 :root {
-  --color-dimgray: dimgray;
+  --meltline-color-dimgray: dimgray;
 }
 .text-dimgray {
   color: dimgray !important;
@@ -869,7 +869,7 @@ svg {
   border-color: dimgray !important;
 }
 :root {
-  --color-dimgrey: dimgrey;
+  --meltline-color-dimgrey: dimgrey;
 }
 .text-dimgrey {
   color: dimgrey !important;
@@ -881,7 +881,7 @@ svg {
   border-color: dimgrey !important;
 }
 :root {
-  --color-dodgerblue: dodgerblue;
+  --meltline-color-dodgerblue: dodgerblue;
 }
 .text-dodgerblue {
   color: dodgerblue !important;
@@ -893,7 +893,7 @@ svg {
   border-color: dodgerblue !important;
 }
 :root {
-  --color-firebrick: firebrick;
+  --meltline-color-firebrick: firebrick;
 }
 .text-firebrick {
   color: firebrick !important;
@@ -905,7 +905,7 @@ svg {
   border-color: firebrick !important;
 }
 :root {
-  --color-floralwhite: floralwhite;
+  --meltline-color-floralwhite: floralwhite;
 }
 .text-floralwhite {
   color: floralwhite !important;
@@ -917,7 +917,7 @@ svg {
   border-color: floralwhite !important;
 }
 :root {
-  --color-forestgreen: forestgreen;
+  --meltline-color-forestgreen: forestgreen;
 }
 .text-forestgreen {
   color: forestgreen !important;
@@ -929,7 +929,7 @@ svg {
   border-color: forestgreen !important;
 }
 :root {
-  --color-fuchsia: fuchsia;
+  --meltline-color-fuchsia: fuchsia;
 }
 .text-fuchsia {
   color: fuchsia !important;
@@ -941,7 +941,7 @@ svg {
   border-color: fuchsia !important;
 }
 :root {
-  --color-gainsboro: gainsboro;
+  --meltline-color-gainsboro: gainsboro;
 }
 .text-gainsboro {
   color: gainsboro !important;
@@ -953,7 +953,7 @@ svg {
   border-color: gainsboro !important;
 }
 :root {
-  --color-ghostwhite: ghostwhite;
+  --meltline-color-ghostwhite: ghostwhite;
 }
 .text-ghostwhite {
   color: ghostwhite !important;
@@ -965,7 +965,7 @@ svg {
   border-color: ghostwhite !important;
 }
 :root {
-  --color-gold: gold;
+  --meltline-color-gold: gold;
 }
 .text-gold {
   color: gold !important;
@@ -977,7 +977,7 @@ svg {
   border-color: gold !important;
 }
 :root {
-  --color-goldenrod: goldenrod;
+  --meltline-color-goldenrod: goldenrod;
 }
 .text-goldenrod {
   color: goldenrod !important;
@@ -989,7 +989,7 @@ svg {
   border-color: goldenrod !important;
 }
 :root {
-  --color-gray: gray;
+  --meltline-color-gray: gray;
 }
 .text-gray {
   color: gray !important;
@@ -1001,7 +1001,7 @@ svg {
   border-color: gray !important;
 }
 :root {
-  --color-green: green;
+  --meltline-color-green: green;
 }
 .text-green {
   color: green !important;
@@ -1013,7 +1013,7 @@ svg {
   border-color: green !important;
 }
 :root {
-  --color-greenyellow: greenyellow;
+  --meltline-color-greenyellow: greenyellow;
 }
 .text-greenyellow {
   color: greenyellow !important;
@@ -1025,7 +1025,7 @@ svg {
   border-color: greenyellow !important;
 }
 :root {
-  --color-grey: grey;
+  --meltline-color-grey: grey;
 }
 .text-grey {
   color: grey !important;
@@ -1037,7 +1037,7 @@ svg {
   border-color: grey !important;
 }
 :root {
-  --color-honeydew: honeydew;
+  --meltline-color-honeydew: honeydew;
 }
 .text-honeydew {
   color: honeydew !important;
@@ -1049,7 +1049,7 @@ svg {
   border-color: honeydew !important;
 }
 :root {
-  --color-hotpink: hotpink;
+  --meltline-color-hotpink: hotpink;
 }
 .text-hotpink {
   color: hotpink !important;
@@ -1061,7 +1061,7 @@ svg {
   border-color: hotpink !important;
 }
 :root {
-  --color-indianred: indianred;
+  --meltline-color-indianred: indianred;
 }
 .text-indianred {
   color: indianred !important;
@@ -1073,7 +1073,7 @@ svg {
   border-color: indianred !important;
 }
 :root {
-  --color-indigo: indigo;
+  --meltline-color-indigo: indigo;
 }
 .text-indigo {
   color: indigo !important;
@@ -1085,7 +1085,7 @@ svg {
   border-color: indigo !important;
 }
 :root {
-  --color-ivory: ivory;
+  --meltline-color-ivory: ivory;
 }
 .text-ivory {
   color: ivory !important;
@@ -1097,7 +1097,7 @@ svg {
   border-color: ivory !important;
 }
 :root {
-  --color-khaki: khaki;
+  --meltline-color-khaki: khaki;
 }
 .text-khaki {
   color: khaki !important;
@@ -1109,7 +1109,7 @@ svg {
   border-color: khaki !important;
 }
 :root {
-  --color-lavender: lavender;
+  --meltline-color-lavender: lavender;
 }
 .text-lavender {
   color: lavender !important;
@@ -1121,7 +1121,7 @@ svg {
   border-color: lavender !important;
 }
 :root {
-  --color-lavenderblush: lavenderblush;
+  --meltline-color-lavenderblush: lavenderblush;
 }
 .text-lavenderblush {
   color: lavenderblush !important;
@@ -1133,7 +1133,7 @@ svg {
   border-color: lavenderblush !important;
 }
 :root {
-  --color-lawngreen: lawngreen;
+  --meltline-color-lawngreen: lawngreen;
 }
 .text-lawngreen {
   color: lawngreen !important;
@@ -1145,7 +1145,7 @@ svg {
   border-color: lawngreen !important;
 }
 :root {
-  --color-lemonchiffon: lemonchiffon;
+  --meltline-color-lemonchiffon: lemonchiffon;
 }
 .text-lemonchiffon {
   color: lemonchiffon !important;
@@ -1157,7 +1157,7 @@ svg {
   border-color: lemonchiffon !important;
 }
 :root {
-  --color-lightblue: lightblue;
+  --meltline-color-lightblue: lightblue;
 }
 .text-lightblue {
   color: lightblue !important;
@@ -1169,7 +1169,7 @@ svg {
   border-color: lightblue !important;
 }
 :root {
-  --color-lightcoral: lightcoral;
+  --meltline-color-lightcoral: lightcoral;
 }
 .text-lightcoral {
   color: lightcoral !important;
@@ -1181,7 +1181,7 @@ svg {
   border-color: lightcoral !important;
 }
 :root {
-  --color-lightcyan: lightcyan;
+  --meltline-color-lightcyan: lightcyan;
 }
 .text-lightcyan {
   color: lightcyan !important;
@@ -1193,7 +1193,7 @@ svg {
   border-color: lightcyan !important;
 }
 :root {
-  --color-lightgoldenrodyellow: lightgoldenrodyellow;
+  --meltline-color-lightgoldenrodyellow: lightgoldenrodyellow;
 }
 .text-lightgoldenrodyellow {
   color: lightgoldenrodyellow !important;
@@ -1205,7 +1205,7 @@ svg {
   border-color: lightgoldenrodyellow !important;
 }
 :root {
-  --color-lightgray: lightgray;
+  --meltline-color-lightgray: lightgray;
 }
 .text-lightgray {
   color: lightgray !important;
@@ -1217,7 +1217,7 @@ svg {
   border-color: lightgray !important;
 }
 :root {
-  --color-lightgreen: lightgreen;
+  --meltline-color-lightgreen: lightgreen;
 }
 .text-lightgreen {
   color: lightgreen !important;
@@ -1229,7 +1229,7 @@ svg {
   border-color: lightgreen !important;
 }
 :root {
-  --color-lightgrey: lightgrey;
+  --meltline-color-lightgrey: lightgrey;
 }
 .text-lightgrey {
   color: lightgrey !important;
@@ -1241,7 +1241,7 @@ svg {
   border-color: lightgrey !important;
 }
 :root {
-  --color-lightpink: lightpink;
+  --meltline-color-lightpink: lightpink;
 }
 .text-lightpink {
   color: lightpink !important;
@@ -1253,7 +1253,7 @@ svg {
   border-color: lightpink !important;
 }
 :root {
-  --color-lightsalmon: lightsalmon;
+  --meltline-color-lightsalmon: lightsalmon;
 }
 .text-lightsalmon {
   color: lightsalmon !important;
@@ -1265,7 +1265,7 @@ svg {
   border-color: lightsalmon !important;
 }
 :root {
-  --color-lightseagreen: lightseagreen;
+  --meltline-color-lightseagreen: lightseagreen;
 }
 .text-lightseagreen {
   color: lightseagreen !important;
@@ -1277,7 +1277,7 @@ svg {
   border-color: lightseagreen !important;
 }
 :root {
-  --color-lightskyblue: lightskyblue;
+  --meltline-color-lightskyblue: lightskyblue;
 }
 .text-lightskyblue {
   color: lightskyblue !important;
@@ -1289,7 +1289,7 @@ svg {
   border-color: lightskyblue !important;
 }
 :root {
-  --color-lightslategray: lightslategray;
+  --meltline-color-lightslategray: lightslategray;
 }
 .text-lightslategray {
   color: lightslategray !important;
@@ -1301,7 +1301,7 @@ svg {
   border-color: lightslategray !important;
 }
 :root {
-  --color-lightslategrey: lightslategrey;
+  --meltline-color-lightslategrey: lightslategrey;
 }
 .text-lightslategrey {
   color: lightslategrey !important;
@@ -1313,7 +1313,7 @@ svg {
   border-color: lightslategrey !important;
 }
 :root {
-  --color-lightsteelblue: lightsteelblue;
+  --meltline-color-lightsteelblue: lightsteelblue;
 }
 .text-lightsteelblue {
   color: lightsteelblue !important;
@@ -1325,7 +1325,7 @@ svg {
   border-color: lightsteelblue !important;
 }
 :root {
-  --color-lightyellow: lightyellow;
+  --meltline-color-lightyellow: lightyellow;
 }
 .text-lightyellow {
   color: lightyellow !important;
@@ -1337,7 +1337,7 @@ svg {
   border-color: lightyellow !important;
 }
 :root {
-  --color-lime: lime;
+  --meltline-color-lime: lime;
 }
 .text-lime {
   color: lime !important;
@@ -1349,7 +1349,7 @@ svg {
   border-color: lime !important;
 }
 :root {
-  --color-limegreen: limegreen;
+  --meltline-color-limegreen: limegreen;
 }
 .text-limegreen {
   color: limegreen !important;
@@ -1361,7 +1361,7 @@ svg {
   border-color: limegreen !important;
 }
 :root {
-  --color-linen: linen;
+  --meltline-color-linen: linen;
 }
 .text-linen {
   color: linen !important;
@@ -1373,7 +1373,7 @@ svg {
   border-color: linen !important;
 }
 :root {
-  --color-magenta: magenta;
+  --meltline-color-magenta: magenta;
 }
 .text-magenta {
   color: magenta !important;
@@ -1385,7 +1385,7 @@ svg {
   border-color: magenta !important;
 }
 :root {
-  --color-maroon: maroon;
+  --meltline-color-maroon: maroon;
 }
 .text-maroon {
   color: maroon !important;
@@ -1397,7 +1397,7 @@ svg {
   border-color: maroon !important;
 }
 :root {
-  --color-mediumaquamarine: mediumaquamarine;
+  --meltline-color-mediumaquamarine: mediumaquamarine;
 }
 .text-mediumaquamarine {
   color: mediumaquamarine !important;
@@ -1409,7 +1409,7 @@ svg {
   border-color: mediumaquamarine !important;
 }
 :root {
-  --color-mediumblue: mediumblue;
+  --meltline-color-mediumblue: mediumblue;
 }
 .text-mediumblue {
   color: mediumblue !important;
@@ -1421,7 +1421,7 @@ svg {
   border-color: mediumblue !important;
 }
 :root {
-  --color-mediumorchid: mediumorchid;
+  --meltline-color-mediumorchid: mediumorchid;
 }
 .text-mediumorchid {
   color: mediumorchid !important;
@@ -1433,7 +1433,7 @@ svg {
   border-color: mediumorchid !important;
 }
 :root {
-  --color-mediumpurple: mediumpurple;
+  --meltline-color-mediumpurple: mediumpurple;
 }
 .text-mediumpurple {
   color: mediumpurple !important;
@@ -1445,7 +1445,7 @@ svg {
   border-color: mediumpurple !important;
 }
 :root {
-  --color-mediumseagreen: mediumseagreen;
+  --meltline-color-mediumseagreen: mediumseagreen;
 }
 .text-mediumseagreen {
   color: mediumseagreen !important;
@@ -1457,7 +1457,7 @@ svg {
   border-color: mediumseagreen !important;
 }
 :root {
-  --color-mediumslateblue: mediumslateblue;
+  --meltline-color-mediumslateblue: mediumslateblue;
 }
 .text-mediumslateblue {
   color: mediumslateblue !important;
@@ -1469,7 +1469,7 @@ svg {
   border-color: mediumslateblue !important;
 }
 :root {
-  --color-mediumspringgreen: mediumspringgreen;
+  --meltline-color-mediumspringgreen: mediumspringgreen;
 }
 .text-mediumspringgreen {
   color: mediumspringgreen !important;
@@ -1481,7 +1481,7 @@ svg {
   border-color: mediumspringgreen !important;
 }
 :root {
-  --color-mediumturquoise: mediumturquoise;
+  --meltline-color-mediumturquoise: mediumturquoise;
 }
 .text-mediumturquoise {
   color: mediumturquoise !important;
@@ -1493,7 +1493,7 @@ svg {
   border-color: mediumturquoise !important;
 }
 :root {
-  --color-mediumvioletred: mediumvioletred;
+  --meltline-color-mediumvioletred: mediumvioletred;
 }
 .text-mediumvioletred {
   color: mediumvioletred !important;
@@ -1505,7 +1505,7 @@ svg {
   border-color: mediumvioletred !important;
 }
 :root {
-  --color-midnightblue: midnightblue;
+  --meltline-color-midnightblue: midnightblue;
 }
 .text-midnightblue {
   color: midnightblue !important;
@@ -1517,7 +1517,7 @@ svg {
   border-color: midnightblue !important;
 }
 :root {
-  --color-mintcream: mintcream;
+  --meltline-color-mintcream: mintcream;
 }
 .text-mintcream {
   color: mintcream !important;
@@ -1529,7 +1529,7 @@ svg {
   border-color: mintcream !important;
 }
 :root {
-  --color-mistyrose: mistyrose;
+  --meltline-color-mistyrose: mistyrose;
 }
 .text-mistyrose {
   color: mistyrose !important;
@@ -1541,7 +1541,7 @@ svg {
   border-color: mistyrose !important;
 }
 :root {
-  --color-moccasin: moccasin;
+  --meltline-color-moccasin: moccasin;
 }
 .text-moccasin {
   color: moccasin !important;
@@ -1553,7 +1553,7 @@ svg {
   border-color: moccasin !important;
 }
 :root {
-  --color-navajowhite: navajowhite;
+  --meltline-color-navajowhite: navajowhite;
 }
 .text-navajowhite {
   color: navajowhite !important;
@@ -1565,7 +1565,7 @@ svg {
   border-color: navajowhite !important;
 }
 :root {
-  --color-navy: navy;
+  --meltline-color-navy: navy;
 }
 .text-navy {
   color: navy !important;
@@ -1577,7 +1577,7 @@ svg {
   border-color: navy !important;
 }
 :root {
-  --color-oldlace: oldlace;
+  --meltline-color-oldlace: oldlace;
 }
 .text-oldlace {
   color: oldlace !important;
@@ -1589,7 +1589,7 @@ svg {
   border-color: oldlace !important;
 }
 :root {
-  --color-olive: olive;
+  --meltline-color-olive: olive;
 }
 .text-olive {
   color: olive !important;
@@ -1601,7 +1601,7 @@ svg {
   border-color: olive !important;
 }
 :root {
-  --color-olivedrab: olivedrab;
+  --meltline-color-olivedrab: olivedrab;
 }
 .text-olivedrab {
   color: olivedrab !important;
@@ -1613,7 +1613,7 @@ svg {
   border-color: olivedrab !important;
 }
 :root {
-  --color-orange: orange;
+  --meltline-color-orange: orange;
 }
 .text-orange {
   color: orange !important;
@@ -1625,7 +1625,7 @@ svg {
   border-color: orange !important;
 }
 :root {
-  --color-orangered: orangered;
+  --meltline-color-orangered: orangered;
 }
 .text-orangered {
   color: orangered !important;
@@ -1637,7 +1637,7 @@ svg {
   border-color: orangered !important;
 }
 :root {
-  --color-orchid: orchid;
+  --meltline-color-orchid: orchid;
 }
 .text-orchid {
   color: orchid !important;
@@ -1649,7 +1649,7 @@ svg {
   border-color: orchid !important;
 }
 :root {
-  --color-palegoldenrod: palegoldenrod;
+  --meltline-color-palegoldenrod: palegoldenrod;
 }
 .text-palegoldenrod {
   color: palegoldenrod !important;
@@ -1661,7 +1661,7 @@ svg {
   border-color: palegoldenrod !important;
 }
 :root {
-  --color-palegreen: palegreen;
+  --meltline-color-palegreen: palegreen;
 }
 .text-palegreen {
   color: palegreen !important;
@@ -1673,7 +1673,7 @@ svg {
   border-color: palegreen !important;
 }
 :root {
-  --color-paleturquoise: paleturquoise;
+  --meltline-color-paleturquoise: paleturquoise;
 }
 .text-paleturquoise {
   color: paleturquoise !important;
@@ -1685,7 +1685,7 @@ svg {
   border-color: paleturquoise !important;
 }
 :root {
-  --color-palevioletred: palevioletred;
+  --meltline-color-palevioletred: palevioletred;
 }
 .text-palevioletred {
   color: palevioletred !important;
@@ -1697,7 +1697,7 @@ svg {
   border-color: palevioletred !important;
 }
 :root {
-  --color-papayawhip: papayawhip;
+  --meltline-color-papayawhip: papayawhip;
 }
 .text-papayawhip {
   color: papayawhip !important;
@@ -1709,7 +1709,7 @@ svg {
   border-color: papayawhip !important;
 }
 :root {
-  --color-peachpuff: peachpuff;
+  --meltline-color-peachpuff: peachpuff;
 }
 .text-peachpuff {
   color: peachpuff !important;
@@ -1721,7 +1721,7 @@ svg {
   border-color: peachpuff !important;
 }
 :root {
-  --color-peru: peru;
+  --meltline-color-peru: peru;
 }
 .text-peru {
   color: peru !important;
@@ -1733,7 +1733,7 @@ svg {
   border-color: peru !important;
 }
 :root {
-  --color-pink: pink;
+  --meltline-color-pink: pink;
 }
 .text-pink {
   color: pink !important;
@@ -1745,7 +1745,7 @@ svg {
   border-color: pink !important;
 }
 :root {
-  --color-plum: plum;
+  --meltline-color-plum: plum;
 }
 .text-plum {
   color: plum !important;
@@ -1757,7 +1757,7 @@ svg {
   border-color: plum !important;
 }
 :root {
-  --color-powderblue: powderblue;
+  --meltline-color-powderblue: powderblue;
 }
 .text-powderblue {
   color: powderblue !important;
@@ -1769,7 +1769,7 @@ svg {
   border-color: powderblue !important;
 }
 :root {
-  --color-purple: purple;
+  --meltline-color-purple: purple;
 }
 .text-purple {
   color: purple !important;
@@ -1781,7 +1781,7 @@ svg {
   border-color: purple !important;
 }
 :root {
-  --color-rebeccapurple: rebeccapurple;
+  --meltline-color-rebeccapurple: rebeccapurple;
 }
 .text-rebeccapurple {
   color: rebeccapurple !important;
@@ -1793,7 +1793,7 @@ svg {
   border-color: rebeccapurple !important;
 }
 :root {
-  --color-red: red;
+  --meltline-color-red: red;
 }
 .text-red {
   color: red !important;
@@ -1805,7 +1805,7 @@ svg {
   border-color: red !important;
 }
 :root {
-  --color-rosybrown: rosybrown;
+  --meltline-color-rosybrown: rosybrown;
 }
 .text-rosybrown {
   color: rosybrown !important;
@@ -1817,7 +1817,7 @@ svg {
   border-color: rosybrown !important;
 }
 :root {
-  --color-royalblue: royalblue;
+  --meltline-color-royalblue: royalblue;
 }
 .text-royalblue {
   color: royalblue !important;
@@ -1829,7 +1829,7 @@ svg {
   border-color: royalblue !important;
 }
 :root {
-  --color-saddlebrown: saddlebrown;
+  --meltline-color-saddlebrown: saddlebrown;
 }
 .text-saddlebrown {
   color: saddlebrown !important;
@@ -1841,7 +1841,7 @@ svg {
   border-color: saddlebrown !important;
 }
 :root {
-  --color-salmon: salmon;
+  --meltline-color-salmon: salmon;
 }
 .text-salmon {
   color: salmon !important;
@@ -1853,7 +1853,7 @@ svg {
   border-color: salmon !important;
 }
 :root {
-  --color-sandybrown: sandybrown;
+  --meltline-color-sandybrown: sandybrown;
 }
 .text-sandybrown {
   color: sandybrown !important;
@@ -1865,7 +1865,7 @@ svg {
   border-color: sandybrown !important;
 }
 :root {
-  --color-seagreen: seagreen;
+  --meltline-color-seagreen: seagreen;
 }
 .text-seagreen {
   color: seagreen !important;
@@ -1877,7 +1877,7 @@ svg {
   border-color: seagreen !important;
 }
 :root {
-  --color-seashell: seashell;
+  --meltline-color-seashell: seashell;
 }
 .text-seashell {
   color: seashell !important;
@@ -1889,7 +1889,7 @@ svg {
   border-color: seashell !important;
 }
 :root {
-  --color-sienna: sienna;
+  --meltline-color-sienna: sienna;
 }
 .text-sienna {
   color: sienna !important;
@@ -1901,7 +1901,7 @@ svg {
   border-color: sienna !important;
 }
 :root {
-  --color-silver: silver;
+  --meltline-color-silver: silver;
 }
 .text-silver {
   color: silver !important;
@@ -1913,7 +1913,7 @@ svg {
   border-color: silver !important;
 }
 :root {
-  --color-skyblue: skyblue;
+  --meltline-color-skyblue: skyblue;
 }
 .text-skyblue {
   color: skyblue !important;
@@ -1925,7 +1925,7 @@ svg {
   border-color: skyblue !important;
 }
 :root {
-  --color-slateblue: slateblue;
+  --meltline-color-slateblue: slateblue;
 }
 .text-slateblue {
   color: slateblue !important;
@@ -1937,7 +1937,7 @@ svg {
   border-color: slateblue !important;
 }
 :root {
-  --color-slategray: slategray;
+  --meltline-color-slategray: slategray;
 }
 .text-slategray {
   color: slategray !important;
@@ -1949,7 +1949,7 @@ svg {
   border-color: slategray !important;
 }
 :root {
-  --color-slategrey: slategrey;
+  --meltline-color-slategrey: slategrey;
 }
 .text-slategrey {
   color: slategrey !important;
@@ -1961,7 +1961,7 @@ svg {
   border-color: slategrey !important;
 }
 :root {
-  --color-snow: snow;
+  --meltline-color-snow: snow;
 }
 .text-snow {
   color: snow !important;
@@ -1973,7 +1973,7 @@ svg {
   border-color: snow !important;
 }
 :root {
-  --color-springgreen: springgreen;
+  --meltline-color-springgreen: springgreen;
 }
 .text-springgreen {
   color: springgreen !important;
@@ -1985,7 +1985,7 @@ svg {
   border-color: springgreen !important;
 }
 :root {
-  --color-steelblue: steelblue;
+  --meltline-color-steelblue: steelblue;
 }
 .text-steelblue {
   color: steelblue !important;
@@ -1997,7 +1997,7 @@ svg {
   border-color: steelblue !important;
 }
 :root {
-  --color-tan: tan;
+  --meltline-color-tan: tan;
 }
 .text-tan {
   color: tan !important;
@@ -2009,7 +2009,7 @@ svg {
   border-color: tan !important;
 }
 :root {
-  --color-teal: teal;
+  --meltline-color-teal: teal;
 }
 .text-teal {
   color: teal !important;
@@ -2021,7 +2021,7 @@ svg {
   border-color: teal !important;
 }
 :root {
-  --color-thistle: thistle;
+  --meltline-color-thistle: thistle;
 }
 .text-thistle {
   color: thistle !important;
@@ -2033,7 +2033,7 @@ svg {
   border-color: thistle !important;
 }
 :root {
-  --color-tomato: tomato;
+  --meltline-color-tomato: tomato;
 }
 .text-tomato {
   color: tomato !important;
@@ -2045,7 +2045,7 @@ svg {
   border-color: tomato !important;
 }
 :root {
-  --color-turquoise: turquoise;
+  --meltline-color-turquoise: turquoise;
 }
 .text-turquoise {
   color: turquoise !important;
@@ -2057,7 +2057,7 @@ svg {
   border-color: turquoise !important;
 }
 :root {
-  --color-violet: violet;
+  --meltline-color-violet: violet;
 }
 .text-violet {
   color: violet !important;
@@ -2069,7 +2069,7 @@ svg {
   border-color: violet !important;
 }
 :root {
-  --color-wheat: wheat;
+  --meltline-color-wheat: wheat;
 }
 .text-wheat {
   color: wheat !important;
@@ -2081,7 +2081,7 @@ svg {
   border-color: wheat !important;
 }
 :root {
-  --color-white: white;
+  --meltline-color-white: white;
 }
 .text-white {
   color: white !important;
@@ -2093,7 +2093,7 @@ svg {
   border-color: white !important;
 }
 :root {
-  --color-whitesmoke: whitesmoke;
+  --meltline-color-whitesmoke: whitesmoke;
 }
 .text-whitesmoke {
   color: whitesmoke !important;
@@ -2105,7 +2105,7 @@ svg {
   border-color: whitesmoke !important;
 }
 :root {
-  --color-yellow: yellow;
+  --meltline-color-yellow: yellow;
 }
 .text-yellow {
   color: yellow !important;
@@ -2117,7 +2117,7 @@ svg {
   border-color: yellow !important;
 }
 :root {
-  --color-yellowgreen: yellowgreen;
+  --meltline-color-yellowgreen: yellowgreen;
 }
 .text-yellowgreen {
   color: yellowgreen !important;
@@ -2129,7 +2129,7 @@ svg {
   border-color: yellowgreen !important;
 }
 :root {
-  --color-transparent: transparent;
+  --meltline-color-transparent: transparent;
 }
 .text-transparent {
   color: transparent !important;
@@ -2141,7 +2141,7 @@ svg {
   border-color: transparent !important;
 }
 :root {
-  --color-facebook: #1877f2;
+  --meltline-color-facebook: #1877f2;
 }
 .text-facebook {
   color: #1877f2 !important;
@@ -2153,7 +2153,7 @@ svg {
   border-color: #1877f2 !important;
 }
 :root {
-  --color-twitter: #1DA1F2;
+  --meltline-color-twitter: #1DA1F2;
 }
 .text-twitter {
   color: #1DA1F2 !important;
@@ -2165,7 +2165,7 @@ svg {
   border-color: #1DA1F2 !important;
 }
 :root {
-  --color-tumblr: #36465d;
+  --meltline-color-tumblr: #36465d;
 }
 .text-tumblr {
   color: #36465d !important;
@@ -2177,7 +2177,7 @@ svg {
   border-color: #36465d !important;
 }
 :root {
-  --color-hatena: #008fde;
+  --meltline-color-hatena: #008fde;
 }
 .text-hatena {
   color: #008fde !important;
@@ -2189,7 +2189,7 @@ svg {
   border-color: #008fde !important;
 }
 :root {
-  --color-line: #00b900;
+  --meltline-color-line: #00b900;
 }
 .text-line {
   color: #00b900 !important;
@@ -2201,7 +2201,7 @@ svg {
   border-color: #00b900 !important;
 }
 :root {
-  --color-youtube: #cd201f;
+  --meltline-color-youtube: #cd201f;
 }
 .text-youtube {
   color: #cd201f !important;
@@ -2213,7 +2213,7 @@ svg {
   border-color: #cd201f !important;
 }
 :root {
-  --color-vimeo: #1ab7ea;
+  --meltline-color-vimeo: #1ab7ea;
 }
 .text-vimeo {
   color: #1ab7ea !important;
@@ -2225,7 +2225,7 @@ svg {
   border-color: #1ab7ea !important;
 }
 :root {
-  --color-dropbox: #007ee5;
+  --meltline-color-dropbox: #007ee5;
 }
 .text-dropbox {
   color: #007ee5 !important;
@@ -2237,7 +2237,7 @@ svg {
   border-color: #007ee5 !important;
 }
 :root {
-  --color-snapchat: #FFFC00;
+  --meltline-color-snapchat: #FFFC00;
 }
 .text-snapchat {
   color: #FFFC00 !important;
@@ -2249,7 +2249,7 @@ svg {
   border-color: #FFFC00 !important;
 }
 :root {
-  --color-pinterest: #bd081c;
+  --meltline-color-pinterest: #bd081c;
 }
 .text-pinterest {
   color: #bd081c !important;
@@ -2261,7 +2261,7 @@ svg {
   border-color: #bd081c !important;
 }
 :root {
-  --color-note: #2dcdb5;
+  --meltline-color-note: #2dcdb5;
 }
 .text-note {
   color: #2dcdb5 !important;
@@ -2273,7 +2273,7 @@ svg {
   border-color: #2dcdb5 !important;
 }
 :root {
-  --color-wordpress: #21759b;
+  --meltline-color-wordpress: #21759b;
 }
 .text-wordpress {
   color: #21759b !important;
@@ -2285,7 +2285,7 @@ svg {
   border-color: #21759b !important;
 }
 :root {
-  --color-mixi: #d1ad59;
+  --meltline-color-mixi: #d1ad59;
 }
 .text-mixi {
   color: #d1ad59 !important;
@@ -2297,7 +2297,7 @@ svg {
   border-color: #d1ad59 !important;
 }
 :root {
-  --color-evernote: #6fb537;
+  --meltline-color-evernote: #6fb537;
 }
 .text-evernote {
   color: #6fb537 !important;
@@ -2309,7 +2309,7 @@ svg {
   border-color: #6fb537 !important;
 }
 :root {
-  --color-flickr: #0063dc;
+  --meltline-color-flickr: #0063dc;
 }
 .text-flickr {
   color: #0063dc !important;
@@ -2321,7 +2321,7 @@ svg {
   border-color: #0063dc !important;
 }
 :root {
-  --color-warmflame: linear-gradient(0deg, #ff9a9e 0%, #fad0c4 100%);
+  --meltline-color-warmflame: linear-gradient(0deg, #ff9a9e 0%, #fad0c4 100%);
 }
 .warmflame {
   background-image: -webkit-linear-gradient(#ff9a9e, #fad0c4);
@@ -2341,7 +2341,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-juicypeach: linear-gradient(0deg, #ffecd2 0%, #fcb69f 100%);
+  --meltline-color-juicypeach: linear-gradient(0deg, #ffecd2 0%, #fcb69f 100%);
 }
 .juicypeach {
   background-image: -webkit-linear-gradient(#ffecd2, #fcb69f);
@@ -2361,7 +2361,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-ladylips: linear-gradient(0deg, #ff9a9e 0%, #fecfef 100%);
+  --meltline-color-ladylips: linear-gradient(0deg, #ff9a9e 0%, #fecfef 100%);
 }
 .ladylips {
   background-image: -webkit-linear-gradient(#ff9a9e, #fecfef);
@@ -2381,7 +2381,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-winterneva: linear-gradient(0deg, #a1c4fd 0%, #c2e9fb 100%);
+  --meltline-color-winterneva: linear-gradient(0deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .winterneva {
   background-image: -webkit-linear-gradient(#a1c4fd, #c2e9fb);
@@ -2401,7 +2401,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-heavyrain: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
+  --meltline-color-heavyrain: linear-gradient(0deg, #cfd9df 0%, #e2ebf0 100%);
 }
 .heavyrain {
   background-image: -webkit-linear-gradient(#cfd9df, #e2ebf0);
@@ -2421,7 +2421,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-cloudyknoxville: linear-gradient(0deg, #fdfbfb 0%, #ebedee 100%);
+  --meltline-color-cloudyknoxville: linear-gradient(0deg, #fdfbfb 0%, #ebedee 100%);
 }
 .cloudyknoxville {
   background-image: -webkit-linear-gradient(#fdfbfb, #ebedee);
@@ -2441,7 +2441,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-saintpetersberg: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
+  --meltline-color-saintpetersberg: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 .saintpetersberg {
   background-image: -webkit-linear-gradient(#f5f7fa, #c3cfe2);
@@ -2461,7 +2461,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-plumplate: linear-gradient(0deg, #667eea 0%, #764ba2 100%);
+  --meltline-color-plumplate: linear-gradient(0deg, #667eea 0%, #764ba2 100%);
 }
 .plumplate {
   background-image: -webkit-linear-gradient(#667eea, #764ba2);
@@ -2481,7 +2481,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-everlastingsky: linear-gradient(0deg, #fdfcfb 0%, #e2d1c3 100%);
+  --meltline-color-everlastingsky: linear-gradient(0deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .everlastingsky {
   background-image: -webkit-linear-gradient(#fdfcfb, #e2d1c3);
@@ -2501,7 +2501,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-happyfisher: linear-gradient(0deg, #89f7fe 0%, #66a6ff 100%);
+  --meltline-color-happyfisher: linear-gradient(0deg, #89f7fe 0%, #66a6ff 100%);
 }
 .happyfisher {
   background-image: -webkit-linear-gradient(#89f7fe, #66a6ff);
@@ -2521,7 +2521,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-flyhigh: linear-gradient(0deg, #48c6ef 0%, #6f86d6 100%);
+  --meltline-color-flyhigh: linear-gradient(0deg, #48c6ef 0%, #6f86d6 100%);
 }
 .flyhigh {
   background-image: -webkit-linear-gradient(#48c6ef, #6f86d6);
@@ -2541,7 +2541,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-strongbliss: linear-gradient(0deg, #F68297 0%, #FE9181 100%);
+  --meltline-color-strongbliss: linear-gradient(0deg, #F68297 0%, #FE9181 100%);
 }
 .strongbliss {
   background-image: -webkit-linear-gradient(#F68297, #FE9181);
@@ -2561,7 +2561,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-freshmilk: linear-gradient(0deg, #feada6 0%, #f5efef 100%);
+  --meltline-color-freshmilk: linear-gradient(0deg, #feada6 0%, #f5efef 100%);
 }
 .freshmilk {
   background-image: -webkit-linear-gradient(#feada6, #f5efef);
@@ -2581,7 +2581,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-greatwhale: linear-gradient(0deg, #a3bded 0%, #6991c7 100%);
+  --meltline-color-greatwhale: linear-gradient(0deg, #a3bded 0%, #6991c7 100%);
 }
 .greatwhale {
   background-image: -webkit-linear-gradient(#a3bded, #6991c7);
@@ -2601,7 +2601,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-aquasplash: linear-gradient(0deg, #13547a 0%, #80d0c7 100%);
+  --meltline-color-aquasplash: linear-gradient(0deg, #13547a 0%, #80d0c7 100%);
 }
 .aquasplash {
   background-image: -webkit-linear-gradient(#13547a, #80d0c7);
@@ -2621,7 +2621,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-cleanmirror: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
+  --meltline-color-cleanmirror: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
 }
 .cleanmirror {
   background-image: -webkit-linear-gradient(#93a5cf, #e4efe9);
@@ -2641,7 +2641,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-premiumdark: linear-gradient(0deg, #434343 0%, #000000 100%);
+  --meltline-color-premiumdark: linear-gradient(0deg, #434343 0%, #000000 100%);
 }
 .premiumdark {
   background-image: -webkit-linear-gradient(#434343, #000000);
@@ -2661,7 +2661,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-cochitilake: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
+  --meltline-color-cochitilake: linear-gradient(0deg, #93a5cf 0%, #e4efe9 100%);
 }
 .cochitilake {
   background-image: -webkit-linear-gradient(#93a5cf, #e4efe9);
@@ -2681,7 +2681,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-passionatebed: linear-gradient(0deg, #ff758c 0%, #ff7eb3 100%);
+  --meltline-color-passionatebed: linear-gradient(0deg, #ff758c 0%, #ff7eb3 100%);
 }
 .passionatebed {
   background-image: -webkit-linear-gradient(#ff758c, #ff7eb3);
@@ -2701,7 +2701,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-mountainrock: linear-gradient(0deg, #868f96 0%, #596164 100%);
+  --meltline-color-mountainrock: linear-gradient(0deg, #868f96 0%, #596164 100%);
 }
 .mountainrock {
   background-image: -webkit-linear-gradient(#868f96, #596164);
@@ -2721,7 +2721,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-deserthump: linear-gradient(0deg, #c79081 0%, #dfa579 100%);
+  --meltline-color-deserthump: linear-gradient(0deg, #c79081 0%, #dfa579 100%);
 }
 .deserthump {
   background-image: -webkit-linear-gradient(#c79081, #dfa579);
@@ -2741,7 +2741,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-eternalconstance: linear-gradient(0deg, #09203f 0%, #537895 100%);
+  --meltline-color-eternalconstance: linear-gradient(0deg, #09203f 0%, #537895 100%);
 }
 .eternalconstance {
   background-image: -webkit-linear-gradient(#09203f, #537895);
@@ -2761,7 +2761,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-healthywater: linear-gradient(0deg, #96deda 0%, #50c9c3 100%);
+  --meltline-color-healthywater: linear-gradient(0deg, #96deda 0%, #50c9c3 100%);
 }
 .healthywater {
   background-image: -webkit-linear-gradient(#96deda, #50c9c3);
@@ -2781,7 +2781,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-viciousstance: linear-gradient(0deg, #29323c 0%, #485563 100%);
+  --meltline-color-viciousstance: linear-gradient(0deg, #29323c 0%, #485563 100%);
 }
 .viciousstance {
   background-image: -webkit-linear-gradient(#29323c, #485563);
@@ -2801,7 +2801,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-nega: linear-gradient(0deg, #ee9ca7 0%, #ffdde1 100%);
+  --meltline-color-nega: linear-gradient(0deg, #ee9ca7 0%, #ffdde1 100%);
 }
 .nega {
   background-image: -webkit-linear-gradient(#ee9ca7, #ffdde1);
@@ -2821,7 +2821,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-nightsky: linear-gradient(0deg, #1e3c72 0%, #2a5298 100%);
+  --meltline-color-nightsky: linear-gradient(0deg, #1e3c72 0%, #2a5298 100%);
 }
 .nightsky {
   background-image: -webkit-linear-gradient(#1e3c72, #2a5298);
@@ -2841,7 +2841,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-gentlecare: linear-gradient(0deg, #ffc3a0 0%, #ffafbd 100%);
+  --meltline-color-gentlecare: linear-gradient(0deg, #ffc3a0 0%, #ffafbd 100%);
 }
 .gentlecare {
   background-image: -webkit-linear-gradient(#ffc3a0, #ffafbd);
@@ -2861,7 +2861,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-angelcare: linear-gradient(0deg, #FFDD96 0%, #FF6691 100%);
+  --meltline-color-angelcare: linear-gradient(0deg, #FFDD96 0%, #FF6691 100%);
 }
 .angelcare {
   background-image: -webkit-linear-gradient(#FFDD96, #FF6691);
@@ -2881,7 +2881,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-morningsalad: linear-gradient(0deg, #B7F8DB 0%, #50A7C2 100%);
+  --meltline-color-morningsalad: linear-gradient(0deg, #B7F8DB 0%, #50A7C2 100%);
 }
 .morningsalad {
   background-image: -webkit-linear-gradient(#B7F8DB, #50A7C2);
@@ -2901,7 +2901,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-deeprelief: linear-gradient(0deg, #D9F0F7 0%, #657BAF 100%);
+  --meltline-color-deeprelief: linear-gradient(0deg, #D9F0F7 0%, #657BAF 100%);
 }
 .deeprelief {
   background-image: -webkit-linear-gradient(#D9F0F7, #657BAF);
@@ -2921,7 +2921,7 @@ svg {
   border-image-slice: 1;
 }
 :root {
-  --color-instagram: linear-gradient(0deg, #1400c8 0%, #f50000 100%);
+  --meltline-color-instagram: linear-gradient(0deg, #1400c8 0%, #f50000 100%);
 }
 .instagram {
   background-image: -webkit-linear-gradient(#1400c8, #f50000);
@@ -7026,6 +7026,63 @@ svg {
 }
 .aspect-ratio-7_5 {
   aspect-ratio: 7 / 5;
+}
+/*
+ * safa-area for ios
+ */
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+.pr-safe {
+  padding-right: env(safe-area-inset-right);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.pl-safe {
+  padding-left: env(safe-area-inset-left);
+}
+.p-safe {
+  padding-top: env(safe-area-inset-top);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+}
+.mt-safe {
+  margin-top: env(safe-area-inset-top);
+}
+.mr-safe {
+  margin-right: env(safe-area-inset-right);
+}
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom);
+}
+.ml-safe {
+  margin-left: env(safe-area-inset-left);
+}
+.m-safe {
+  margin-top: env(safe-area-inset-top);
+  margin-right: env(safe-area-inset-right);
+  margin-bottom: env(safe-area-inset-bottom);
+  margin-left: env(safe-area-inset-left);
+}
+.t-safe {
+  top: env(safe-area-inset-top);
+}
+.r-safe {
+  right: env(safe-area-inset-right);
+}
+.b-safe {
+  bottom: env(safe-area-inset-bottom);
+}
+.l-safe {
+  left: env(safe-area-inset-left);
+}
+.trbl-safe {
+  top: env(safe-area-inset-top);
+  right: env(safe-area-inset-right);
+  bottom: env(safe-area-inset-bottom);
+  left: env(safe-area-inset-left);
 }
 /*
  *
@@ -13471,6 +13528,58 @@ textarea.input {
 }
 .hover-underline:hover {
   border-bottom: 1px solid currentColor;
+}
+.hover-trigger:not(:hover).hover-show,
+.hover-trigger:not(:hover) .hover-show {
+  display: none !important;
+}
+.hover-trigger:not(:hover).hover-appear,
+.hover-trigger:not(:hover) .hover-appear {
+  opacity: 0;
+}
+.hover-trigger:hover.hover-rotate-45,
+.hover-trigger:hover .hover-rotate-45 {
+  transform: rotate(45deg);
+}
+.hover-trigger:hover.hover-rotate-90,
+.hover-trigger:hover .hover-rotate-90 {
+  transform: rotate(90deg);
+}
+.hover-trigger:hover.hover-rotate-180,
+.hover-trigger:hover .hover-rotate-180 {
+  transform: rotate(180deg);
+}
+.hover-trigger:hover.hover-rotate-270,
+.hover-trigger:hover .hover-rotate-270 {
+  transform: rotate(270deg);
+}
+.hover-trigger:hover.hover-rotate-n45,
+.hover-trigger:hover .hover-rotate-n45 {
+  transform: rotate(-45deg);
+}
+.hover-trigger:hover.hover-rotate-n90,
+.hover-trigger:hover .hover-rotate-n90 {
+  transform: rotate(-90deg);
+}
+.hover-trigger:hover.hover-rotate-n180,
+.hover-trigger:hover .hover-rotate-n180 {
+  transform: rotate(-180deg);
+}
+.hover-trigger:hover.hover-rotate-n270,
+.hover-trigger:hover .hover-rotate-n270 {
+  transform: rotate(-270deg);
+}
+.hover-trigger:hover.hover-scale-80,
+.hover-trigger:hover .hover-scale-80 {
+  transform: scale(0.8);
+}
+.hover-trigger:hover.hover-scale-120,
+.hover-trigger:hover .hover-scale-120 {
+  transform: scale(1.2);
+}
+.hover-trigger:hover.hover-scale-200,
+.hover-trigger:hover .hover-scale-200 {
+  transform: scale(2);
 }
 /*
  * shrothand
