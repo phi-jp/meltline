@@ -27,6 +27,7 @@
     margin-right: 0 !important;
   }
 }
+
 // ネガティブマージン
 .for(@nums-1-32, {
   // all
@@ -44,7 +45,6 @@
   // y
   .myn@{value} { margin-top: @value * -1px; margin-bottom: @value * -1px; }
 }) !important;
-
 
 /*
  * border
@@ -205,3 +205,68 @@ each(none hidden solid double groove ridge inset outset dashed dotted, {
 .define-aspect-ratio(aspect-ratio-4_3, 4, 3);
 .define-aspect-ratio(aspect-ratio-5_4, 5, 4);
 .define-aspect-ratio(aspect-ratio-7_5, 7, 5);
+
+
+/*
+ * safa-area for ios
+ */
+
+// padding
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+.pr-safe {
+  padding-right: env(safe-area-inset-right);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.pl-safe {
+  padding-left: env(safe-area-inset-left);
+}
+.p-safe {
+  .pt-safe;
+  .pr-safe;
+  .pb-safe;
+  .pl-safe;
+}
+
+// margin
+.mt-safe {
+  margin-top: env(safe-area-inset-top);
+}
+.mr-safe {
+  margin-right: env(safe-area-inset-right);
+}
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom);
+}
+.ml-safe {
+  margin-left: env(safe-area-inset-left);
+}
+.m-safe {
+  .mt-safe;
+  .mr-safe;
+  .mb-safe;
+  .ml-safe;
+}
+
+// position
+.t-safe {
+  top: env(safe-area-inset-top);
+}
+.r-safe {
+  right: env(safe-area-inset-right);
+}
+.b-safe {
+  bottom: env(safe-area-inset-bottom);
+}
+.l-safe {
+  left: env(safe-area-inset-left);
+}
+.trbl-safe {
+  .t-safe;
+  .r-safe;
+  .b-safe;
+  .l-safe;
+}
