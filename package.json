@@ -1,7 +1,7 @@
 {
   "name": "meltline",
-  "version": "0.1.14",
-  "description": "",
+  "version": "0.1.15",
+  "description": "melt + inline. css library",
   "main": "meltline.css",
   "scripts": {
     "setup": "yarn",
