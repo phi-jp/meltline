@@ -250,3 +250,23 @@ each(none hidden solid double groove ridge inset outset dashed dotted, {
   .mb-safe;
   .ml-safe;
 }
+
+// position
+.t-safe {
+  top: env(safe-area-inset-top);
+}
+.r-safe {
+  right: env(safe-area-inset-right);
+}
+.b-safe {
+  bottom: env(safe-area-inset-bottom);
+}
+.l-safe {
+  left: env(safe-area-inset-left);
+}
+.trbl-safe {
+  .t-safe;
+  .r-safe;
+  .b-safe;
+  .l-safe;
+}
