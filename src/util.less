@@ -149,9 +149,14 @@
 }
 
 // cursor
-.cursor-pointer {
-  cursor: pointer;
-}
+each(auto default pointer move text crosshair cell help grab grabbing zoom-in zoom-out not-allowed wait progress none alias context-menu vertical-text n-resize e-resize s-resize w-resize nw-resize ne-resize se-resize sw-resize ew-resize ns-resize nesw-resize nwse-resize col-resize row-resize all-scroll copy no-drop , {
+  .cursor-@{value} {
+    cursor: @value;
+  }
+  .cursor-@{value}-active:active {
+    cursor: @value;
+  }
+});
 
 // pointer event
 .pointer-none {
