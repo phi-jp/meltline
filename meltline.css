@@ -11017,7 +11017,7 @@ svg {
     gap: 26px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-order-1 {
     order: 1 !important;
   }
@@ -11263,7 +11263,7 @@ svg {
     order: -100 !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-order-n1 {
     order: -1 !important;
   }
@@ -11996,7 +11996,7 @@ svg {
     letter-spacing: 0.9px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-letter-spacing-0_1 {
     letter-spacing: 0.1px;
   }
@@ -12119,7 +12119,7 @@ svg {
     letter-spacing: 0.09em;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-letter-spacing-0_01em {
     letter-spacing: 0.01em;
   }
@@ -12310,7 +12310,7 @@ svg {
     -webkit-line-clamp: 10;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -13651,7 +13651,7 @@ textarea.input {
     content: 'mobile';
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   :root {
     --media: tablet;
   }
@@ -13684,7 +13684,7 @@ textarea.input {
     display: none !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-hide {
     display: none !important;
   }
@@ -13723,7 +13723,7 @@ textarea.input {
     flex-wrap: wrap;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-row {
     display: -webkit-flex;
     display: -moz-flex;
@@ -13813,7 +13813,7 @@ textarea.input {
     width: 100%;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-col1 {
     width: 8.33333333%;
   }
@@ -13993,7 +13993,7 @@ textarea.input {
     align-items: center;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-flex {
     display: flex;
   }
@@ -16316,7 +16316,7 @@ textarea.input {
     margin-bottom: 100px !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-p0 {
     padding: 0px !important;
   }
@@ -20737,7 +20737,7 @@ textarea.input {
     font-size: 1200px !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-fs0 {
     font-size: 0px !important;
   }
@@ -21202,7 +21202,7 @@ textarea.input {
     line-height: 3.2;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-lh0 {
     line-height: 0;
   }
@@ -21508,7 +21508,7 @@ textarea.input {
     letter-spacing: 32px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-letter-spacing-0 {
     letter-spacing: 0px;
   }
@@ -23715,7 +23715,7 @@ textarea.input {
     height: 100% !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-w0 {
     width: 0px !important;
   }
@@ -27740,7 +27740,7 @@ textarea.input {
     position: sticky;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-static {
     position: static;
   }
@@ -28333,7 +28333,7 @@ textarea.input {
     left: 100px !important;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-t0 {
     top: 0px !important;
   }
@@ -29461,7 +29461,7 @@ textarea.input {
     white-space: pre-wrap;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992.999px) {
   .m-white-space-normal {
     white-space: normal;
   }
