@@ -215,11 +215,11 @@
 }
 
 // media
-@mobile: 600px;
+@mobile: 600.999px;
 @desktop: 993px;
 @small-max: @mobile;
-@medium-min: (@mobile + 1);
-@medium-max: (@desktop - 1);
+@medium-min: (@mobile + 0.001);
+@medium-max: (@desktop - 0.001);
 @desktop-min: @desktop;
 
 @media-mobile: ~"only screen and (max-width : @{small-max})";
