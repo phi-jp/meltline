@@ -11,6 +11,7 @@
  * margin
  */
 .define-margin(@nums-1-100) !important;
+.define-negative-margin(@nums-1-32) !important;
 .ml-auto, .mla { margin-left: auto !important; }
 .mr-auto, .mra { margin-right: auto !important; }
 .mt-auto, .mta { margin-top: auto !important; }
@@ -27,24 +28,6 @@
     margin-right: 0 !important;
   }
 }
-
-// ネガティブマージン
-.for(@nums-1-32, {
-  // all
-  .mn@{value} { margin: @value * -1px; }
-  // top
-  .mtn@{value} { margin-top: @value * -1px; }
-  // right
-  .mrn@{value} { margin-right: @value * -1px; }
-  // bottom
-  .mbn@{value} { margin-bottom: @value * -1px; }
-  // left
-  .mln@{value} { margin-left: @value * -1px; }
-  // x
-  .mxn@{value} { margin-left: @value * -1px; margin-right: @value * -1px; }
-  // y
-  .myn@{value} { margin-top: @value * -1px; margin-bottom: @value * -1px; }
-}) !important;
 
 /*
  * border
