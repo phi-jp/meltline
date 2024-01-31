@@ -200,6 +200,26 @@
   });
 }
 
+// マイナス値の margin のプロパティ定義の大元となる関数
+.define-negative-box(@nums, @property, @prefix:~'') {
+  .for(@nums, {
+    // all
+    .@{prefix}n@{value} { @{property}: @value * -1px; }
+    // top
+    .@{prefix}tn@{value} { @{property}-top: @value * -1px; }
+    // right
+    .@{prefix}rn@{value} { @{property}-right: @value * -1px; }
+    // bottom
+    .@{prefix}bn@{value} { @{property}-bottom: @value * -1px; }
+    // left
+    .@{prefix}ln@{value} { @{property}-left: @value * -1px; }
+    // x
+    .@{prefix}xn@{value} { @{property}-left: @value * -1px; @{property}-right: @value * -1px; }
+    // y
+    .@{prefix}yn@{value} { @{property}-top: @value * -1px; @{property}-bottom: @value * -1px; }
+  });
+}
+
 // padding を定義
 .define-padding(@nums, @prefix:~'') {
   .define-box(@nums, padding, ~'@{prefix}p');
@@ -208,6 +228,11 @@
 // margin を定義
 .define-margin(@nums, @prefix:~'') {
   .define-box(@nums, margin, ~'@{prefix}m');
+}
+
+// negative-margin を定義
+.define-negative-margin(@nums, @prefix:~'') {
+  .define-negative-box(@nums, margin, ~'@{prefix}m');
 }
 
 // rounded を定義
