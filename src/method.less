@@ -12,6 +12,11 @@
     .loop();
   }
 }
+.if(@condition, @code) {
+  & when(@condition) {
+    @code();
+  }
+}
 
 .vendor(@property, @value) {
   -webkit-@{property}: @value;
@@ -162,18 +167,32 @@
 //
 // font-size
 //
-.define-font-size(@nums, @prefix:~'') {
-  .for(@nums, {
-    // px
-    .@{prefix}fs@{value} { font-size: unit(@value, px); }
-    // %
-    .@{prefix}fs@{value}per { font-size: unit(@value, %); }
-    // em
-    .@{prefix}fs@{value}em { font-size: unit(@value, em); }
-    // rem
-    .@{prefix}fs@{value}rem { font-size: unit(@value, rem); }
+.define-font-size(@nums, @unit:~'px', @prefix:~'') {
+  .if(if(@unit = px, true, false), {
+    .for(@nums, {
+      .@{prefix}fs@{value} { font-size: unit(@value, @unit); }
+    });
+  });
+
+  .if(if(@unit = %, true, false), {
+    .for(@nums, {
+      .@{prefix}fs@{value}per { font-size: unit(@value, @unit); }
+    });
+  });
+
+  .if(if(@unit = em, true, false), {
+    .for(@nums, {
+      .@{prefix}fs@{value}em { font-size: unit(@value, @unit); }
+    });
+  });
+
+  .if(if(@unit = rem, true, false), {
+    .for(@nums, {
+      .@{prefix}fs@{value}rem { font-size: unit(@value, @unit); }
+    });
   });
 }
+
 
 
 // 
